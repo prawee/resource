@@ -66,6 +66,7 @@ My tools that I used
 <details open>
   <summary>Utils</summary>
 
+  - [Oh Myz](https://github.com/ohmyzsh/ohmyzsh) ![GitHub Tag](https://img.shields.io/github/v/tag/ohmyzsh/ohmyzsh) ![Release](https://img.shields.io/github/v/release/ohmyzsh/ohmyzsh) ![Star](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh)
   - [Anime](https://github.com/juliangarnier/anime) ![GitHub Tag](https://img.shields.io/github/v/tag/juliangarnier/anime) ![Release](https://img.shields.io/github/v/release/juliangarnier/anime) ![Star](https://img.shields.io/github/stars/juliangarnier/anime)
   - [Typst](https://github.com/typst/typst) ![GitHub Tag](https://img.shields.io/github/v/tag/typst/typst) ![Release](https://img.shields.io/github/v/release/typst/typst) ![Star](https://img.shields.io/github/stars/typst/typst)
   - [Shields](https://github.com/badges/shields) ![GitHub Tag](https://img.shields.io/github/v/tag/badges/shields) ![Release](https://img.shields.io/github/v/release/badges/shields) ![Star](https://img.shields.io/github/stars/badges/shields)
