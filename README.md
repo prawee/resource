@@ -33,6 +33,7 @@ My tools that I used
   - [Refine](https://github.com/refinedev/refine)  ![Tag](https://img.shields.io/github/v/tag/refinedev/refine) ![Release](https://img.shields.io/github/v/release/refinedev/refine) ![Star](https://img.shields.io/github/stars/refinedev/refine)
   - [Mantine](https://github.com/mantinedev/mantine)  ![Tag](https://img.shields.io/github/v/tag/mantinedev/mantine) ![Release](https://img.shields.io/github/v/release/mantinedev/mantine) ![Star](https://img.shields.io/github/stars/mantinedev/mantine)
   - [Tamagui](https://github.com/tamagui/tamagui)  ![Tag](https://img.shields.io/github/v/tag/tamagui/tamagui) ![Release](https://img.shields.io/github/v/release/tamagui/tamagui) ![Star](https://img.shields.io/github/stars/tamagui/tamagui)
+  - [Prime](https://github.com/primefaces/primereact)  ![Tag](https://img.shields.io/github/v/tag/primefaces/primereact) ![Release](https://img.shields.io/github/v/release/primefaces/primereact) ![Star](https://img.shields.io/github/stars/primefaces/primereact)
   - [One](https://github.com/onejs/one)  ![Tag](https://img.shields.io/github/v/tag/onejs/one) ![Release](https://img.shields.io/github/v/release/onejs/one) ![Star](https://img.shields.io/github/stars/onejs/one)
 </details>
 
