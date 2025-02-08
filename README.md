@@ -52,6 +52,7 @@ My tools that I used
   <summary>Database</summary>
 
   - [Prisma](https://github.com/prisma/prisma)  ![Tag](https://img.shields.io/github/v/tag/prisma/prisma) ![Release](https://img.shields.io/github/v/release/prisma/prisma) ![Star](https://img.shields.io/github/stars/prisma/prisma)
+  - [TypeORM](https://github.com/typeorm/typeorm)  ![Tag](https://img.shields.io/github/v/tag/typeorm/typeorm) ![Release](https://img.shields.io/github/v/release/typeorm/typeorm) ![Star](https://img.shields.io/github/stars/typeorm/typeorm)
 </details>
 
 <!--DevOps-->
