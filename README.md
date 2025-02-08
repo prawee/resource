@@ -32,6 +32,13 @@ My tools that I used
   - [Express](https://github.com/expressjs/express)  ![Tag](https://img.shields.io/github/v/tag/expressjs/express) ![Release](https://img.shields.io/github/v/release/expressjs/express) ![Star](https://img.shields.io/github/stars/expressjs/express)
 </details>
 
+<!--DevOps-->
+<details open>
+  <summary>DevOps</summary>
+
+  - [Vercel](https://github.com/vercel/vercel)  ![Tag](https://img.shields.io/github/v/tag/vercel/vercel) ![Release](https://img.shields.io/github/v/release/vercel/vercel) ![Star](https://img.shields.io/github/stars/vercel/vercel)
+</details>
+
 <!--mobile-->
 <details open>
   <summary>Mobile</summary>
