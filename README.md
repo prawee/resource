@@ -30,6 +30,7 @@ My tools that I used
   <summary>Backend</summary>
 
   - [Express](https://github.com/expressjs/express)  ![Tag](https://img.shields.io/github/v/tag/expressjs/express) ![Release](https://img.shields.io/github/v/release/expressjs/express) ![Star](https://img.shields.io/github/stars/expressjs/express)
+  - [Strapi](https://github.com/strapi/strapi)  ![Tag](https://img.shields.io/github/v/tag/strapi/strapi) ![Release](https://img.shields.io/github/v/release/strapi/strapi) ![Star](https://img.shields.io/github/stars/strapi/strapi)
 </details>
 
 <!--DevOps-->
