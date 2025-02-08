@@ -82,6 +82,7 @@ My tools that I used
   - [Cypress](https://github.com/cypress-io/cypress) ![GitHub Tag](https://img.shields.io/github/v/tag/cypress-io/cypress) ![Release](https://img.shields.io/github/v/release/cypress-io/cypress) ![Star](https://img.shields.io/github/stars/cypress-io/cypress)
   - [Jest](https://github.com/jestjs/jest) ![GitHub Tag](https://img.shields.io/github/v/tag/jestjs/jest) ![Release](https://img.shields.io/github/v/release/jestjs/jest) ![Star](https://img.shields.io/github/stars/jestjs/jest)
   - [Sentry](https://github.com/getsentry/sentry)  ![Tag](https://img.shields.io/github/v/tag/getsentry/sentry) ![Release](https://img.shields.io/github/v/release/getsentry/sentry) ![Star](https://img.shields.io/github/stars/getsentry/sentry)
+  - [Zod](https://github.com/colinhacks/zod)  ![Tag](https://img.shields.io/github/v/tag/colinhacks/zod) ![Release](https://img.shields.io/github/v/release/colinhacks/zod) ![Star](https://img.shields.io/github/stars/colinhacks/zod)
 </details>
 
 <!--Utils-->
