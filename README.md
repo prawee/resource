@@ -38,6 +38,7 @@ My tools that I used
   <summary>Backend</summary>
 
   - [Laravel](https://github.com/laravel/laravel)  ![Tag](https://img.shields.io/github/v/tag/laravel/laravel) ![Release](https://img.shields.io/github/v/release/laravel/laravel) ![Star](https://img.shields.io/github/stars/laravel/laravel)
+  - [Nest](https://github.com/nestjs/nest)  ![Tag](https://img.shields.io/github/v/tag/nestjs/nest) ![Release](https://img.shields.io/github/v/release/nestjs/nest) ![Star](https://img.shields.io/github/stars/nestjs/nest)
   - [Express](https://github.com/expressjs/express)  ![Tag](https://img.shields.io/github/v/tag/expressjs/express) ![Release](https://img.shields.io/github/v/release/expressjs/express) ![Star](https://img.shields.io/github/stars/expressjs/express)
   - [Strapi](https://github.com/strapi/strapi)  ![Tag](https://img.shields.io/github/v/tag/strapi/strapi) ![Release](https://img.shields.io/github/v/release/strapi/strapi) ![Star](https://img.shields.io/github/stars/strapi/strapi)
   - [Yii](https://github.com/yiisoft/yii2)  ![Tag](https://img.shields.io/github/v/tag/yiisoft/yii2) ![Release](https://img.shields.io/github/v/release/yiisoft/yii2) ![Star](https://img.shields.io/github/stars/yiisoft/yii2)
