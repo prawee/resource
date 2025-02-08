@@ -55,6 +55,7 @@ My tools that I used
   - [Flutter](https://github.com/flutter/flutter)  ![Tag](https://img.shields.io/github/v/tag/flutter/flutter) ![Release](https://img.shields.io/github/v/release/flutter/flutter) ![Star](https://img.shields.io/github/stars/flutter/flutter)
   - [React Native](https://github.com/facebook/react-native)  ![Tag](https://img.shields.io/github/v/tag/facebook/react-native) ![Release](https://img.shields.io/github/v/release/facebook/react-native) ![Star](https://img.shields.io/github/stars/facebook/react-native)
   - [Expo](https://github.com/expo/expo)  ![Tag](https://img.shields.io/github/v/tag/expo/expo) ![Release](https://img.shields.io/github/v/release/expo/expo) ![Star](https://img.shields.io/github/stars/expo/expo)
+  - [Dioxus](https://github.com/DioxusLabs/dioxus)  ![Tag](https://img.shields.io/github/v/tag/DioxusLabs/dioxus) ![Release](https://img.shields.io/github/v/release/DioxusLabs/dioxus) ![Star](https://img.shields.io/github/stars/DioxusLabs/dioxus)
 </details>
 
 <!--Utils-->
