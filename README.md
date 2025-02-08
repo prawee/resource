@@ -70,6 +70,7 @@ My tools that I used
   <summary>Quanlity Assurance</summary>
 
   - [Playwright](https://github.com/microsoft/playwright) ![GitHub Tag](https://img.shields.io/github/v/tag/microsoft/playwright) ![Release](https://img.shields.io/github/v/release/microsoft/playwright) ![Star](https://img.shields.io/github/stars/microsoft/playwright)
+  - [Cypress](https://github.com/cypress-io/cypress) ![GitHub Tag](https://img.shields.io/github/v/tag/cypress-io/cypress) ![Release](https://img.shields.io/github/v/release/cypress-io/cypress) ![Star](https://img.shields.io/github/stars/cypress-io/cypress)
 </details>
 
 <!--Utils-->
