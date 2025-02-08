@@ -47,6 +47,13 @@ My tools that I used
   - [Yii](https://github.com/yiisoft/yii2)  ![Tag](https://img.shields.io/github/v/tag/yiisoft/yii2) ![Release](https://img.shields.io/github/v/release/yiisoft/yii2) ![Star](https://img.shields.io/github/stars/yiisoft/yii2)
 </details>
 
+<!--Database-->
+<details open>
+  <summary>Database</summary>
+
+  - [Prisma](https://github.com/prisma/prisma)  ![Tag](https://img.shields.io/github/v/tag/prisma/prisma) ![Release](https://img.shields.io/github/v/release/prisma/prisma) ![Star](https://img.shields.io/github/stars/prisma/prisma)
+</details>
+
 <!--DevOps-->
 <details open>
   <summary>DevOps</summary>
