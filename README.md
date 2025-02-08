@@ -84,6 +84,7 @@ My tools that I used
   - [Reveal](https://github.com/hakimel/reveal.js) ![GitHub Tag](https://img.shields.io/github/v/tag/hakimel/reveal.js) ![Release](https://img.shields.io/github/v/release/hakimel/reveal.js) ![Star](https://img.shields.io/github/stars/hakimel/reveal.js)
   - [Anime](https://github.com/juliangarnier/anime) ![GitHub Tag](https://img.shields.io/github/v/tag/juliangarnier/anime) ![Release](https://img.shields.io/github/v/release/juliangarnier/anime) ![Star](https://img.shields.io/github/stars/juliangarnier/anime)
   - [Moment](https://github.com/moment/moment) ![GitHub Tag](https://img.shields.io/github/v/tag/moment/moment) ![Release](https://img.shields.io/github/v/release/moment/moment) ![Star](https://img.shields.io/github/stars/moment/moment)
+  - [Dayjs](https://github.com/iamkun/dayjs) ![GitHub Tag](https://img.shields.io/github/v/tag/iamkun/dayjs) ![Release](https://img.shields.io/github/v/release/iamkun/dayjs) ![Star](https://img.shields.io/github/stars/iamkun/dayjs)
   - [Typst](https://github.com/typst/typst) ![GitHub Tag](https://img.shields.io/github/v/tag/typst/typst) ![Release](https://img.shields.io/github/v/release/typst/typst) ![Star](https://img.shields.io/github/stars/typst/typst)
   - [Shields](https://github.com/badges/shields) ![GitHub Tag](https://img.shields.io/github/v/tag/badges/shields) ![Release](https://img.shields.io/github/v/release/badges/shields) ![Star](https://img.shields.io/github/stars/badges/shields)
 </details>
