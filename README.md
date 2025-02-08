@@ -49,6 +49,7 @@ My tools that I used
 <details open>
   <summary>DevOps</summary>
 
+  - [Caddy](https://github.com/caddyserver/caddy)  ![Tag](https://img.shields.io/github/v/tag/caddyserver/caddy) ![Release](https://img.shields.io/github/v/release/caddyserver/caddy) ![Star](https://img.shields.io/github/stars/caddyserver/caddy)
   - [Vercel](https://github.com/vercel/vercel)  ![Tag](https://img.shields.io/github/v/tag/vercel/vercel) ![Release](https://img.shields.io/github/v/release/vercel/vercel) ![Star](https://img.shields.io/github/stars/vercel/vercel)
   - [Piko](https://github.com/andydunstall/piko)  ![Tag](https://img.shields.io/github/v/tag/andydunstall/piko) ![Release](https://img.shields.io/github/v/release/andydunstall/piko) ![Star](https://img.shields.io/github/stars/andydunstall/piko)
 </details>
@@ -64,7 +65,7 @@ My tools that I used
 </details>
 
 <!--Quanlity Assurance-->
-<details>
+<details open>
   <summary>Quanlity Assurance</summary>
 
   - [Playwright](https://github.com/microsoft/playwright) ![GitHub Tag](https://img.shields.io/github/v/tag/microsoft/playwright) ![Release](https://img.shields.io/github/v/release/microsoft/playwright) ![Star](https://img.shields.io/github/stars/microsoft/playwright)
