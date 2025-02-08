@@ -1,5 +1,17 @@
 # Resource
 
-## UI
+|Part     |
+|-----    |
+|Frontend |
+|Service  |
+|Backend  |
+|Store    |
 
-[tabler](https://github.com/tabler/tabler)
+<details>
+
+<summary>Frontend</summary>
+
+### UI
+- [tabler](https://github.com/tabler/tabler)
+
+</details>
