@@ -9,6 +9,7 @@ My tools that I used
 |Database            |
 |DevOps              |
 |Mobile              |
+|Quanlity Assurance  |
 |Utils               |
 
 <!--Frontend-->
@@ -60,6 +61,13 @@ My tools that I used
   - [React Native](https://github.com/facebook/react-native)  ![Tag](https://img.shields.io/github/v/tag/facebook/react-native) ![Release](https://img.shields.io/github/v/release/facebook/react-native) ![Star](https://img.shields.io/github/stars/facebook/react-native)
   - [Expo](https://github.com/expo/expo)  ![Tag](https://img.shields.io/github/v/tag/expo/expo) ![Release](https://img.shields.io/github/v/release/expo/expo) ![Star](https://img.shields.io/github/stars/expo/expo)
   - [Dioxus](https://github.com/DioxusLabs/dioxus)  ![Tag](https://img.shields.io/github/v/tag/DioxusLabs/dioxus) ![Release](https://img.shields.io/github/v/release/DioxusLabs/dioxus) ![Star](https://img.shields.io/github/stars/DioxusLabs/dioxus)
+</details>
+
+<!--Quanlity Assurance-->
+<details>
+  <summary>Quanlity Assurance</summary>
+
+  - [Playwright](https://github.com/microsoft/playwright) ![GitHub Tag](https://img.shields.io/github/v/tag/microsoft/playwright) ![Release](https://img.shields.io/github/v/release/microsoft/playwright) ![Star](https://img.shields.io/github/stars/microsoft/playwright)
 </details>
 
 <!--Utils-->
