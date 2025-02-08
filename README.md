@@ -45,6 +45,7 @@ My tools that I used
   - [Gatsby](https://github.com/gatsbyjs/gatsby)  ![Tag](https://img.shields.io/github/v/tag/gatsbyjs/gatsby) ![Release](https://img.shields.io/github/v/release/gatsbyjs/gatsby) ![Star](https://img.shields.io/github/stars/gatsbyjs/gatsby)
   - [Meteor](https://github.com/meteor/meteor)  ![Tag](https://img.shields.io/github/v/tag/meteor/meteor) ![Release](https://img.shields.io/github/v/release/meteor/meteor) ![Star](https://img.shields.io/github/stars/meteor/meteor)
   - [Fastify](https://github.com/fastify/fastify)  ![Tag](https://img.shields.io/github/v/tag/fastify/fastify) ![Release](https://img.shields.io/github/v/release/fastify/fastify) ![Star](https://img.shields.io/github/stars/fastify/fastify)
+  - [Rocket](https://github.com/rwf2/Rocket)  ![Tag](https://img.shields.io/github/v/tag/rwf2/Rocket) ![Release](https://img.shields.io/github/v/release/rwf2/Rocket) ![Star](https://img.shields.io/github/stars/rwf2/Rocket)
   - [Yii](https://github.com/yiisoft/yii2)  ![Tag](https://img.shields.io/github/v/tag/yiisoft/yii2) ![Release](https://img.shields.io/github/v/release/yiisoft/yii2) ![Star](https://img.shields.io/github/stars/yiisoft/yii2)
 </details>
 
