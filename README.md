@@ -61,7 +61,8 @@ My tools that I used
 <!--Utils-->
 <details open>
   <summary>Utils</summary>
-  
+
+  - [Anime](https://github.com/juliangarnier/anime) ![GitHub Tag](https://img.shields.io/github/v/tag/juliangarnier/anime) ![Release](https://img.shields.io/github/v/release/juliangarnier/anime) ![Star](https://img.shields.io/github/stars/juliangarnier/anime)
   - [Typst](https://github.com/typst/typst) ![GitHub Tag](https://img.shields.io/github/v/tag/typst/typst) ![Release](https://img.shields.io/github/v/release/typst/typst) ![Star](https://img.shields.io/github/stars/typst/typst)
   - [Shields](https://github.com/badges/shields) ![GitHub Tag](https://img.shields.io/github/v/tag/badges/shields) ![Release](https://img.shields.io/github/v/release/badges/shields) ![Star](https://img.shields.io/github/stars/badges/shields)
 </details>
