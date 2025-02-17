@@ -68,6 +68,7 @@ My tools that I used
   - [MySQL](https://github.com/mysqljs/mysql)  ![Tag](https://img.shields.io/github/v/tag/mysqljs/mysql) ![Release](https://img.shields.io/github/v/release/mysqljs/mysql) ![Star](https://img.shields.io/github/stars/mysqljs/mysql)
   - [Postgres](https://github.com/postgres/postgres)  ![Tag](https://img.shields.io/github/v/tag/postgres/postgres) ![Release](https://img.shields.io/github/v/release/postgres/postgres) ![Star](https://img.shields.io/github/stars/postgres/postgres)
   - [SQLite](https://github.com/sqlite/sqlite)  ![Tag](https://img.shields.io/github/v/tag/sqlite/sqlite) ![Release](https://img.shields.io/github/v/release/sqlite/sqlite) ![Star](https://img.shields.io/github/stars/sqlite/sqlite)
+  - [MariaDB](https://github.com/MariaDB/server)  ![Tag](https://img.shields.io/github/v/tag/MariaDB/server) ![Release](https://img.shields.io/github/v/release/MariaDB/server) ![Star](https://img.shields.io/github/stars/MariaDB/server)
 </details>
 
 <!--DevOps-->
