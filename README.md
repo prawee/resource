@@ -65,6 +65,7 @@ My tools that I used
 
   ###### Store
   - [MongoDB](https://github.com/mongodb/mongo)  ![Tag](https://img.shields.io/github/v/tag/mongodb/mongo) ![Release](https://img.shields.io/github/v/release/mongodb/mongo) ![Star](https://img.shields.io/github/stars/mongodb/mongo)
+  - [MySQL](https://github.com/mysqljs/mysql)  ![Tag](https://img.shields.io/github/v/tag/mysqljs/mysql) ![Release](https://img.shields.io/github/v/release/mysqljs/mysql) ![Star](https://img.shields.io/github/stars/mysqljs/mysql)
   - [Postgres](https://github.com/postgres/postgres)  ![Tag](https://img.shields.io/github/v/tag/postgres/postgres) ![Release](https://img.shields.io/github/v/release/postgres/postgres) ![Star](https://img.shields.io/github/stars/postgres/postgres)
   - [SQLite](https://github.com/sqlite/sqlite)  ![Tag](https://img.shields.io/github/v/tag/sqlite/sqlite) ![Release](https://img.shields.io/github/v/release/sqlite/sqlite) ![Star](https://img.shields.io/github/stars/sqlite/sqlite)
 </details>
