@@ -61,6 +61,7 @@ My tools that I used
   ###### ORM
   - [Prisma](https://github.com/prisma/prisma)  ![Tag](https://img.shields.io/github/v/tag/prisma/prisma) ![Release](https://img.shields.io/github/v/release/prisma/prisma) ![Star](https://img.shields.io/github/stars/prisma/prisma)
   - [TypeORM](https://github.com/typeorm/typeorm)  ![Tag](https://img.shields.io/github/v/tag/typeorm/typeorm) ![Release](https://img.shields.io/github/v/release/typeorm/typeorm) ![Star](https://img.shields.io/github/stars/typeorm/typeorm)
+  - [Sequelize](https://github.com/sequelize/sequelize)  ![Tag](https://img.shields.io/github/v/tag/sequelize/sequelize) ![Release](https://img.shields.io/github/v/release/sequelize/sequelize) ![Star](https://img.shields.io/github/stars/sequelize/sequelize)
   - [DrizzleORM](https://github.com/drizzle-team/drizzle-orm)  ![Tag](https://img.shields.io/github/v/tag/drizzle-team/drizzle-orm) ![Release](https://img.shields.io/github/v/release/drizzle-team/drizzle-orm) ![Star](https://img.shields.io/github/stars/drizzle-team/drizzle-orm)
 
   ###### Store
