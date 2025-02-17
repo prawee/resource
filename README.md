@@ -58,11 +58,15 @@ My tools that I used
 <details open>
   <summary>Database</summary>
 
+  ###### ORM
   - [Prisma](https://github.com/prisma/prisma)  ![Tag](https://img.shields.io/github/v/tag/prisma/prisma) ![Release](https://img.shields.io/github/v/release/prisma/prisma) ![Star](https://img.shields.io/github/stars/prisma/prisma)
   - [TypeORM](https://github.com/typeorm/typeorm)  ![Tag](https://img.shields.io/github/v/tag/typeorm/typeorm) ![Release](https://img.shields.io/github/v/release/typeorm/typeorm) ![Star](https://img.shields.io/github/stars/typeorm/typeorm)
-  - [MongoDB](https://github.com/mongodb/mongo)  ![Tag](https://img.shields.io/github/v/tag/mongodb/mongo) ![Release](https://img.shields.io/github/v/release/mongodb/mongo) ![Star](https://img.shields.io/github/stars/mongodb/mongo)
   - [DrizzleORM](https://github.com/drizzle-team/drizzle-orm)  ![Tag](https://img.shields.io/github/v/tag/drizzle-team/drizzle-orm) ![Release](https://img.shields.io/github/v/release/drizzle-team/drizzle-orm) ![Star](https://img.shields.io/github/stars/drizzle-team/drizzle-orm)
+
+  ###### Store
+  - [MongoDB](https://github.com/mongodb/mongo)  ![Tag](https://img.shields.io/github/v/tag/mongodb/mongo) ![Release](https://img.shields.io/github/v/release/mongodb/mongo) ![Star](https://img.shields.io/github/stars/mongodb/mongo)
   - [Postgres](https://github.com/postgres/postgres)  ![Tag](https://img.shields.io/github/v/tag/postgres/postgres) ![Release](https://img.shields.io/github/v/release/postgres/postgres) ![Star](https://img.shields.io/github/stars/postgres/postgres)
+  - [SQLite](https://github.com/sqlite/sqlite)  ![Tag](https://img.shields.io/github/v/tag/sqlite/sqlite) ![Release](https://img.shields.io/github/v/release/sqlite/sqlite) ![Star](https://img.shields.io/github/stars/sqlite/sqlite)
 </details>
 
 <!--DevOps-->
