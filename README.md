@@ -128,6 +128,7 @@ My tools that I used
   - [Typst](https://github.com/typst/typst) ![GitHub Tag](https://img.shields.io/github/v/tag/typst/typst) ![Release](https://img.shields.io/github/v/release/typst/typst) ![Star](https://img.shields.io/github/stars/typst/typst)
   - [React Flow](https://github.com/xyflow/xyflow) ![GitHub Tag](https://img.shields.io/github/v/tag/xyflow/xyflow) ![Release](https://img.shields.io/github/v/release/xyflow/xyflow) ![Star](https://img.shields.io/github/stars/xyflow/xyflow)
   - [Shields](https://github.com/badges/shields) ![GitHub Tag](https://img.shields.io/github/v/tag/badges/shields) ![Release](https://img.shields.io/github/v/release/badges/shields) ![Star](https://img.shields.io/github/stars/badges/shields)
+  - [MailTrap](https://github.com/railsware/mailtrap-nodejs) ![GitHub Tag](https://img.shields.io/github/v/tag/railsware/mailtrap-nodejs) ![Release](https://img.shields.io/github/v/release/railsware/mailtrap-nodejs) ![Star](https://img.shields.io/github/stars/railsware/mailtrap-nodejs)
 </details>
 
 ## Reference
