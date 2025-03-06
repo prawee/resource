@@ -15,7 +15,9 @@ My tools that I used
 
 ```mermaid
 flowchart LR
-  Frontend -> Backend
+  Frontend --> Backend
+  Mobile --> Backend
+  Backend --> Database
 ```
 
 <!--Frontend-->
