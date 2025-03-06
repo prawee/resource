@@ -9,9 +9,14 @@ My tools that I used
 |Database            |
 |DevOps              |
 |Mobile              |
-|Quanlity Assurance  |
+|Quantity Assurance  |
 |Document            |
 |Utils               |
+
+```mermaid
+flowchart LR
+  Frontend -> Backend
+```
 
 <!--Frontend-->
 <details open>
