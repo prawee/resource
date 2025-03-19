@@ -104,6 +104,12 @@ flowchart LR
   - [Lynx](https://github.com/lynx-family/lynx)  ![Tag](https://img.shields.io/github/v/tag/lynx-family/lynx) ![Release](https://img.shields.io/github/v/release/lynx-family/lynx) ![Star](https://img.shields.io/github/stars/lynx-family/lynx)
 </details>
 
+<details open>
+  <summary>Mobile Boilerplace</summary>
+
+  - [Ignite](https://github.com/infinitered/ignite)  ![Tag](https://img.shields.io/github/v/tag/infinitered/ignite) ![Release](https://img.shields.io/github/v/release/infinitered/ignite) ![Star](https://img.shields.io/github/stars/infinitered/ignite)
+</details>
+
 <!--Quanlity Assurance-->
 <details open>
   <summary>Quanlity Assurance</summary>
