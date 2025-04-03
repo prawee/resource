@@ -73,6 +73,7 @@ flowchart LR
   - [Sequelize](https://github.com/sequelize/sequelize)  ![Tag](https://img.shields.io/github/v/tag/sequelize/sequelize) ![Release](https://img.shields.io/github/v/release/sequelize/sequelize) ![Star](https://img.shields.io/github/stars/sequelize/sequelize)
   - [DrizzleORM](https://github.com/drizzle-team/drizzle-orm)  ![Tag](https://img.shields.io/github/v/tag/drizzle-team/drizzle-orm) ![Release](https://img.shields.io/github/v/release/drizzle-team/drizzle-orm) ![Star](https://img.shields.io/github/stars/drizzle-team/drizzle-orm)
   - [Knex](https://github.com/knex/knex)  ![Tag](https://img.shields.io/github/v/tag/knex/knex) ![Release](https://img.shields.io/github/v/release/knex/knex) ![Star](https://img.shields.io/github/stars/knex/knex)
+  - [MikroORM](https://github.com/mikro-orm/mikro-orm)  ![Tag](https://img.shields.io/github/v/tag/mikro-orm/mikro-orm) ![Release](https://img.shields.io/github/v/release/mikro-orm/mikro-orm) ![Star](https://img.shields.io/github/stars/mikro-orm/mikro-orm)
 
   ###### Store
   - [MongoDB](https://github.com/mongodb/mongo)  ![Tag](https://img.shields.io/github/v/tag/mongodb/mongo) ![Release](https://img.shields.io/github/v/release/mongodb/mongo) ![Star](https://img.shields.io/github/stars/mongodb/mongo)
