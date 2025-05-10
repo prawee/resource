@@ -121,6 +121,7 @@ flowchart LR
 <details open>
   <summary>Quanlity Assurance</summary>
 
+  ###### Automated Testing
   - [Playwright](https://github.com/microsoft/playwright) ![GitHub Tag](https://img.shields.io/github/v/tag/microsoft/playwright) ![Release](https://img.shields.io/github/v/release/microsoft/playwright) ![Star](https://img.shields.io/github/stars/microsoft/playwright)
   - [Cypress](https://github.com/cypress-io/cypress) ![GitHub Tag](https://img.shields.io/github/v/tag/cypress-io/cypress) ![Release](https://img.shields.io/github/v/release/cypress-io/cypress) ![Star](https://img.shields.io/github/stars/cypress-io/cypress)
   - [Jest](https://github.com/jestjs/jest) ![GitHub Tag](https://img.shields.io/github/v/tag/jestjs/jest) ![Release](https://img.shields.io/github/v/release/jestjs/jest) ![Star](https://img.shields.io/github/stars/jestjs/jest)
