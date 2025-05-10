@@ -126,6 +126,9 @@ flowchart LR
   - [Jest](https://github.com/jestjs/jest) ![GitHub Tag](https://img.shields.io/github/v/tag/jestjs/jest) ![Release](https://img.shields.io/github/v/release/jestjs/jest) ![Star](https://img.shields.io/github/stars/jestjs/jest)
   - [Sentry](https://github.com/getsentry/sentry)  ![Tag](https://img.shields.io/github/v/tag/getsentry/sentry) ![Release](https://img.shields.io/github/v/release/getsentry/sentry) ![Star](https://img.shields.io/github/stars/getsentry/sentry)
   - [Zod](https://github.com/colinhacks/zod)  ![Tag](https://img.shields.io/github/v/tag/colinhacks/zod) ![Release](https://img.shields.io/github/v/release/colinhacks/zod) ![Star](https://img.shields.io/github/stars/colinhacks/zod)
+
+  ###### Load Testing
+  - [K6](https://github.com/grafana/k6)  ![Tag](https://img.shields.io/github/v/tag/grafana/k6) ![Release](https://img.shields.io/github/v/release/grafana/k6) ![Star](https://img.shields.io/github/stars/grafana/k6)
 </details>
 
 <!--Document-->
