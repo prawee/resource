@@ -129,6 +129,7 @@ flowchart LR
 
   ###### Load Testing
   - [K6](https://github.com/grafana/k6)  ![Tag](https://img.shields.io/github/v/tag/grafana/k6) ![Release](https://img.shields.io/github/v/release/grafana/k6) ![Star](https://img.shields.io/github/stars/grafana/k6)
+  - [Gatling](https://github.com/gatling/gatling)  ![Tag](https://img.shields.io/github/v/tag/gatling/gatling) ![Release](https://img.shields.io/github/v/release/gatling/gatling) ![Star](https://img.shields.io/github/stars/gatling/gatling)
   - [Taurus](https://github.com/Blazemeter/taurus)  ![Tag](https://img.shields.io/github/v/tag/Blazemeter/taurus) ![Release](https://img.shields.io/github/v/release/Blazemeter/taurus) ![Star](https://img.shields.io/github/stars/Blazemeter/taurus)
 </details>
 
