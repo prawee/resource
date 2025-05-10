@@ -130,6 +130,7 @@ flowchart LR
   ###### Load Testing
   - [K6](https://github.com/grafana/k6)  ![Tag](https://img.shields.io/github/v/tag/grafana/k6) ![Release](https://img.shields.io/github/v/release/grafana/k6) ![Star](https://img.shields.io/github/stars/grafana/k6)
   - [Locust](https://github.com/locustio/locust)  ![Tag](https://img.shields.io/github/v/tag/locustio/locust) ![Release](https://img.shields.io/github/v/release/locustio/locust) ![Star](https://img.shields.io/github/stars/locustio/locust)
+  - [JMeter](https://github.com/apache/jmeter)  ![Tag](https://img.shields.io/github/v/tag/apache/jmeter) ![Release](https://img.shields.io/github/v/release/apache/jmeter) ![Star](https://img.shields.io/github/stars/apache/jmeter)
   - [Gatling](https://github.com/gatling/gatling)  ![Tag](https://img.shields.io/github/v/tag/gatling/gatling) ![Release](https://img.shields.io/github/v/release/gatling/gatling) ![Star](https://img.shields.io/github/stars/gatling/gatling)
   - [Taurus](https://github.com/Blazemeter/taurus)  ![Tag](https://img.shields.io/github/v/tag/Blazemeter/taurus) ![Release](https://img.shields.io/github/v/release/Blazemeter/taurus) ![Star](https://img.shields.io/github/stars/Blazemeter/taurus)
 </details>
