@@ -100,6 +100,7 @@ flowchart LR
   - [Vercel](https://github.com/vercel/vercel)  ![Tag](https://img.shields.io/github/v/tag/vercel/vercel) ![Release](https://img.shields.io/github/v/release/vercel/vercel) ![Star](https://img.shields.io/github/stars/vercel/vercel)
   - [DDev](https://github.com/ddev/ddev)  ![Tag](https://img.shields.io/github/v/tag/ddev/ddev) ![Release](https://img.shields.io/github/v/release/ddev/ddev) ![Star](https://img.shields.io/github/stars/ddev/ddev)
   - [Piko](https://github.com/andydunstall/piko)  ![Tag](https://img.shields.io/github/v/tag/andydunstall/piko) ![Release](https://img.shields.io/github/v/release/andydunstall/piko) ![Star](https://img.shields.io/github/stars/andydunstall/piko)
+  - [Kool](https://github.com/kool-dev/kool)  ![Tag](https://img.shields.io/github/v/tag/kool-dev/kool) ![Release](https://img.shields.io/github/v/release/kool-dev/kool) ![Star](https://img.shields.io/github/stars/kool-dev/kool)
 </details>
 
 <!--Mobile-->
