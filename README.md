@@ -163,6 +163,7 @@ flowchart LR
   - [Slidev](https://github.com/slidevjs/slidev) ![GitHub Tag](https://img.shields.io/github/v/tag/slidevjs/slidev) ![Release](https://img.shields.io/github/v/release/slidevjs/slidev) ![Star](https://img.shields.io/github/stars/slidevjs/slidev)
   - [React Flow](https://github.com/xyflow/xyflow) ![GitHub Tag](https://img.shields.io/github/v/tag/xyflow/xyflow) ![Release](https://img.shields.io/github/v/release/xyflow/xyflow) ![Star](https://img.shields.io/github/stars/xyflow/xyflow)
   - [Shields](https://github.com/badges/shields) ![GitHub Tag](https://img.shields.io/github/v/tag/badges/shields) ![Release](https://img.shields.io/github/v/release/badges/shields) ![Star](https://img.shields.io/github/stars/badges/shields)
+  - [PptxGenJS](https://github.com/gitbrent/PptxGenJS) ![GitHub Tag](https://img.shields.io/github/v/tag/gitbrent/PptxGenJS) ![Release](https://img.shields.io/github/v/release/gitbrent/PptxGenJS) ![Star](https://img.shields.io/github/stars/gitbrent/PptxGenJS)
   - [MailTrap](https://github.com/railsware/mailtrap-nodejs) ![GitHub Tag](https://img.shields.io/github/v/tag/railsware/mailtrap-nodejs) ![Release](https://img.shields.io/github/v/release/railsware/mailtrap-nodejs) ![Star](https://img.shields.io/github/stars/railsware/mailtrap-nodejs)
 </details>
 
