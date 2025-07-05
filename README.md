@@ -61,6 +61,7 @@ flowchart LR
   - [Hono](https://github.com/honojs/hono)  ![Tag](https://img.shields.io/github/v/tag/honojs/hono) ![Release](https://img.shields.io/github/v/release/honojs/hono) ![Star](https://img.shields.io/github/stars/honojs/hono)
   - [SST](https://github.com/sst/sst)  ![Tag](https://img.shields.io/github/v/tag/sst/sst) ![Release](https://img.shields.io/github/v/release/sst/sst) ![Star](https://img.shields.io/github/stars/sst/sst)
   - [Redwood](https://github.com/redwoodjs/redwood)  ![Tag](https://img.shields.io/github/v/tag/redwoodjs/redwood) ![Release](https://img.shields.io/github/v/release/redwoodjs/redwood) ![Star](https://img.shields.io/github/stars/redwoodjs/redwood)
+  - [Feathers](https://github.com/feathersjs/feathers)  ![Tag](https://img.shields.io/github/v/tag/feathersjs/feathers) ![Release](https://img.shields.io/github/v/release/feathersjs/feathers) ![Star](https://img.shields.io/github/stars/feathersjs/feathers)
   - [Yii](https://github.com/yiisoft/yii2)  ![Tag](https://img.shields.io/github/v/tag/yiisoft/yii2) ![Release](https://img.shields.io/github/v/release/yiisoft/yii2) ![Star](https://img.shields.io/github/stars/yiisoft/yii2)
 
  ###### Lambda
