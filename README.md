@@ -63,6 +63,7 @@ flowchart LR
   - [Redwood](https://github.com/redwoodjs/redwood)  ![Tag](https://img.shields.io/github/v/tag/redwoodjs/redwood) ![Release](https://img.shields.io/github/v/release/redwoodjs/redwood) ![Star](https://img.shields.io/github/stars/redwoodjs/redwood)
   - [Feathers](https://github.com/feathersjs/feathers)  ![Tag](https://img.shields.io/github/v/tag/feathersjs/feathers) ![Release](https://img.shields.io/github/v/release/feathersjs/feathers) ![Star](https://img.shields.io/github/stars/feathersjs/feathers)
   - [Yii](https://github.com/yiisoft/yii2)  ![Tag](https://img.shields.io/github/v/tag/yiisoft/yii2) ![Release](https://img.shields.io/github/v/release/yiisoft/yii2) ![Star](https://img.shields.io/github/stars/yiisoft/yii2)
+  - [Elysia](https://github.com/elysiajs/elysia)  ![Tag](https://img.shields.io/github/v/tag/elysiajs/elysia) ![Release](https://img.shields.io/github/v/release/elysiajs/elysia) ![Star](https://img.shields.io/github/stars/elysiajs/elysia)
 
  ###### Lambda
   - [Bref - PHP](https://github.com/brefphp/bref)  ![Tag](https://img.shields.io/github/v/tag/brefphp/bref) ![Release](https://img.shields.io/github/v/release/brefphp/bref) ![Star](https://img.shields.io/github/stars/brefphp/bref)
