@@ -145,6 +145,7 @@ flowchart LR
   <summary>Document</summary>
 
   - [Docusaurus](https://github.com/facebook/docusaurus)  ![Tag](https://img.shields.io/github/v/tag/facebook/docusaurus) ![Release](https://img.shields.io/github/v/release/facebook/docusaurus) ![Star](https://img.shields.io/github/stars/facebook/docusaurus)
+  - [Outline](https://github.com/outline/outline)  ![Tag](https://img.shields.io/github/v/tag/outline/outline) ![Release](https://img.shields.io/github/v/release/outline/outline) ![Star](https://img.shields.io/github/stars/outline/outline)
   - [Docsify](https://github.com/docsifyjs/docsify)  ![Tag](https://img.shields.io/github/v/tag/docsifyjs/docsify) ![Release](https://img.shields.io/github/v/release/docsifyjs/docsify) ![Star](https://img.shields.io/github/stars/docsifyjs/docsify)
   - [Gitbook](https://github.com/GitbookIO/gitbook)  ![Tag](https://img.shields.io/github/v/tag/GitbookIO/gitbook) ![Release](https://img.shields.io/github/v/release/GitbookIO/gitbook) ![Star](https://img.shields.io/github/stars/GitbookIO/gitbook)
   - [Mkdocs](https://github.com/mkdocs/mkdocs)  ![Tag](https://img.shields.io/github/v/tag/mkdocs/mkdocs) ![Release](https://img.shields.io/github/v/release/mkdocs/mkdocs) ![Star](https://img.shields.io/github/stars/mkdocs/mkdocs)
