@@ -114,6 +114,7 @@ flowchart LR
   - [React Native](https://github.com/facebook/react-native)  ![Tag](https://img.shields.io/github/v/tag/facebook/react-native) ![Release](https://img.shields.io/github/v/release/facebook/react-native) ![Star](https://img.shields.io/github/stars/facebook/react-native)
   - [Expo](https://github.com/expo/expo)  ![Tag](https://img.shields.io/github/v/tag/expo/expo) ![Release](https://img.shields.io/github/v/release/expo/expo) ![Star](https://img.shields.io/github/stars/expo/expo)
   - [Dioxus](https://github.com/DioxusLabs/dioxus)  ![Tag](https://img.shields.io/github/v/tag/DioxusLabs/dioxus) ![Release](https://img.shields.io/github/v/release/DioxusLabs/dioxus) ![Star](https://img.shields.io/github/stars/DioxusLabs/dioxus)
+  - [Flet](https://github.com/flet-dev/flet)  ![Tag](https://img.shields.io/github/v/tag/flet-dev/flet) ![Release](https://img.shields.io/github/v/release/flet-dev/flet) ![Star](https://img.shields.io/github/stars/flet-dev/flet)
   - [Lynx](https://github.com/lynx-family/lynx)  ![Tag](https://img.shields.io/github/v/tag/lynx-family/lynx) ![Release](https://img.shields.io/github/v/release/lynx-family/lynx) ![Star](https://img.shields.io/github/stars/lynx-family/lynx)
 
   ###### Boilerplace
