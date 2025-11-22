@@ -185,6 +185,7 @@ flowchart LR
   - [Voltagent](https://github.com/voltagent/voltagent) ![GitHub Tag](https://img.shields.io/github/v/tag/voltagent/voltagent) ![Release](https://img.shields.io/github/v/release/voltagent/voltagent) ![Star](https://img.shields.io/github/stars/voltagent/voltagent)
 
   ###### UI
+  - [CopilotKit](https://github.com/CopilotKit/CopilotKit) ![GitHub Tag](https://img.shields.io/github/v/tag/CopilotKit/CopilotKit) ![Release](https://img.shields.io/github/v/release/CopilotKit/CopilotKit) ![Star](https://img.shields.io/github/stars/CopilotKit/CopilotKit)
   - [AG UI](https://github.com/ag-ui-protocol/ag-ui) ![GitHub Tag](https://img.shields.io/github/v/tag/ag-ui-protocol/ag-ui) ![Release](https://img.shields.io/github/v/release/ag-ui-protocol/ag-ui) ![Star](https://img.shields.io/github/stars/ag-ui-protocol/ag-ui)
   
 </details>
