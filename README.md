@@ -174,6 +174,15 @@ flowchart LR
   - [MailTrap](https://github.com/railsware/mailtrap-nodejs) ![GitHub Tag](https://img.shields.io/github/v/tag/railsware/mailtrap-nodejs) ![Release](https://img.shields.io/github/v/release/railsware/mailtrap-nodejs) ![Star](https://img.shields.io/github/stars/railsware/mailtrap-nodejs)
 </details>
 
+<!--AI-->
+<details open>
+  <summary>AI</summary>
+
+  ###### Agent
+  - [AI SDK](https://github.com/vercel/ai) ![GitHub Tag](https://img.shields.io/github/v/tag/vercel/ai) ![Release](https://img.shields.io/github/v/release/vercel/ai) ![Star](https://img.shields.io/github/stars/vercel/ai)
+
+</details>
+
 ## Reference
 - [My Diary with OSX](https://github.com/prawee/my-daily-tools-osx)
 - [My Diary with Window](https://github.com/prawee/my-daily-tools-win)
