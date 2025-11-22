@@ -180,6 +180,7 @@ flowchart LR
 
   ###### Agent
   - [AI SDK](https://github.com/vercel/ai) ![GitHub Tag](https://img.shields.io/github/v/tag/vercel/ai) ![Release](https://img.shields.io/github/v/release/vercel/ai) ![Star](https://img.shields.io/github/stars/vercel/ai)
+  - [LangChainJS](https://github.com/langchain-ai/langchainjs) ![GitHub Tag](https://img.shields.io/github/v/tag/langchain-ai/langchainjs) ![Release](https://img.shields.io/github/v/release/langchain-ai/langchainjs) ![Star](https://img.shields.io/github/stars/langchain-ai/langchainjs)
 
 </details>
 
