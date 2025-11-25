@@ -139,6 +139,9 @@ flowchart LR
   - [JMeter](https://github.com/apache/jmeter)  ![Tag](https://img.shields.io/github/v/tag/apache/jmeter) ![Release](https://img.shields.io/github/v/release/apache/jmeter) ![Star](https://img.shields.io/github/stars/apache/jmeter)
   - [Gatling](https://github.com/gatling/gatling)  ![Tag](https://img.shields.io/github/v/tag/gatling/gatling) ![Release](https://img.shields.io/github/v/release/gatling/gatling) ![Star](https://img.shields.io/github/stars/gatling/gatling)
   - [Taurus](https://github.com/Blazemeter/taurus)  ![Tag](https://img.shields.io/github/v/tag/Blazemeter/taurus) ![Release](https://img.shields.io/github/v/release/Blazemeter/taurus) ![Star](https://img.shields.io/github/stars/Blazemeter/taurus)
+
+  ###### Application Performance Monitoring
+  - [SigNoz](https://github.com/SigNoz/signoz)  ![Tag](https://img.shields.io/github/v/tag/SigNoz/signoz) ![Release](https://img.shields.io/github/v/release/SigNoz/signoz) ![Star](https://img.shields.io/github/stars/SigNoz/signoz)
 </details>
 
 <!--Document-->
