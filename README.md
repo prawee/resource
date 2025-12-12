@@ -196,6 +196,17 @@ flowchart LR
   
 </details>
 
+<!--Security-->
+<details open>
+  <summary>Security</summary>
+
+  ###### Static Application Security Testing (SAST)
+  - [Semgrep](https://github.com/semgrep/semgrep) ![GitHub Tag](https://img.shields.io/github/v/tag/semgrep/semgrep) ![Release](https://img.shields.io/github/v/release/semgrep/semgrep) ![Star](https://img.shields.io/github/stars/semgrep/semgrep)
+
+  <!--###### Dynamic Application Security Testing (DAST)-->
+
+</details>
+
 ## Reference
 - [My Diary with OSX](https://github.com/prawee/my-daily-tools-osx)
 - [My Diary with Window](https://github.com/prawee/my-daily-tools-win)
