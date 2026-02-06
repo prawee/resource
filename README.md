@@ -193,6 +193,7 @@ flowchart LR
   - [AG UI](https://github.com/ag-ui-protocol/ag-ui) ![GitHub Tag](https://img.shields.io/github/v/tag/ag-ui-protocol/ag-ui) ![Release](https://img.shields.io/github/v/release/ag-ui-protocol/ag-ui) ![Star](https://img.shields.io/github/stars/ag-ui-protocol/ag-ui)
   - [Assistant UI](https://github.com/assistant-ui/assistant-ui) ![GitHub Tag](https://img.shields.io/github/v/tag/assistant-ui/assistant-ui) ![Release](https://img.shields.io/github/v/release/assistant-ui/assistant-ui) ![Star](https://img.shields.io/github/stars/assistant-ui/assistant-ui)
   - [AionUi](https://github.com/iOfficeAI/AionUi) ![GitHub Tag](https://img.shields.io/github/v/tag/iOfficeAI/AionUi) ![Release](https://img.shields.io/github/v/release/iOfficeAI/AionUi) ![Star](https://img.shields.io/github/stars/iOfficeAI/AionUi)
+  - [Tambo](https://github.com/tambo-ai/tambo) ![GitHub Tag](https://img.shields.io/github/v/tag/tambo-ai/tambo) ![Release](https://img.shields.io/github/v/release/tambo-ai/tambo) ![Star](https://img.shields.io/github/stars/tambo-ai/tambo)
   
 </details>
 
