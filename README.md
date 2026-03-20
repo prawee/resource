@@ -199,6 +199,7 @@ flowchart LR
   - [Tambo](https://github.com/tambo-ai/tambo) ![GitHub Tag](https://img.shields.io/github/v/tag/tambo-ai/tambo) ![Release](https://img.shields.io/github/v/release/tambo-ai/tambo) ![Star](https://img.shields.io/github/stars/tambo-ai/tambo)
 
   ###### Personal AI Assistant
+  - [OpenClaw](https://github.com/openclaw/openclaw) ![GitHub Tag](https://img.shields.io/github/v/tag/openclaw/openclaw) ![Release](https://img.shields.io/github/v/release/openclaw/openclaw) ![Star](https://img.shields.io/github/stars/openclaw/openclaw)
   - [Nanobot](https://github.com/HKUDS/nanobot) ![GitHub Tag](https://img.shields.io/github/v/tag/HKUDS/nanobot) ![Release](https://img.shields.io/github/v/release/HKUDS/nanobot) ![Star](https://img.shields.io/github/stars/HKUDS/nanobot)
   
 </details>
