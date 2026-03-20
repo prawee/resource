@@ -12,6 +12,9 @@ My tools that I used
 |Quantity Assurance  |
 |Document            |
 |Utils               |
+|AI                  |
+|Security            |
+|Environment         |
 
 ```mermaid
 flowchart LR
@@ -208,6 +211,15 @@ flowchart LR
   - [Semgrep](https://github.com/semgrep/semgrep) ![GitHub Tag](https://img.shields.io/github/v/tag/semgrep/semgrep) ![Release](https://img.shields.io/github/v/release/semgrep/semgrep) ![Star](https://img.shields.io/github/stars/semgrep/semgrep)
 
   <!--###### Dynamic Application Security Testing (DAST)-->
+
+</details>
+
+<!--environment-->
+<details open>
+  <summary>Environment</summary>
+
+  ###### Python
+  - [UV](https://github.com/astral-sh/uv) ![GitHub Tag](https://img.shields.io/github/v/tag/astral-sh/uv) ![Release](https://img.shields.io/github/v/release/astral-sh/uv) ![Star](https://img.shields.io/github/stars/astral-sh/uv)
 
 </details>
 
