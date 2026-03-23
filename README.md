@@ -205,6 +205,7 @@ flowchart LR
   ###### Generative AI
   - [Ollama](https://github.com/ollama/ollama) ![GitHub Tag](https://img.shields.io/github/v/tag/ollama/ollama) ![Release](https://img.shields.io/github/v/release/ollama/ollama) ![Star](https://img.shields.io/github/stars/ollama/ollama)
   - [LocalAI](https://github.com/mudler/LocalAI) ![GitHub Tag](https://img.shields.io/github/v/tag/mudler/LocalAI) ![Release](https://img.shields.io/github/v/release/mudler/LocalAI) ![Star](https://img.shields.io/github/stars/mudler/LocalAI)
+  - [LM Studio](https://github.com/lmstudio-ai/lms) ![GitHub Tag](https://img.shields.io/github/v/tag/lmstudio-ai/lms) ![Release](https://img.shields.io/github/v/release/lmstudio-ai/lms) ![Star](https://img.shields.io/github/stars/lmstudio-ai/lms)
   
 </details>
 
