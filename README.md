@@ -201,6 +201,9 @@ flowchart LR
   ###### Personal AI Assistant
   - [OpenClaw](https://github.com/openclaw/openclaw) ![GitHub Tag](https://img.shields.io/github/v/tag/openclaw/openclaw) ![Release](https://img.shields.io/github/v/release/openclaw/openclaw) ![Star](https://img.shields.io/github/stars/openclaw/openclaw)
   - [Nanobot](https://github.com/HKUDS/nanobot) ![GitHub Tag](https://img.shields.io/github/v/tag/HKUDS/nanobot) ![Release](https://img.shields.io/github/v/release/HKUDS/nanobot) ![Star](https://img.shields.io/github/stars/HKUDS/nanobot)
+
+  ###### Generative AI
+  - [LocalAI](https://github.com/mudler/LocalAI) ![GitHub Tag](https://img.shields.io/github/v/tag/mudler/LocalAI) ![Release](https://img.shields.io/github/v/release/mudler/LocalAI) ![Star](https://img.shields.io/github/stars/mudler/LocalAI)
   
 </details>
 
