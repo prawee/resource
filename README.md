@@ -203,6 +203,7 @@ flowchart LR
   - [Nanobot](https://github.com/HKUDS/nanobot) ![GitHub Tag](https://img.shields.io/github/v/tag/HKUDS/nanobot) ![Release](https://img.shields.io/github/v/release/HKUDS/nanobot) ![Star](https://img.shields.io/github/stars/HKUDS/nanobot)
 
   ###### Generative AI
+  - [Ollama](https://github.com/ollama/ollama) ![GitHub Tag](https://img.shields.io/github/v/tag/ollama/ollama) ![Release](https://img.shields.io/github/v/release/ollama/ollama) ![Star](https://img.shields.io/github/stars/ollama/ollama)
   - [LocalAI](https://github.com/mudler/LocalAI) ![GitHub Tag](https://img.shields.io/github/v/tag/mudler/LocalAI) ![Release](https://img.shields.io/github/v/release/mudler/LocalAI) ![Star](https://img.shields.io/github/stars/mudler/LocalAI)
   
 </details>
