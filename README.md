@@ -222,6 +222,7 @@ flowchart LR
 
   ###### Password Manager
   - [Vaultwarden](https://github.com/dani-garcia/vaultwarden) ![GitHub Tag](https://img.shields.io/github/v/tag/dani-garcia/vaultwarden) ![Release](https://img.shields.io/github/v/release/dani-garcia/vaultwarden) ![Star](https://img.shields.io/github/stars/dani-garcia/vaultwarden)
+  - [Passbolt](https://github.com/passbolt/passbolt_api) ![GitHub Tag](https://img.shields.io/github/v/tag/passbolt/passbolt_api) ![Release](https://img.shields.io/github/v/release/passbolt/passbolt_api) ![Star](https://img.shields.io/github/stars/passbolt/passbolt_api)
 
 </details>
 
