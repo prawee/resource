@@ -220,6 +220,9 @@ flowchart LR
 
   <!--###### Dynamic Application Security Testing (DAST)-->
 
+  ###### Password Manager
+  - [Vaultwarden](https://github.com/dani-garcia/vaultwarden) ![GitHub Tag](https://img.shields.io/github/v/tag/dani-garcia/vaultwarden) ![Release](https://img.shields.io/github/v/release/dani-garcia/vaultwarden) ![Star](https://img.shields.io/github/stars/dani-garcia/vaultwarden)
+
 </details>
 
 <!--environment-->
