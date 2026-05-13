@@ -190,6 +190,7 @@ flowchart LR
   - [Mastra](https://github.com/mastra-ai/mastra) ![GitHub Tag](https://img.shields.io/github/v/tag/mastra-ai/mastra) ![Release](https://img.shields.io/github/v/release/mastra-ai/mastra) ![Star](https://img.shields.io/github/stars/mastra-ai/mastra)
   - [LangChainJS](https://github.com/langchain-ai/langchainjs) ![GitHub Tag](https://img.shields.io/github/v/tag/langchain-ai/langchainjs) ![Release](https://img.shields.io/github/v/release/langchain-ai/langchainjs) ![Star](https://img.shields.io/github/stars/langchain-ai/langchainjs)
   - [Voltagent](https://github.com/voltagent/voltagent) ![GitHub Tag](https://img.shields.io/github/v/tag/voltagent/voltagent) ![Release](https://img.shields.io/github/v/release/voltagent/voltagent) ![Star](https://img.shields.io/github/stars/voltagent/voltagent)
+  - [Swarmclaw](https://github.com/swarmclawai/swarmclaw) ![GitHub Tag](https://img.shields.io/github/v/tag/swarmclawai/swarmclaw) ![Release](https://img.shields.io/github/v/release/swarmclawai/swarmclaw) ![Star](https://img.shields.io/github/stars/swarmclawai/swarmclaw)
 
   ###### UI
   - [CopilotKit](https://github.com/CopilotKit/CopilotKit) ![GitHub Tag](https://img.shields.io/github/v/tag/CopilotKit/CopilotKit) ![Release](https://img.shields.io/github/v/release/CopilotKit/CopilotKit) ![Star](https://img.shields.io/github/stars/CopilotKit/CopilotKit)
