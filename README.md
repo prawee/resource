@@ -187,6 +187,7 @@ flowchart LR
 
   ###### Agent
   - [AI SDK](https://github.com/vercel/ai) ![GitHub Tag](https://img.shields.io/github/v/tag/vercel/ai) ![Release](https://img.shields.io/github/v/release/vercel/ai) ![Star](https://img.shields.io/github/stars/vercel/ai)
+  - [Sim](https://github.com/simstudioai/sim) ![GitHub Tag](https://img.shields.io/github/v/tag/simstudioai/sim) ![Release](https://img.shields.io/github/v/release/simstudioai/sim) ![Star](https://img.shields.io/github/stars/simstudioai/sim)
   - [Mastra](https://github.com/mastra-ai/mastra) ![GitHub Tag](https://img.shields.io/github/v/tag/mastra-ai/mastra) ![Release](https://img.shields.io/github/v/release/mastra-ai/mastra) ![Star](https://img.shields.io/github/stars/mastra-ai/mastra)
   - [LangChainJS](https://github.com/langchain-ai/langchainjs) ![GitHub Tag](https://img.shields.io/github/v/tag/langchain-ai/langchainjs) ![Release](https://img.shields.io/github/v/release/langchain-ai/langchainjs) ![Star](https://img.shields.io/github/stars/langchain-ai/langchainjs)
   - [Voltagent](https://github.com/voltagent/voltagent) ![GitHub Tag](https://img.shields.io/github/v/tag/voltagent/voltagent) ![Release](https://img.shields.io/github/v/release/voltagent/voltagent) ![Star](https://img.shields.io/github/stars/voltagent/voltagent)
