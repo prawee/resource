@@ -208,6 +208,9 @@ flowchart LR
   - [vLLM](https://github.com/vllm-project/vllm) ![GitHub Tag](https://img.shields.io/github/v/tag/vllm-project/vllm) ![Release](https://img.shields.io/github/v/release/vllm-project/vllm) ![Star](https://img.shields.io/github/stars/vllm-project/vllm)
   - [LocalAI](https://github.com/mudler/LocalAI) ![GitHub Tag](https://img.shields.io/github/v/tag/mudler/LocalAI) ![Release](https://img.shields.io/github/v/release/mudler/LocalAI) ![Star](https://img.shields.io/github/stars/mudler/LocalAI)
   - [LM Studio](https://github.com/lmstudio-ai/lms) ![GitHub Tag](https://img.shields.io/github/v/tag/lmstudio-ai/lms) ![Release](https://img.shields.io/github/v/release/lmstudio-ai/lms) ![Star](https://img.shields.io/github/stars/lmstudio-ai/lms)
+
+  ###### Coding
+  - [Optio](https://github.com/jonwiggins/optio) ![GitHub Tag](https://img.shields.io/github/v/tag/jonwiggins/optio) ![Release](https://img.shields.io/github/v/release/jonwiggins/optio) ![Star](https://img.shields.io/github/stars/jonwiggins/optio)
   
 </details>
 
