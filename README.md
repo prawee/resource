@@ -247,7 +247,7 @@ flowchart LR
   <summary>Architecture</summary>
 
   ###### Stack
-  - [UV](https://github.com/better-stack-ai/better-stack) ![GitHub Tag](https://img.shields.io/github/v/tag/better-stack-ai/better-stack) ![Release](https://img.shields.io/github/v/release/better-stack-ai/better-stack) ![Star](https://img.shields.io/github/stars/better-stack-ai/better-stack)
+  - [Better Stack](https://github.com/better-stack-ai/better-stack) ![GitHub Tag](https://img.shields.io/github/v/tag/better-stack-ai/better-stack) ![Release](https://img.shields.io/github/v/release/better-stack-ai/better-stack) ![Star](https://img.shields.io/github/stars/better-stack-ai/better-stack)
 
 </details>
 
