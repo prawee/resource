@@ -15,6 +15,7 @@ My tools that I used
 |AI                  |
 |Security            |
 |Environment         |
+|Architecture        |
 
 ```mermaid
 flowchart LR
@@ -240,6 +241,17 @@ flowchart LR
   - [UV](https://github.com/astral-sh/uv) ![GitHub Tag](https://img.shields.io/github/v/tag/astral-sh/uv) ![Release](https://img.shields.io/github/v/release/astral-sh/uv) ![Star](https://img.shields.io/github/stars/astral-sh/uv)
 
 </details>
+
+<!--architecture-->
+<details open>
+  <summary>Architecture</summary>
+
+  ###### Stack
+  - [UV](https://github.com/better-stack-ai/better-stack) ![GitHub Tag](https://img.shields.io/github/v/tag/better-stack-ai/better-stack) ![Release](https://img.shields.io/github/v/release/better-stack-ai/better-stack) ![Star](https://img.shields.io/github/stars/better-stack-ai/better-stack)
+
+</details>
+
+
 
 ## Reference
 - [My Diary with OSX](https://github.com/prawee/my-daily-tools-osx)
