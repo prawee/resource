@@ -56,7 +56,6 @@ flowchart LR
   - [Laravel](https://github.com/laravel/laravel)  ![Tag](https://img.shields.io/github/v/tag/laravel/laravel) ![Release](https://img.shields.io/github/v/release/laravel/laravel) ![Star](https://img.shields.io/github/stars/laravel/laravel)
   - [Nest](https://github.com/nestjs/nest)  ![Tag](https://img.shields.io/github/v/tag/nestjs/nest) ![Release](https://img.shields.io/github/v/release/nestjs/nest) ![Star](https://img.shields.io/github/stars/nestjs/nest)
   - [Express](https://github.com/expressjs/express)  ![Tag](https://img.shields.io/github/v/tag/expressjs/express) ![Release](https://img.shields.io/github/v/release/expressjs/express) ![Star](https://img.shields.io/github/stars/expressjs/express)
-  - [Strapi](https://github.com/strapi/strapi)  ![Tag](https://img.shields.io/github/v/tag/strapi/strapi) ![Release](https://img.shields.io/github/v/release/strapi/strapi) ![Star](https://img.shields.io/github/stars/strapi/strapi)
   - [Gatsby](https://github.com/gatsbyjs/gatsby)  ![Tag](https://img.shields.io/github/v/tag/gatsbyjs/gatsby) ![Release](https://img.shields.io/github/v/release/gatsbyjs/gatsby) ![Star](https://img.shields.io/github/stars/gatsbyjs/gatsby)
   - [Meteor](https://github.com/meteor/meteor)  ![Tag](https://img.shields.io/github/v/tag/meteor/meteor) ![Release](https://img.shields.io/github/v/release/meteor/meteor) ![Star](https://img.shields.io/github/stars/meteor/meteor)
   - [Kong](https://github.com/Kong/kong)  ![Tag](https://img.shields.io/github/v/tag/Kong/kong) ![Release](https://img.shields.io/github/v/release/Kong/kong) ![Star](https://img.shields.io/github/stars/Kong/kong)
@@ -68,6 +67,10 @@ flowchart LR
   - [Feathers](https://github.com/feathersjs/feathers)  ![Tag](https://img.shields.io/github/v/tag/feathersjs/feathers) ![Release](https://img.shields.io/github/v/release/feathersjs/feathers) ![Star](https://img.shields.io/github/stars/feathersjs/feathers)
   - [Yii](https://github.com/yiisoft/yii2)  ![Tag](https://img.shields.io/github/v/tag/yiisoft/yii2) ![Release](https://img.shields.io/github/v/release/yiisoft/yii2) ![Star](https://img.shields.io/github/stars/yiisoft/yii2)
   - [Elysia](https://github.com/elysiajs/elysia)  ![Tag](https://img.shields.io/github/v/tag/elysiajs/elysia) ![Release](https://img.shields.io/github/v/release/elysiajs/elysia) ![Star](https://img.shields.io/github/stars/elysiajs/elysia)
+
+ ###### Headless CMS
+  - [Strapi](https://github.com/strapi/strapi)  ![Tag](https://img.shields.io/github/v/tag/strapi/strapi) ![Release](https://img.shields.io/github/v/release/strapi/strapi) ![Star](https://img.shields.io/github/stars/strapi/strapi)
+  - [Directus](https://github.com/directus/directus)  ![Tag](https://img.shields.io/github/v/tag/directus/directus) ![Release](https://img.shields.io/github/v/release/directus/directus) ![Star](https://img.shields.io/github/stars/directus/directus)
 
  ###### Lambda
   - [Bref - PHP](https://github.com/brefphp/bref)  ![Tag](https://img.shields.io/github/v/tag/brefphp/bref) ![Release](https://img.shields.io/github/v/release/brefphp/bref) ![Star](https://img.shields.io/github/stars/brefphp/bref)
