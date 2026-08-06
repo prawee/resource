@@ -251,8 +251,9 @@ flowchart LR
   <summary>Architecture</summary>
 
   ###### Stack
-  - [Objectstack](https://github.com/objectstack-ai/objectstack) ![GitHub Tag](https://img.shields.io/github/v/tag/objectstack-ai/objectstack) ![Release](https://img.shields.io/github/v/release/objectstack-ai/objectstack) ![Star](https://img.shields.io/github/stars/objectstack-ai/objectstack)
+  - [Agent Native](https://github.com/BuilderIO/agent-native) ![GitHub Tag](https://img.shields.io/github/v/tag/BuilderIO/agent-native) ![Release](https://img.shields.io/github/v/release/BuilderIO/agent-native) ![Star](https://img.shields.io/github/stars/BuilderIO/agent-native)
   - [Better Stack](https://github.com/better-stack-ai/better-stack) ![GitHub Tag](https://img.shields.io/github/v/tag/better-stack-ai/better-stack) ![Release](https://img.shields.io/github/v/release/better-stack-ai/better-stack) ![Star](https://img.shields.io/github/stars/better-stack-ai/better-stack)
+  - [Objectstack](https://github.com/objectstack-ai/objectstack) ![GitHub Tag](https://img.shields.io/github/v/tag/objectstack-ai/objectstack) ![Release](https://img.shields.io/github/v/release/objectstack-ai/objectstack) ![Star](https://img.shields.io/github/stars/objectstack-ai/objectstack)
 
 </details>
 
