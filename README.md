@@ -217,6 +217,7 @@ flowchart LR
   - [LM Studio](https://github.com/lmstudio-ai/lms) ![GitHub Tag](https://img.shields.io/github/v/tag/lmstudio-ai/lms) ![Release](https://img.shields.io/github/v/release/lmstudio-ai/lms) ![Star](https://img.shields.io/github/stars/lmstudio-ai/lms)
 
   ###### Coding
+  - [OpenChamber](https://github.com/openchamber/openchamber) ![GitHub Tag](https://img.shields.io/github/v/tag/openchamber/openchamber) ![Release](https://img.shields.io/github/v/release/openchamber/openchamber) ![Star](https://img.shields.io/github/stars/openchamber/openchamber)
   - [Optio](https://github.com/jonwiggins/optio) ![GitHub Tag](https://img.shields.io/github/v/tag/jonwiggins/optio) ![Release](https://img.shields.io/github/v/release/jonwiggins/optio) ![Star](https://img.shields.io/github/stars/jonwiggins/optio)
   - [Opencastle](https://github.com/monkilabs/opencastle) ![GitHub Tag](https://img.shields.io/github/v/tag/monkilabs/opencastle) ![Release](https://img.shields.io/github/v/release/monkilabs/opencastle) ![Star](https://img.shields.io/github/stars/monkilabs/opencastle)
   
