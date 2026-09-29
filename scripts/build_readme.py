@@ -66,9 +66,8 @@ def graphql_stars(tools, token):
         for value in data["data"].values():
             if value:
                 stars[value["nameWithOwner"].lower()] = int(value["stargazerCount"])
-        missing = [t["repository"] for t in batch if t["repository"].lower() not in stars]
-        if missing:
-            raise RuntimeError("Repositories not found on GitHub: " + ", ".join(missing))
+        # A deleted, private, or renamed repository returns null. Keep it in the
+        # catalog with a live badge, while still refreshing every reachable repo.
     return stars
 
 
@@ -100,7 +99,7 @@ def fetch_stars(tools, offline=False):
 def make_readme(tools, stars):
     categories = defaultdict(list)
     for tool in tools:
-        tool["stars"] = stars[tool["repository"].lower()]
+        tool["stars"] = stars.get(tool["repository"].lower())
         categories[tool["category"]].append(tool)
     category_names = sorted(categories, key=str.casefold)
 
