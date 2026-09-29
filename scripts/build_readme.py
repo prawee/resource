@@ -129,13 +129,19 @@ def make_readme(tools, stars):
     ]
 
     for category in category_names:
-        lines.extend([f"## {category}", ""])
+        anchor = re.sub(r"[^a-z0-9 -]", "", category.casefold()).replace(" ", "-")
+        lines.extend([
+            f'<a id="{anchor}"></a>',
+            "<details open>",
+            f"<summary>{category} ({len(categories[category])})</summary>",
+            "",
+        ])
         grouped = defaultdict(list)
         for tool in categories[category]:
             grouped[tool["subcategory"]].append(tool)
         for subcategory in sorted(grouped, key=str.casefold):
             if subcategory:
-                lines.extend([f"### {subcategory}", ""])
+                lines.extend([f"#### {subcategory}", ""])
             for tool in sorted(grouped[subcategory], key=lambda t: (-(t["stars"] or 0), t["name"].casefold())):
                 desc = f" — {tool['description']}" if tool["description"] else ""
                 repository = tool["repository"]
@@ -144,6 +150,7 @@ def make_readme(tools, stars):
                 stars = f"⭐ {tool['stars']:,}" if tool["stars"] is not None else f"![GitHub stars](https://img.shields.io/github/stars/{repository}?style=flat)"
                 lines.append(f"- [{tool['name']}](https://github.com/{repository}) — {tag} {release} {stars}{desc}")
             lines.append("")
+        lines.extend(["</details>", ""])
 
     lines.extend([
         "## Add a tool",
