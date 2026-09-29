@@ -138,11 +138,8 @@ def make_readme(tools, stars):
                 lines.extend([f"### {subcategory}", ""])
             for tool in sorted(grouped[subcategory], key=lambda t: (-(t["stars"] or 0), t["name"].casefold())):
                 desc = f" — {tool['description']}" if tool["description"] else ""
-                repository = tool["repository"]
-                tag = f"![Latest tag](https://img.shields.io/github/v/tag/{repository})"
-                release = f"![Latest release](https://img.shields.io/github/v/release/{repository})"
-                stars = f"⭐ {tool['stars']:,}" if tool["stars"] is not None else f"![GitHub stars](https://img.shields.io/github/stars/{repository}?style=flat)"
-                lines.append(f"- [{tool['name']}](https://github.com/{repository}) — {tag} {release} {stars}{desc}")
+                stars = f"⭐ {tool['stars']:,}" if tool["stars"] is not None else f"![GitHub stars](https://img.shields.io/github/stars/{tool['repository']}?style=flat)"
+                lines.append(f"- [{tool['name']}](https://github.com/{tool['repository']}) — {stars}{desc}")
             lines.append("")
 
     lines.extend([
