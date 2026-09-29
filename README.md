@@ -1,258 +1,268 @@
 # Resource
 
-My tools that I use and research.
+My tools that I used
 
-A curated catalog of useful tools and open source projects. Each entry lives in its own Markdown file under [`tools/`](tools/), so the list can grow without a database.
-
-## Overview
-
-The chart shows the number of projects in each category. Star badges are live; GitHub Actions fetches numeric counts daily and sorts entries by stars within each category.
+|Full Stack Developer|
+|--------------------|
+|Frontend            |
+|Backend             |
+|Database            |
+|DevOps              |
+|Mobile              |
+|Quantity Assurance  |
+|Document            |
+|Utils               |
+|AI                  |
+|Security            |
+|Environment         |
+|Architecture        |
 
 ```mermaid
-xychart-beta horizontal
-    x-axis "Category" ["AI", "Architecture", "Backend", "Database", "DevOps", "Document", "Environment", "Frontend", "Mobile", "Quality Assurance", "Reference", "Security", "Utils"]
-    y-axis "Repositories" 0 --> 22
-    bar [22, 4, 17, 13, 8, 6, 1, 18, 8, 11, 2, 3, 16]
+flowchart LR
+  Frontend --> Backend
+  Mobile --> Backend
+  Backend --> Database
 ```
 
-## Categories
+<!--Frontend-->
+<details open>
+  <summary>Frontend</summary>
 
-[AI](#ai) | [Architecture](#architecture) | [Backend](#backend) | [Database](#database) | [DevOps](#devops) | [Document](#document) | [Environment](#environment) | [Frontend](#frontend) | [Mobile](#mobile) | [Quality Assurance](#quality-assurance) | [Reference](#reference) | [Security](#security) | [Utils](#utils)
+  ###### UI
+  - [React](https://github.com/facebook/react)  ![Tag](https://img.shields.io/github/v/tag/facebook/react) ![Release](https://img.shields.io/github/v/release/facebook/react) ![Star](https://img.shields.io/github/stars/facebook/react)
+  - [Vue](https://github.com/vuejs/vue)  ![Tag](https://img.shields.io/github/v/tag/vuejs/vue) ![Release](https://img.shields.io/github/v/release/vuejs/vue) ![Star](https://img.shields.io/github/stars/vuejs/vue)
+  - [Bootstrap](https://github.com/twbs/bootstrap)  ![Tag](https://img.shields.io/github/v/tag/twbs/bootstrap) ![Release](https://img.shields.io/github/v/release/twbs/bootstrap) ![Star](https://img.shields.io/github/stars/twbs/bootstrap)
+  - [Next](https://github.com/vercel/next.js)  ![Tag](https://img.shields.io/github/v/tag/vercel/next.js) ![Release](https://img.shields.io/github/v/release/vercel/next.js) ![Star](https://img.shields.io/github/stars/vercel/next.js)
+  - [Ant Design](https://github.com/ant-design/ant-design)  ![Tag](https://img.shields.io/github/v/tag/ant-design/ant-design) ![Release](https://img.shields.io/github/v/release/ant-design/ant-design) ![Star](https://img.shields.io/github/stars/ant-design/ant-design)
+  - [Tailwind](https://github.com/tailwindlabs/tailwindcss)  ![Tag](https://img.shields.io/github/v/tag/tailwindlabs/tailwindcss) ![Release](https://img.shields.io/github/v/release/tailwindlabs/tailwindcss) ![Star](https://img.shields.io/github/stars/tailwindlabs/tailwindcss)
+  - [Shadcn](https://github.com/shadcn-ui/ui)  ![Tag](https://img.shields.io/github/v/tag/shadcn-ui/ui) ![Release](https://img.shields.io/github/v/release/shadcn-ui/ui) ![Star](https://img.shields.io/github/stars/shadcn-ui/ui)
+  - [Bulma](https://github.com/jgthms/bulma)  ![Tag](https://img.shields.io/github/v/tag/jgthms/bulma) ![Release](https://img.shields.io/github/v/release/jgthms/bulma) ![Star](https://img.shields.io/github/stars/jgthms/bulma)
+  - [Style Components](https://github.com/styled-components/styled-components)  ![Tag](https://img.shields.io/github/v/tag/styled-components/styled-components) ![Release](https://img.shields.io/github/v/release/styled-components/styled-components) ![Star](https://img.shields.io/github/stars/styled-components/styled-components)
+  - [Tabler](https://github.com/tabler/tabler)  ![Tag](https://img.shields.io/github/v/tag/tabler/tabler) ![Release](https://img.shields.io/github/v/release/tabler/tabler) ![Star](https://img.shields.io/github/stars/tabler/tabler)
+  - [ChakraUI](https://github.com/chakra-ui/chakra-ui)  ![Tag](https://img.shields.io/github/v/tag/chakra-ui/chakra-ui) ![Release](https://img.shields.io/github/v/release/chakra-ui/chakra-ui) ![Star](https://img.shields.io/github/stars/chakra-ui/chakra-ui)
+  - [daisyUI](https://github.com/saadeghi/daisyui)  ![Tag](https://img.shields.io/github/v/tag/saadeghi/daisyui) ![Release](https://img.shields.io/github/v/release/saadeghi/daisyui) ![Star](https://img.shields.io/github/stars/saadeghi/daisyui)
+  - [Remix](https://github.com/remix-run/remix)  ![Tag](https://img.shields.io/github/v/tag/remix-run/remix) ![Release](https://img.shields.io/github/v/release/remix-run/remix) ![Star](https://img.shields.io/github/stars/remix-run/remix)
+  - [Refine](https://github.com/refinedev/refine)  ![Tag](https://img.shields.io/github/v/tag/refinedev/refine) ![Release](https://img.shields.io/github/v/release/refinedev/refine) ![Star](https://img.shields.io/github/stars/refinedev/refine)
+  - [Mantine](https://github.com/mantinedev/mantine)  ![Tag](https://img.shields.io/github/v/tag/mantinedev/mantine) ![Release](https://img.shields.io/github/v/release/mantinedev/mantine) ![Star](https://img.shields.io/github/stars/mantinedev/mantine)
+  - [Tamagui](https://github.com/tamagui/tamagui)  ![Tag](https://img.shields.io/github/v/tag/tamagui/tamagui) ![Release](https://img.shields.io/github/v/release/tamagui/tamagui) ![Star](https://img.shields.io/github/stars/tamagui/tamagui)
+  - [Prime](https://github.com/primefaces/primereact)  ![Tag](https://img.shields.io/github/v/tag/primefaces/primereact) ![Release](https://img.shields.io/github/v/release/primefaces/primereact) ![Star](https://img.shields.io/github/stars/primefaces/primereact)
+  - [One](https://github.com/onejs/one)  ![Tag](https://img.shields.io/github/v/tag/onejs/one) ![Release](https://img.shields.io/github/v/release/onejs/one) ![Star](https://img.shields.io/github/stars/onejs/one)
+</details>
 
-## AI
+<!--backend-->
+<details open>
+  <summary>Backend</summary>
 
-### Agent
+  - [Laravel](https://github.com/laravel/laravel)  ![Tag](https://img.shields.io/github/v/tag/laravel/laravel) ![Release](https://img.shields.io/github/v/release/laravel/laravel) ![Star](https://img.shields.io/github/stars/laravel/laravel)
+  - [Nest](https://github.com/nestjs/nest)  ![Tag](https://img.shields.io/github/v/tag/nestjs/nest) ![Release](https://img.shields.io/github/v/release/nestjs/nest) ![Star](https://img.shields.io/github/stars/nestjs/nest)
+  - [Express](https://github.com/expressjs/express)  ![Tag](https://img.shields.io/github/v/tag/expressjs/express) ![Release](https://img.shields.io/github/v/release/expressjs/express) ![Star](https://img.shields.io/github/stars/expressjs/express)
+  - [Gatsby](https://github.com/gatsbyjs/gatsby)  ![Tag](https://img.shields.io/github/v/tag/gatsbyjs/gatsby) ![Release](https://img.shields.io/github/v/release/gatsbyjs/gatsby) ![Star](https://img.shields.io/github/stars/gatsbyjs/gatsby)
+  - [Meteor](https://github.com/meteor/meteor)  ![Tag](https://img.shields.io/github/v/tag/meteor/meteor) ![Release](https://img.shields.io/github/v/release/meteor/meteor) ![Star](https://img.shields.io/github/stars/meteor/meteor)
+  - [Kong](https://github.com/Kong/kong)  ![Tag](https://img.shields.io/github/v/tag/Kong/kong) ![Release](https://img.shields.io/github/v/release/Kong/kong) ![Star](https://img.shields.io/github/stars/Kong/kong)
+  - [Fastify](https://github.com/fastify/fastify)  ![Tag](https://img.shields.io/github/v/tag/fastify/fastify) ![Release](https://img.shields.io/github/v/release/fastify/fastify) ![Star](https://img.shields.io/github/stars/fastify/fastify)
+  - [Rocket](https://github.com/rwf2/Rocket)  ![Tag](https://img.shields.io/github/v/tag/rwf2/Rocket) ![Release](https://img.shields.io/github/v/release/rwf2/Rocket) ![Star](https://img.shields.io/github/stars/rwf2/Rocket)
+  - [Hono](https://github.com/honojs/hono)  ![Tag](https://img.shields.io/github/v/tag/honojs/hono) ![Release](https://img.shields.io/github/v/release/honojs/hono) ![Star](https://img.shields.io/github/stars/honojs/hono)
+  - [SST](https://github.com/sst/sst)  ![Tag](https://img.shields.io/github/v/tag/sst/sst) ![Release](https://img.shields.io/github/v/release/sst/sst) ![Star](https://img.shields.io/github/stars/sst/sst)
+  - [Redwood](https://github.com/redwoodjs/redwood)  ![Tag](https://img.shields.io/github/v/tag/redwoodjs/redwood) ![Release](https://img.shields.io/github/v/release/redwoodjs/redwood) ![Star](https://img.shields.io/github/stars/redwoodjs/redwood)
+  - [Feathers](https://github.com/feathersjs/feathers)  ![Tag](https://img.shields.io/github/v/tag/feathersjs/feathers) ![Release](https://img.shields.io/github/v/release/feathersjs/feathers) ![Star](https://img.shields.io/github/stars/feathersjs/feathers)
+  - [Yii](https://github.com/yiisoft/yii2)  ![Tag](https://img.shields.io/github/v/tag/yiisoft/yii2) ![Release](https://img.shields.io/github/v/release/yiisoft/yii2) ![Star](https://img.shields.io/github/stars/yiisoft/yii2)
+  - [Elysia](https://github.com/elysiajs/elysia)  ![Tag](https://img.shields.io/github/v/tag/elysiajs/elysia) ![Release](https://img.shields.io/github/v/release/elysiajs/elysia) ![Star](https://img.shields.io/github/stars/elysiajs/elysia)
 
-- [AI SDK](https://github.com/vercel/ai) — ![GitHub stars](https://img.shields.io/github/stars/vercel/ai?style=flat)
-- [Flue](https://github.com/withastro/flue) — ![GitHub stars](https://img.shields.io/github/stars/withastro/flue?style=flat)
-- [LangChainJS](https://github.com/langchain-ai/langchainjs) — ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchainjs?style=flat)
-- [Mastra](https://github.com/mastra-ai/mastra) — ![GitHub stars](https://img.shields.io/github/stars/mastra-ai/mastra?style=flat)
-- [Sim](https://github.com/simstudioai/sim) — ![GitHub stars](https://img.shields.io/github/stars/simstudioai/sim?style=flat)
-- [Swarmclaw](https://github.com/swarmclawai/swarmclaw) — ![GitHub stars](https://img.shields.io/github/stars/swarmclawai/swarmclaw?style=flat)
-- [Voltagent](https://github.com/voltagent/voltagent) — ![GitHub stars](https://img.shields.io/github/stars/voltagent/voltagent?style=flat)
+ ###### Headless CMS
+  - [Strapi](https://github.com/strapi/strapi)  ![Tag](https://img.shields.io/github/v/tag/strapi/strapi) ![Release](https://img.shields.io/github/v/release/strapi/strapi) ![Star](https://img.shields.io/github/stars/strapi/strapi)
+  - [Directus](https://github.com/directus/directus)  ![Tag](https://img.shields.io/github/v/tag/directus/directus) ![Release](https://img.shields.io/github/v/release/directus/directus) ![Star](https://img.shields.io/github/stars/directus/directus)
 
-### Coding
+ ###### Lambda
+  - [Bref - PHP](https://github.com/brefphp/bref)  ![Tag](https://img.shields.io/github/v/tag/brefphp/bref) ![Release](https://img.shields.io/github/v/release/brefphp/bref) ![Star](https://img.shields.io/github/stars/brefphp/bref)
+</details>
 
-- [Opencastle](https://github.com/monkilabs/opencastle) — ![GitHub stars](https://img.shields.io/github/stars/monkilabs/opencastle?style=flat)
-- [OpenChamber](https://github.com/openchamber/openchamber) — ![GitHub stars](https://img.shields.io/github/stars/openchamber/openchamber?style=flat)
-- [Optio](https://github.com/jonwiggins/optio) — ![GitHub stars](https://img.shields.io/github/stars/jonwiggins/optio?style=flat)
+<!--Database-->
+<details open>
+  <summary>Database</summary>
 
-### Generative AI
+  ###### ORM
+  - [Prisma](https://github.com/prisma/prisma)  ![Tag](https://img.shields.io/github/v/tag/prisma/prisma) ![Release](https://img.shields.io/github/v/release/prisma/prisma) ![Star](https://img.shields.io/github/stars/prisma/prisma)
+  - [TypeORM](https://github.com/typeorm/typeorm)  ![Tag](https://img.shields.io/github/v/tag/typeorm/typeorm) ![Release](https://img.shields.io/github/v/release/typeorm/typeorm) ![Star](https://img.shields.io/github/stars/typeorm/typeorm)
+  - [Sequelize](https://github.com/sequelize/sequelize)  ![Tag](https://img.shields.io/github/v/tag/sequelize/sequelize) ![Release](https://img.shields.io/github/v/release/sequelize/sequelize) ![Star](https://img.shields.io/github/stars/sequelize/sequelize)
+  - [DrizzleORM](https://github.com/drizzle-team/drizzle-orm)  ![Tag](https://img.shields.io/github/v/tag/drizzle-team/drizzle-orm) ![Release](https://img.shields.io/github/v/release/drizzle-team/drizzle-orm) ![Star](https://img.shields.io/github/stars/drizzle-team/drizzle-orm)
+  - [Knex](https://github.com/knex/knex)  ![Tag](https://img.shields.io/github/v/tag/knex/knex) ![Release](https://img.shields.io/github/v/release/knex/knex) ![Star](https://img.shields.io/github/stars/knex/knex)
+  - [MikroORM](https://github.com/mikro-orm/mikro-orm)  ![Tag](https://img.shields.io/github/v/tag/mikro-orm/mikro-orm) ![Release](https://img.shields.io/github/v/release/mikro-orm/mikro-orm) ![Star](https://img.shields.io/github/stars/mikro-orm/mikro-orm)
+  - [Objection](https://github.com/vincit/objection.js)  ![Tag](https://img.shields.io/github/v/tag/vincit/objection.js) ![Release](https://img.shields.io/github/v/release/vincit/objection.js) ![Star](https://img.shields.io/github/stars/vincit/objection.js)
 
-- [GPT4All](https://github.com/nomic-ai/gpt4all) — ![GitHub stars](https://img.shields.io/github/stars/nomic-ai/gpt4all?style=flat)
-- [LM Studio](https://github.com/lmstudio-ai/lms) — ![GitHub stars](https://img.shields.io/github/stars/lmstudio-ai/lms?style=flat)
-- [LocalAI](https://github.com/mudler/LocalAI) — ![GitHub stars](https://img.shields.io/github/stars/mudler/LocalAI?style=flat)
-- [Ollama](https://github.com/ollama/ollama) — ![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=flat)
-- [vLLM](https://github.com/vllm-project/vllm) — ![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=flat)
+  ###### Store
+  - [MongoDB](https://github.com/mongodb/mongo)  ![Tag](https://img.shields.io/github/v/tag/mongodb/mongo) ![Release](https://img.shields.io/github/v/release/mongodb/mongo) ![Star](https://img.shields.io/github/stars/mongodb/mongo)
+  - [TimeScale](https://github.com/timescale/timescaledb)  ![Tag](https://img.shields.io/github/v/tag/timescale/timescaledb) ![Release](https://img.shields.io/github/v/release/timescale/timescaledb) ![Star](https://img.shields.io/github/stars/timescale/timescaledb)
+  - [MySQL](https://github.com/mysqljs/mysql)  ![Tag](https://img.shields.io/github/v/tag/mysqljs/mysql) ![Release](https://img.shields.io/github/v/release/mysqljs/mysql) ![Star](https://img.shields.io/github/stars/mysqljs/mysql)
+  - [Postgres](https://github.com/postgres/postgres)  ![Tag](https://img.shields.io/github/v/tag/postgres/postgres) ![Release](https://img.shields.io/github/v/release/postgres/postgres) ![Star](https://img.shields.io/github/stars/postgres/postgres)
+  - [SQLite](https://github.com/sqlite/sqlite)  ![Tag](https://img.shields.io/github/v/tag/sqlite/sqlite) ![Release](https://img.shields.io/github/v/release/sqlite/sqlite) ![Star](https://img.shields.io/github/stars/sqlite/sqlite)
+  - [MariaDB](https://github.com/MariaDB/server)  ![Tag](https://img.shields.io/github/v/tag/MariaDB/server) ![Release](https://img.shields.io/github/v/release/MariaDB/server) ![Star](https://img.shields.io/github/stars/MariaDB/server)
+</details>
 
-### Personal AI Assistant
+<!--DevOps-->
+<details open>
+  <summary>DevOps</summary>
 
-- [Nanobot](https://github.com/HKUDS/nanobot) — ![GitHub stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=flat)
-- [OpenClaw](https://github.com/openclaw/openclaw) — ![GitHub stars](https://img.shields.io/github/stars/openclaw/openclaw?style=flat)
+  - [Caddy](https://github.com/caddyserver/caddy)  ![Tag](https://img.shields.io/github/v/tag/caddyserver/caddy) ![Release](https://img.shields.io/github/v/release/caddyserver/caddy) ![Star](https://img.shields.io/github/stars/caddyserver/caddy)
+  - [PM2](https://github.com/Unitech/pm2)  ![Tag](https://img.shields.io/github/v/tag/Unitech/pm2) ![Release](https://img.shields.io/github/v/release/Unitech/pm2) ![Star](https://img.shields.io/github/stars/Unitech/pm2)
+  - [Portainer](https://github.com/portainer/portainer)  ![Tag](https://img.shields.io/github/v/tag/portainer/portainer) ![Release](https://img.shields.io/github/v/release/portainer/portainer) ![Star](https://img.shields.io/github/stars/portainer/portainer)
+  - [Nginx](https://github.com/nginx/nginx)  ![Tag](https://img.shields.io/github/v/tag/nginx/nginx) ![Release](https://img.shields.io/github/v/release/nginx/nginx) ![Star](https://img.shields.io/github/stars/nginx/nginx)
+  - [Vercel](https://github.com/vercel/vercel)  ![Tag](https://img.shields.io/github/v/tag/vercel/vercel) ![Release](https://img.shields.io/github/v/release/vercel/vercel) ![Star](https://img.shields.io/github/stars/vercel/vercel)
+  - [DDev](https://github.com/ddev/ddev)  ![Tag](https://img.shields.io/github/v/tag/ddev/ddev) ![Release](https://img.shields.io/github/v/release/ddev/ddev) ![Star](https://img.shields.io/github/stars/ddev/ddev)
+  - [Piko](https://github.com/andydunstall/piko)  ![Tag](https://img.shields.io/github/v/tag/andydunstall/piko) ![Release](https://img.shields.io/github/v/release/andydunstall/piko) ![Star](https://img.shields.io/github/stars/andydunstall/piko)
+  - [Kool](https://github.com/kool-dev/kool)  ![Tag](https://img.shields.io/github/v/tag/kool-dev/kool) ![Release](https://img.shields.io/github/v/release/kool-dev/kool) ![Star](https://img.shields.io/github/stars/kool-dev/kool)
+</details>
 
-### UI
+<!--Mobile-->
+<details open>
+  <summary>Mobile</summary>
 
-- [AG UI](https://github.com/ag-ui-protocol/ag-ui) — ![GitHub stars](https://img.shields.io/github/stars/ag-ui-protocol/ag-ui?style=flat)
-- [AionUi](https://github.com/iOfficeAI/AionUi) — ![GitHub stars](https://img.shields.io/github/stars/iOfficeAI/AionUi?style=flat)
-- [Assistant UI](https://github.com/assistant-ui/assistant-ui) — ![GitHub stars](https://img.shields.io/github/stars/assistant-ui/assistant-ui?style=flat)
-- [CopilotKit](https://github.com/CopilotKit/CopilotKit) — ![GitHub stars](https://img.shields.io/github/stars/CopilotKit/CopilotKit?style=flat)
-- [Tambo](https://github.com/tambo-ai/tambo) — ![GitHub stars](https://img.shields.io/github/stars/tambo-ai/tambo?style=flat)
+  ###### Core
+  - [Flutter](https://github.com/flutter/flutter)  ![Tag](https://img.shields.io/github/v/tag/flutter/flutter) ![Release](https://img.shields.io/github/v/release/flutter/flutter) ![Star](https://img.shields.io/github/stars/flutter/flutter)
+  - [React Native](https://github.com/facebook/react-native)  ![Tag](https://img.shields.io/github/v/tag/facebook/react-native) ![Release](https://img.shields.io/github/v/release/facebook/react-native) ![Star](https://img.shields.io/github/stars/facebook/react-native)
+  - [Expo](https://github.com/expo/expo)  ![Tag](https://img.shields.io/github/v/tag/expo/expo) ![Release](https://img.shields.io/github/v/release/expo/expo) ![Star](https://img.shields.io/github/stars/expo/expo)
+  - [Dioxus](https://github.com/DioxusLabs/dioxus)  ![Tag](https://img.shields.io/github/v/tag/DioxusLabs/dioxus) ![Release](https://img.shields.io/github/v/release/DioxusLabs/dioxus) ![Star](https://img.shields.io/github/stars/DioxusLabs/dioxus)
+  - [Flet](https://github.com/flet-dev/flet)  ![Tag](https://img.shields.io/github/v/tag/flet-dev/flet) ![Release](https://img.shields.io/github/v/release/flet-dev/flet) ![Star](https://img.shields.io/github/stars/flet-dev/flet)
+  - [Lynx](https://github.com/lynx-family/lynx)  ![Tag](https://img.shields.io/github/v/tag/lynx-family/lynx) ![Release](https://img.shields.io/github/v/release/lynx-family/lynx) ![Star](https://img.shields.io/github/stars/lynx-family/lynx)
 
-## Architecture
+  ###### Boilerplace
+  - [Ignite](https://github.com/infinitered/ignite)  ![Tag](https://img.shields.io/github/v/tag/infinitered/ignite) ![Release](https://img.shields.io/github/v/release/infinitered/ignite) ![Star](https://img.shields.io/github/stars/infinitered/ignite)
+  - [React Native](https://github.com/wataru-maeda/react-native-boilerplate)  ![Tag](https://img.shields.io/github/v/tag/wataru-maeda/react-native-boilerplate) ![Release](https://img.shields.io/github/v/release/wataru-maeda/react-native-boilerplate) ![Star](https://img.shields.io/github/stars/wataru-maeda/react-native-boilerplate)
+</details>
 
-### Packages
+<!--Quanlity Assurance-->
+<details open>
+  <summary>Quanlity Assurance</summary>
 
-- [Nix](https://github.com/NixOS/nixpkgs) — ![GitHub stars](https://img.shields.io/github/stars/NixOS/nixpkgs?style=flat)
+  ###### Automated Testing
+  - [Playwright](https://github.com/microsoft/playwright) ![GitHub Tag](https://img.shields.io/github/v/tag/microsoft/playwright) ![Release](https://img.shields.io/github/v/release/microsoft/playwright) ![Star](https://img.shields.io/github/stars/microsoft/playwright)
+  - [Cypress](https://github.com/cypress-io/cypress) ![GitHub Tag](https://img.shields.io/github/v/tag/cypress-io/cypress) ![Release](https://img.shields.io/github/v/release/cypress-io/cypress) ![Star](https://img.shields.io/github/stars/cypress-io/cypress)
+  - [Jest](https://github.com/jestjs/jest) ![GitHub Tag](https://img.shields.io/github/v/tag/jestjs/jest) ![Release](https://img.shields.io/github/v/release/jestjs/jest) ![Star](https://img.shields.io/github/stars/jestjs/jest)
+  - [Sentry](https://github.com/getsentry/sentry)  ![Tag](https://img.shields.io/github/v/tag/getsentry/sentry) ![Release](https://img.shields.io/github/v/release/getsentry/sentry) ![Star](https://img.shields.io/github/stars/getsentry/sentry)
+  - [Zod](https://github.com/colinhacks/zod)  ![Tag](https://img.shields.io/github/v/tag/colinhacks/zod) ![Release](https://img.shields.io/github/v/release/colinhacks/zod) ![Star](https://img.shields.io/github/stars/colinhacks/zod)
 
-### Stack
+  ###### Load Testing
+  - [K6](https://github.com/grafana/k6)  ![Tag](https://img.shields.io/github/v/tag/grafana/k6) ![Release](https://img.shields.io/github/v/release/grafana/k6) ![Star](https://img.shields.io/github/stars/grafana/k6)
+  - [Locust](https://github.com/locustio/locust)  ![Tag](https://img.shields.io/github/v/tag/locustio/locust) ![Release](https://img.shields.io/github/v/release/locustio/locust) ![Star](https://img.shields.io/github/stars/locustio/locust)
+  - [JMeter](https://github.com/apache/jmeter)  ![Tag](https://img.shields.io/github/v/tag/apache/jmeter) ![Release](https://img.shields.io/github/v/release/apache/jmeter) ![Star](https://img.shields.io/github/stars/apache/jmeter)
+  - [Gatling](https://github.com/gatling/gatling)  ![Tag](https://img.shields.io/github/v/tag/gatling/gatling) ![Release](https://img.shields.io/github/v/release/gatling/gatling) ![Star](https://img.shields.io/github/stars/gatling/gatling)
+  - [Taurus](https://github.com/Blazemeter/taurus)  ![Tag](https://img.shields.io/github/v/tag/Blazemeter/taurus) ![Release](https://img.shields.io/github/v/release/Blazemeter/taurus) ![Star](https://img.shields.io/github/stars/Blazemeter/taurus)
 
-- [Agent Native](https://github.com/BuilderIO/agent-native) — ![GitHub stars](https://img.shields.io/github/stars/BuilderIO/agent-native?style=flat)
-- [Better Stack](https://github.com/better-stack-ai/better-stack) — ![GitHub stars](https://img.shields.io/github/stars/better-stack-ai/better-stack?style=flat)
-- [Objectstack](https://github.com/objectstack-ai/objectstack) — ![GitHub stars](https://img.shields.io/github/stars/objectstack-ai/objectstack?style=flat)
+  ###### Application Performance Monitoring
+  - [SigNoz](https://github.com/SigNoz/signoz)  ![Tag](https://img.shields.io/github/v/tag/SigNoz/signoz) ![Release](https://img.shields.io/github/v/release/SigNoz/signoz) ![Star](https://img.shields.io/github/stars/SigNoz/signoz)
+</details>
 
-## Backend
+<!--Document-->
+<details open>
+  <summary>Document</summary>
 
-- [Elysia](https://github.com/elysiajs/elysia) — ![GitHub stars](https://img.shields.io/github/stars/elysiajs/elysia?style=flat)
-- [Express](https://github.com/expressjs/express) — ![GitHub stars](https://img.shields.io/github/stars/expressjs/express?style=flat)
-- [Fastify](https://github.com/fastify/fastify) — ![GitHub stars](https://img.shields.io/github/stars/fastify/fastify?style=flat)
-- [Feathers](https://github.com/feathersjs/feathers) — ![GitHub stars](https://img.shields.io/github/stars/feathersjs/feathers?style=flat)
-- [Gatsby](https://github.com/gatsbyjs/gatsby) — ![GitHub stars](https://img.shields.io/github/stars/gatsbyjs/gatsby?style=flat)
-- [Hono](https://github.com/honojs/hono) — ![GitHub stars](https://img.shields.io/github/stars/honojs/hono?style=flat)
-- [Kong](https://github.com/Kong/kong) — ![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=flat)
-- [Laravel](https://github.com/laravel/laravel) — ![GitHub stars](https://img.shields.io/github/stars/laravel/laravel?style=flat)
-- [Meteor](https://github.com/meteor/meteor) — ![GitHub stars](https://img.shields.io/github/stars/meteor/meteor?style=flat)
-- [Nest](https://github.com/nestjs/nest) — ![GitHub stars](https://img.shields.io/github/stars/nestjs/nest?style=flat)
-- [Redwood](https://github.com/redwoodjs/redwood) — ![GitHub stars](https://img.shields.io/github/stars/redwoodjs/redwood?style=flat)
-- [Rocket](https://github.com/rwf2/Rocket) — ![GitHub stars](https://img.shields.io/github/stars/rwf2/Rocket?style=flat)
-- [SST](https://github.com/sst/sst) — ![GitHub stars](https://img.shields.io/github/stars/sst/sst?style=flat)
-- [Yii](https://github.com/yiisoft/yii2) — ![GitHub stars](https://img.shields.io/github/stars/yiisoft/yii2?style=flat)
+  - [Docusaurus](https://github.com/facebook/docusaurus)  ![Tag](https://img.shields.io/github/v/tag/facebook/docusaurus) ![Release](https://img.shields.io/github/v/release/facebook/docusaurus) ![Star](https://img.shields.io/github/stars/facebook/docusaurus)
+  - [Siyuan](https://github.com/siyuan-note/siyuan)  ![Tag](https://img.shields.io/github/v/tag/siyuan-note/siyuan) ![Release](https://img.shields.io/github/v/release/siyuan-note/siyuan) ![Star](https://img.shields.io/github/stars/siyuan-note/siyuan)
+  - [Outline](https://github.com/outline/outline)  ![Tag](https://img.shields.io/github/v/tag/outline/outline) ![Release](https://img.shields.io/github/v/release/outline/outline) ![Star](https://img.shields.io/github/stars/outline/outline)
+  - [Docsify](https://github.com/docsifyjs/docsify)  ![Tag](https://img.shields.io/github/v/tag/docsifyjs/docsify) ![Release](https://img.shields.io/github/v/release/docsifyjs/docsify) ![Star](https://img.shields.io/github/stars/docsifyjs/docsify)
+  - [Gitbook](https://github.com/GitbookIO/gitbook)  ![Tag](https://img.shields.io/github/v/tag/GitbookIO/gitbook) ![Release](https://img.shields.io/github/v/release/GitbookIO/gitbook) ![Star](https://img.shields.io/github/stars/GitbookIO/gitbook)
+  - [Mkdocs](https://github.com/mkdocs/mkdocs)  ![Tag](https://img.shields.io/github/v/tag/mkdocs/mkdocs) ![Release](https://img.shields.io/github/v/release/mkdocs/mkdocs) ![Star](https://img.shields.io/github/stars/mkdocs/mkdocs)
+</details>
 
-### Headless CMS
+<!--Utils-->
+<details open>
+  <summary>Utils</summary>
 
-- [Directus](https://github.com/directus/directus) — ![GitHub stars](https://img.shields.io/github/stars/directus/directus?style=flat)
-- [Strapi](https://github.com/strapi/strapi) — ![GitHub stars](https://img.shields.io/github/stars/strapi/strapi?style=flat)
+  - [Oh Myz](https://github.com/ohmyzsh/ohmyzsh) ![GitHub Tag](https://img.shields.io/github/v/tag/ohmyzsh/ohmyzsh) ![Release](https://img.shields.io/github/v/release/ohmyzsh/ohmyzsh) ![Star](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh)
+  - [Three](https://github.com/mrdoob/three.js) ![GitHub Tag](https://img.shields.io/github/v/tag/mrdoob/three.js) ![Release](https://img.shields.io/github/v/release/mrdoob/three.js) ![Star](https://img.shields.io/github/stars/mrdoob/three.js)
+  - [Excalidraw](https://github.com/excalidraw/excalidraw) ![GitHub Tag](https://img.shields.io/github/v/tag/excalidraw/excalidraw) ![Release](https://img.shields.io/github/v/release/excalidraw/excalidraw) ![Star](https://img.shields.io/github/stars/excalidraw/excalidraw)
+  - [Free4dev](https://github.com/ripienaar/free-for-dev) ![GitHub Tag](https://img.shields.io/github/v/tag/ripienaar/free-for-dev) ![Release](https://img.shields.io/github/v/release/ripienaar/free-for-dev) ![Star](https://img.shields.io/github/stars/ripienaar/free-for-dev)
+  - [Storybook](https://github.com/storybookjs/storybook) ![GitHub Tag](https://img.shields.io/github/v/tag/storybookjs/storybook) ![Release](https://img.shields.io/github/v/release/storybookjs/storybook) ![Star](https://img.shields.io/github/stars/storybookjs/storybook)
+  - [Reveal](https://github.com/hakimel/reveal.js) ![GitHub Tag](https://img.shields.io/github/v/tag/hakimel/reveal.js) ![Release](https://img.shields.io/github/v/release/hakimel/reveal.js) ![Star](https://img.shields.io/github/stars/hakimel/reveal.js)
+  - [n8n](https://github.com/n8n-io/n8n) ![GitHub Tag](https://img.shields.io/github/v/tag/n8n-io/n8n) ![Release](https://img.shields.io/github/v/release/n8n-io/n8n) ![Star](https://img.shields.io/github/stars/n8n-io/n8n)
+  - [Anime](https://github.com/juliangarnier/anime) ![GitHub Tag](https://img.shields.io/github/v/tag/juliangarnier/anime) ![Release](https://img.shields.io/github/v/release/juliangarnier/anime) ![Star](https://img.shields.io/github/stars/juliangarnier/anime)
+  - [Moment](https://github.com/moment/moment) ![GitHub Tag](https://img.shields.io/github/v/tag/moment/moment) ![Release](https://img.shields.io/github/v/release/moment/moment) ![Star](https://img.shields.io/github/stars/moment/moment)
+  - [Dayjs](https://github.com/iamkun/dayjs) ![GitHub Tag](https://img.shields.io/github/v/tag/iamkun/dayjs) ![Release](https://img.shields.io/github/v/release/iamkun/dayjs) ![Star](https://img.shields.io/github/stars/iamkun/dayjs)
+  - [Typst](https://github.com/typst/typst) ![GitHub Tag](https://img.shields.io/github/v/tag/typst/typst) ![Release](https://img.shields.io/github/v/release/typst/typst) ![Star](https://img.shields.io/github/stars/typst/typst)
+  - [Slidev](https://github.com/slidevjs/slidev) ![GitHub Tag](https://img.shields.io/github/v/tag/slidevjs/slidev) ![Release](https://img.shields.io/github/v/release/slidevjs/slidev) ![Star](https://img.shields.io/github/stars/slidevjs/slidev)
+  - [React Flow](https://github.com/xyflow/xyflow) ![GitHub Tag](https://img.shields.io/github/v/tag/xyflow/xyflow) ![Release](https://img.shields.io/github/v/release/xyflow/xyflow) ![Star](https://img.shields.io/github/stars/xyflow/xyflow)
+  - [Shields](https://github.com/badges/shields) ![GitHub Tag](https://img.shields.io/github/v/tag/badges/shields) ![Release](https://img.shields.io/github/v/release/badges/shields) ![Star](https://img.shields.io/github/stars/badges/shields)
+  - [PptxGenJS](https://github.com/gitbrent/PptxGenJS) ![GitHub Tag](https://img.shields.io/github/v/tag/gitbrent/PptxGenJS) ![Release](https://img.shields.io/github/v/release/gitbrent/PptxGenJS) ![Star](https://img.shields.io/github/stars/gitbrent/PptxGenJS)
+  - [MailTrap](https://github.com/railsware/mailtrap-nodejs) ![GitHub Tag](https://img.shields.io/github/v/tag/railsware/mailtrap-nodejs) ![Release](https://img.shields.io/github/v/release/railsware/mailtrap-nodejs) ![Star](https://img.shields.io/github/stars/railsware/mailtrap-nodejs)
+</details>
 
-### Lambda
+<!--AI-->
+<details open>
+  <summary>AI</summary>
 
-- [Bref - PHP](https://github.com/brefphp/bref) — ![GitHub stars](https://img.shields.io/github/stars/brefphp/bref?style=flat)
+  ###### Agent
+  - [AI SDK](https://github.com/vercel/ai) ![GitHub Tag](https://img.shields.io/github/v/tag/vercel/ai) ![Release](https://img.shields.io/github/v/release/vercel/ai) ![Star](https://img.shields.io/github/stars/vercel/ai)
+  - [Sim](https://github.com/simstudioai/sim) ![GitHub Tag](https://img.shields.io/github/v/tag/simstudioai/sim) ![Release](https://img.shields.io/github/v/release/simstudioai/sim) ![Star](https://img.shields.io/github/stars/simstudioai/sim)
+  - [Mastra](https://github.com/mastra-ai/mastra) ![GitHub Tag](https://img.shields.io/github/v/tag/mastra-ai/mastra) ![Release](https://img.shields.io/github/v/release/mastra-ai/mastra) ![Star](https://img.shields.io/github/stars/mastra-ai/mastra)
+  - [LangChainJS](https://github.com/langchain-ai/langchainjs) ![GitHub Tag](https://img.shields.io/github/v/tag/langchain-ai/langchainjs) ![Release](https://img.shields.io/github/v/release/langchain-ai/langchainjs) ![Star](https://img.shields.io/github/stars/langchain-ai/langchainjs)
+  - [Voltagent](https://github.com/voltagent/voltagent) ![GitHub Tag](https://img.shields.io/github/v/tag/voltagent/voltagent) ![Release](https://img.shields.io/github/v/release/voltagent/voltagent) ![Star](https://img.shields.io/github/stars/voltagent/voltagent)
+  - [Flue](https://github.com/withastro/flue) ![GitHub Tag](https://img.shields.io/github/v/tag/withastro/flue) ![Release](https://img.shields.io/github/v/release/withastro/flue) ![Star](https://img.shields.io/github/stars/withastro/flue)
+  - [Swarmclaw](https://github.com/swarmclawai/swarmclaw) ![GitHub Tag](https://img.shields.io/github/v/tag/swarmclawai/swarmclaw) ![Release](https://img.shields.io/github/v/release/swarmclawai/swarmclaw) ![Star](https://img.shields.io/github/stars/swarmclawai/swarmclaw)
 
-## Database
+  ###### UI
+  - [CopilotKit](https://github.com/CopilotKit/CopilotKit) ![GitHub Tag](https://img.shields.io/github/v/tag/CopilotKit/CopilotKit) ![Release](https://img.shields.io/github/v/release/CopilotKit/CopilotKit) ![Star](https://img.shields.io/github/stars/CopilotKit/CopilotKit)
+  - [AG UI](https://github.com/ag-ui-protocol/ag-ui) ![GitHub Tag](https://img.shields.io/github/v/tag/ag-ui-protocol/ag-ui) ![Release](https://img.shields.io/github/v/release/ag-ui-protocol/ag-ui) ![Star](https://img.shields.io/github/stars/ag-ui-protocol/ag-ui)
+  - [Assistant UI](https://github.com/assistant-ui/assistant-ui) ![GitHub Tag](https://img.shields.io/github/v/tag/assistant-ui/assistant-ui) ![Release](https://img.shields.io/github/v/release/assistant-ui/assistant-ui) ![Star](https://img.shields.io/github/stars/assistant-ui/assistant-ui)
+  - [AionUi](https://github.com/iOfficeAI/AionUi) ![GitHub Tag](https://img.shields.io/github/v/tag/iOfficeAI/AionUi) ![Release](https://img.shields.io/github/v/release/iOfficeAI/AionUi) ![Star](https://img.shields.io/github/stars/iOfficeAI/AionUi)
+  - [Tambo](https://github.com/tambo-ai/tambo) ![GitHub Tag](https://img.shields.io/github/v/tag/tambo-ai/tambo) ![Release](https://img.shields.io/github/v/release/tambo-ai/tambo) ![Star](https://img.shields.io/github/stars/tambo-ai/tambo)
 
-### ORM
+  ###### Personal AI Assistant
+  - [OpenClaw](https://github.com/openclaw/openclaw) ![GitHub Tag](https://img.shields.io/github/v/tag/openclaw/openclaw) ![Release](https://img.shields.io/github/v/release/openclaw/openclaw) ![Star](https://img.shields.io/github/stars/openclaw/openclaw)
+  - [Nanobot](https://github.com/HKUDS/nanobot) ![GitHub Tag](https://img.shields.io/github/v/tag/HKUDS/nanobot) ![Release](https://img.shields.io/github/v/release/HKUDS/nanobot) ![Star](https://img.shields.io/github/stars/HKUDS/nanobot)
 
-- [DrizzleORM](https://github.com/drizzle-team/drizzle-orm) — ![GitHub stars](https://img.shields.io/github/stars/drizzle-team/drizzle-orm?style=flat)
-- [Knex](https://github.com/knex/knex) — ![GitHub stars](https://img.shields.io/github/stars/knex/knex?style=flat)
-- [MikroORM](https://github.com/mikro-orm/mikro-orm) — ![GitHub stars](https://img.shields.io/github/stars/mikro-orm/mikro-orm?style=flat)
-- [Objection](https://github.com/vincit/objection.js) — ![GitHub stars](https://img.shields.io/github/stars/vincit/objection.js?style=flat)
-- [Prisma](https://github.com/prisma/prisma) — ![GitHub stars](https://img.shields.io/github/stars/prisma/prisma?style=flat)
-- [Sequelize](https://github.com/sequelize/sequelize) — ![GitHub stars](https://img.shields.io/github/stars/sequelize/sequelize?style=flat)
-- [TypeORM](https://github.com/typeorm/typeorm) — ![GitHub stars](https://img.shields.io/github/stars/typeorm/typeorm?style=flat)
+  ###### Generative AI
+  - [Ollama](https://github.com/ollama/ollama) ![GitHub Tag](https://img.shields.io/github/v/tag/ollama/ollama) ![Release](https://img.shields.io/github/v/release/ollama/ollama) ![Star](https://img.shields.io/github/stars/ollama/ollama)
+  - [GPT4All](https://github.com/nomic-ai/gpt4all) ![GitHub Tag](https://img.shields.io/github/v/tag/nomic-ai/gpt4all) ![Release](https://img.shields.io/github/v/release/nomic-ai/gpt4all) ![Star](https://img.shields.io/github/stars/nomic-ai/gpt4all)
+  - [vLLM](https://github.com/vllm-project/vllm) ![GitHub Tag](https://img.shields.io/github/v/tag/vllm-project/vllm) ![Release](https://img.shields.io/github/v/release/vllm-project/vllm) ![Star](https://img.shields.io/github/stars/vllm-project/vllm)
+  - [LocalAI](https://github.com/mudler/LocalAI) ![GitHub Tag](https://img.shields.io/github/v/tag/mudler/LocalAI) ![Release](https://img.shields.io/github/v/release/mudler/LocalAI) ![Star](https://img.shields.io/github/stars/mudler/LocalAI)
+  - [LM Studio](https://github.com/lmstudio-ai/lms) ![GitHub Tag](https://img.shields.io/github/v/tag/lmstudio-ai/lms) ![Release](https://img.shields.io/github/v/release/lmstudio-ai/lms) ![Star](https://img.shields.io/github/stars/lmstudio-ai/lms)
 
-### Store
+  ###### Coding
+  - [OpenChamber](https://github.com/openchamber/openchamber) ![GitHub Tag](https://img.shields.io/github/v/tag/openchamber/openchamber) ![Release](https://img.shields.io/github/v/release/openchamber/openchamber) ![Star](https://img.shields.io/github/stars/openchamber/openchamber)
+  - [Optio](https://github.com/jonwiggins/optio) ![GitHub Tag](https://img.shields.io/github/v/tag/jonwiggins/optio) ![Release](https://img.shields.io/github/v/release/jonwiggins/optio) ![Star](https://img.shields.io/github/stars/jonwiggins/optio)
+  - [Opencastle](https://github.com/monkilabs/opencastle) ![GitHub Tag](https://img.shields.io/github/v/tag/monkilabs/opencastle) ![Release](https://img.shields.io/github/v/release/monkilabs/opencastle) ![Star](https://img.shields.io/github/stars/monkilabs/opencastle)
+  
+</details>
 
-- [MariaDB](https://github.com/MariaDB/server) — ![GitHub stars](https://img.shields.io/github/stars/MariaDB/server?style=flat)
-- [MongoDB](https://github.com/mongodb/mongo) — ![GitHub stars](https://img.shields.io/github/stars/mongodb/mongo?style=flat)
-- [MySQL](https://github.com/mysqljs/mysql) — ![GitHub stars](https://img.shields.io/github/stars/mysqljs/mysql?style=flat)
-- [Postgres](https://github.com/postgres/postgres) — ![GitHub stars](https://img.shields.io/github/stars/postgres/postgres?style=flat)
-- [SQLite](https://github.com/sqlite/sqlite) — ![GitHub stars](https://img.shields.io/github/stars/sqlite/sqlite?style=flat)
-- [TimeScale](https://github.com/timescale/timescaledb) — ![GitHub stars](https://img.shields.io/github/stars/timescale/timescaledb?style=flat)
+<!--Security-->
+<details open>
+  <summary>Security</summary>
 
-## DevOps
+  ###### Static Application Security Testing (SAST)
+  - [Semgrep](https://github.com/semgrep/semgrep) ![GitHub Tag](https://img.shields.io/github/v/tag/semgrep/semgrep) ![Release](https://img.shields.io/github/v/release/semgrep/semgrep) ![Star](https://img.shields.io/github/stars/semgrep/semgrep)
 
-- [Caddy](https://github.com/caddyserver/caddy) — ![GitHub stars](https://img.shields.io/github/stars/caddyserver/caddy?style=flat)
-- [DDev](https://github.com/ddev/ddev) — ![GitHub stars](https://img.shields.io/github/stars/ddev/ddev?style=flat)
-- [Kool](https://github.com/kool-dev/kool) — ![GitHub stars](https://img.shields.io/github/stars/kool-dev/kool?style=flat)
-- [Nginx](https://github.com/nginx/nginx) — ![GitHub stars](https://img.shields.io/github/stars/nginx/nginx?style=flat)
-- [Piko](https://github.com/andydunstall/piko) — ![GitHub stars](https://img.shields.io/github/stars/andydunstall/piko?style=flat)
-- [PM2](https://github.com/Unitech/pm2) — ![GitHub stars](https://img.shields.io/github/stars/Unitech/pm2?style=flat)
-- [Portainer](https://github.com/portainer/portainer) — ![GitHub stars](https://img.shields.io/github/stars/portainer/portainer?style=flat)
-- [Vercel](https://github.com/vercel/vercel) — ![GitHub stars](https://img.shields.io/github/stars/vercel/vercel?style=flat)
+  <!--###### Dynamic Application Security Testing (DAST)-->
 
-## Document
+  ###### Password Manager
+  - [Vaultwarden](https://github.com/dani-garcia/vaultwarden) ![GitHub Tag](https://img.shields.io/github/v/tag/dani-garcia/vaultwarden) ![Release](https://img.shields.io/github/v/release/dani-garcia/vaultwarden) ![Star](https://img.shields.io/github/stars/dani-garcia/vaultwarden)
+  - [Passbolt](https://github.com/passbolt/passbolt_api) ![GitHub Tag](https://img.shields.io/github/v/tag/passbolt/passbolt_api) ![Release](https://img.shields.io/github/v/release/passbolt/passbolt_api) ![Star](https://img.shields.io/github/stars/passbolt/passbolt_api)
 
-- [Docsify](https://github.com/docsifyjs/docsify) — ![GitHub stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=flat)
-- [Docusaurus](https://github.com/facebook/docusaurus) — ![GitHub stars](https://img.shields.io/github/stars/facebook/docusaurus?style=flat)
-- [Gitbook](https://github.com/GitbookIO/gitbook) — ![GitHub stars](https://img.shields.io/github/stars/GitbookIO/gitbook?style=flat)
-- [Mkdocs](https://github.com/mkdocs/mkdocs) — ![GitHub stars](https://img.shields.io/github/stars/mkdocs/mkdocs?style=flat)
-- [Outline](https://github.com/outline/outline) — ![GitHub stars](https://img.shields.io/github/stars/outline/outline?style=flat)
-- [Siyuan](https://github.com/siyuan-note/siyuan) — ![GitHub stars](https://img.shields.io/github/stars/siyuan-note/siyuan?style=flat)
+</details>
 
-## Environment
+<!--environment-->
+<details open>
+  <summary>Environment</summary>
 
-### Python
+  ###### Python
+  - [UV](https://github.com/astral-sh/uv) ![GitHub Tag](https://img.shields.io/github/v/tag/astral-sh/uv) ![Release](https://img.shields.io/github/v/release/astral-sh/uv) ![Star](https://img.shields.io/github/stars/astral-sh/uv)
 
-- [UV](https://github.com/astral-sh/uv) — ![GitHub stars](https://img.shields.io/github/stars/astral-sh/uv?style=flat)
+</details>
 
-## Frontend
+<!--architecture-->
+<details open>
+  <summary>Architecture</summary>
 
-### UI
+  ###### Stack
+  - [Agent Native](https://github.com/BuilderIO/agent-native) ![GitHub Tag](https://img.shields.io/github/v/tag/BuilderIO/agent-native) ![Release](https://img.shields.io/github/v/release/BuilderIO/agent-native) ![Star](https://img.shields.io/github/stars/BuilderIO/agent-native)
+  - [Better Stack](https://github.com/better-stack-ai/better-stack) ![GitHub Tag](https://img.shields.io/github/v/tag/better-stack-ai/better-stack) ![Release](https://img.shields.io/github/v/release/better-stack-ai/better-stack) ![Star](https://img.shields.io/github/stars/better-stack-ai/better-stack)
+  - [Objectstack](https://github.com/objectstack-ai/objectstack) ![GitHub Tag](https://img.shields.io/github/v/tag/objectstack-ai/objectstack) ![Release](https://img.shields.io/github/v/release/objectstack-ai/objectstack) ![Star](https://img.shields.io/github/stars/objectstack-ai/objectstack)
 
-- [Ant Design](https://github.com/ant-design/ant-design) — ![GitHub stars](https://img.shields.io/github/stars/ant-design/ant-design?style=flat)
-- [Bootstrap](https://github.com/twbs/bootstrap) — ![GitHub stars](https://img.shields.io/github/stars/twbs/bootstrap?style=flat)
-- [Bulma](https://github.com/jgthms/bulma) — ![GitHub stars](https://img.shields.io/github/stars/jgthms/bulma?style=flat)
-- [ChakraUI](https://github.com/chakra-ui/chakra-ui) — ![GitHub stars](https://img.shields.io/github/stars/chakra-ui/chakra-ui?style=flat)
-- [daisyUI](https://github.com/saadeghi/daisyui) — ![GitHub stars](https://img.shields.io/github/stars/saadeghi/daisyui?style=flat)
-- [Mantine](https://github.com/mantinedev/mantine) — ![GitHub stars](https://img.shields.io/github/stars/mantinedev/mantine?style=flat)
-- [Next](https://github.com/vercel/next.js) — ![GitHub stars](https://img.shields.io/github/stars/vercel/next.js?style=flat)
-- [One](https://github.com/onejs/one) — ![GitHub stars](https://img.shields.io/github/stars/onejs/one?style=flat)
-- [Prime](https://github.com/primefaces/primereact) — ![GitHub stars](https://img.shields.io/github/stars/primefaces/primereact?style=flat)
-- [React](https://github.com/facebook/react) — ![GitHub stars](https://img.shields.io/github/stars/facebook/react?style=flat)
-- [Refine](https://github.com/refinedev/refine) — ![GitHub stars](https://img.shields.io/github/stars/refinedev/refine?style=flat)
-- [Remix](https://github.com/remix-run/remix) — ![GitHub stars](https://img.shields.io/github/stars/remix-run/remix?style=flat)
-- [Shadcn](https://github.com/shadcn-ui/ui) — ![GitHub stars](https://img.shields.io/github/stars/shadcn-ui/ui?style=flat)
-- [Style Components](https://github.com/styled-components/styled-components) — ![GitHub stars](https://img.shields.io/github/stars/styled-components/styled-components?style=flat)
-- [Tabler](https://github.com/tabler/tabler) — ![GitHub stars](https://img.shields.io/github/stars/tabler/tabler?style=flat)
-- [Tailwind](https://github.com/tailwindlabs/tailwindcss) — ![GitHub stars](https://img.shields.io/github/stars/tailwindlabs/tailwindcss?style=flat)
-- [Tamagui](https://github.com/tamagui/tamagui) — ![GitHub stars](https://img.shields.io/github/stars/tamagui/tamagui?style=flat)
-- [Vue](https://github.com/vuejs/vue) — ![GitHub stars](https://img.shields.io/github/stars/vuejs/vue?style=flat)
+  ###### Packages
+  - [Nix](https://github.com/NixOS/nixpkgs) ![GitHub Tag](https://img.shields.io/github/v/tag/NixOS/nixpkgs) ![Release](https://img.shields.io/github/v/release/NixOS/nixpkgs) ![Star]
 
-## Mobile
+</details>
 
-### Boilerplace
 
-- [Ignite](https://github.com/infinitered/ignite) — ![GitHub stars](https://img.shields.io/github/stars/infinitered/ignite?style=flat)
-- [React Native](https://github.com/wataru-maeda/react-native-boilerplate) — ![GitHub stars](https://img.shields.io/github/stars/wataru-maeda/react-native-boilerplate?style=flat)
-
-### Core
-
-- [Dioxus](https://github.com/DioxusLabs/dioxus) — ![GitHub stars](https://img.shields.io/github/stars/DioxusLabs/dioxus?style=flat)
-- [Expo](https://github.com/expo/expo) — ![GitHub stars](https://img.shields.io/github/stars/expo/expo?style=flat)
-- [Flet](https://github.com/flet-dev/flet) — ![GitHub stars](https://img.shields.io/github/stars/flet-dev/flet?style=flat)
-- [Flutter](https://github.com/flutter/flutter) — ![GitHub stars](https://img.shields.io/github/stars/flutter/flutter?style=flat)
-- [Lynx](https://github.com/lynx-family/lynx) — ![GitHub stars](https://img.shields.io/github/stars/lynx-family/lynx?style=flat)
-- [React Native](https://github.com/facebook/react-native) — ![GitHub stars](https://img.shields.io/github/stars/facebook/react-native?style=flat)
-
-## Quality Assurance
-
-### Application Performance Monitoring
-
-- [SigNoz](https://github.com/SigNoz/signoz) — ![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=flat)
-
-### Automated Testing
-
-- [Cypress](https://github.com/cypress-io/cypress) — ![GitHub stars](https://img.shields.io/github/stars/cypress-io/cypress?style=flat)
-- [Jest](https://github.com/jestjs/jest) — ![GitHub stars](https://img.shields.io/github/stars/jestjs/jest?style=flat)
-- [Playwright](https://github.com/microsoft/playwright) — ![GitHub stars](https://img.shields.io/github/stars/microsoft/playwright?style=flat)
-- [Sentry](https://github.com/getsentry/sentry) — ![GitHub stars](https://img.shields.io/github/stars/getsentry/sentry?style=flat)
-- [Zod](https://github.com/colinhacks/zod) — ![GitHub stars](https://img.shields.io/github/stars/colinhacks/zod?style=flat)
-
-### Load Testing
-
-- [Gatling](https://github.com/gatling/gatling) — ![GitHub stars](https://img.shields.io/github/stars/gatling/gatling?style=flat)
-- [JMeter](https://github.com/apache/jmeter) — ![GitHub stars](https://img.shields.io/github/stars/apache/jmeter?style=flat)
-- [K6](https://github.com/grafana/k6) — ![GitHub stars](https://img.shields.io/github/stars/grafana/k6?style=flat)
-- [Locust](https://github.com/locustio/locust) — ![GitHub stars](https://img.shields.io/github/stars/locustio/locust?style=flat)
-- [Taurus](https://github.com/Blazemeter/taurus) — ![GitHub stars](https://img.shields.io/github/stars/Blazemeter/taurus?style=flat)
 
 ## Reference
-
-- [My Diary with OSX](https://github.com/prawee/my-daily-tools-osx) — ![GitHub stars](https://img.shields.io/github/stars/prawee/my-daily-tools-osx?style=flat)
-- [My Diary with Window](https://github.com/prawee/my-daily-tools-win) — ![GitHub stars](https://img.shields.io/github/stars/prawee/my-daily-tools-win?style=flat)
-
-## Security
-
-### Password Manager
-
-- [Passbolt](https://github.com/passbolt/passbolt_api) — ![GitHub stars](https://img.shields.io/github/stars/passbolt/passbolt_api?style=flat)
-- [Vaultwarden](https://github.com/dani-garcia/vaultwarden) — ![GitHub stars](https://img.shields.io/github/stars/dani-garcia/vaultwarden?style=flat)
-
-### Static Application Security Testing (SAST)
-
-- [Semgrep](https://github.com/semgrep/semgrep) — ![GitHub stars](https://img.shields.io/github/stars/semgrep/semgrep?style=flat)
-
-## Utils
-
-- [Anime](https://github.com/juliangarnier/anime) — ![GitHub stars](https://img.shields.io/github/stars/juliangarnier/anime?style=flat)
-- [Dayjs](https://github.com/iamkun/dayjs) — ![GitHub stars](https://img.shields.io/github/stars/iamkun/dayjs?style=flat)
-- [Excalidraw](https://github.com/excalidraw/excalidraw) — ![GitHub stars](https://img.shields.io/github/stars/excalidraw/excalidraw?style=flat)
-- [Free4dev](https://github.com/ripienaar/free-for-dev) — ![GitHub stars](https://img.shields.io/github/stars/ripienaar/free-for-dev?style=flat)
-- [MailTrap](https://github.com/railsware/mailtrap-nodejs) — ![GitHub stars](https://img.shields.io/github/stars/railsware/mailtrap-nodejs?style=flat)
-- [Moment](https://github.com/moment/moment) — ![GitHub stars](https://img.shields.io/github/stars/moment/moment?style=flat)
-- [n8n](https://github.com/n8n-io/n8n) — ![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=flat)
-- [Oh Myz](https://github.com/ohmyzsh/ohmyzsh) — ![GitHub stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=flat)
-- [PptxGenJS](https://github.com/gitbrent/PptxGenJS) — ![GitHub stars](https://img.shields.io/github/stars/gitbrent/PptxGenJS?style=flat)
-- [React Flow](https://github.com/xyflow/xyflow) — ![GitHub stars](https://img.shields.io/github/stars/xyflow/xyflow?style=flat)
-- [Reveal](https://github.com/hakimel/reveal.js) — ![GitHub stars](https://img.shields.io/github/stars/hakimel/reveal.js?style=flat)
-- [Shields](https://github.com/badges/shields) — ![GitHub stars](https://img.shields.io/github/stars/badges/shields?style=flat)
-- [Slidev](https://github.com/slidevjs/slidev) — ![GitHub stars](https://img.shields.io/github/stars/slidevjs/slidev?style=flat)
-- [Storybook](https://github.com/storybookjs/storybook) — ![GitHub stars](https://img.shields.io/github/stars/storybookjs/storybook?style=flat)
-- [Three](https://github.com/mrdoob/three.js) — ![GitHub stars](https://img.shields.io/github/stars/mrdoob/three.js?style=flat)
-- [Typst](https://github.com/typst/typst) — ![GitHub stars](https://img.shields.io/github/stars/typst/typst?style=flat)
-
-## Add a tool
-
-Create a Markdown file in `tools/` with this front matter, then run `python3 scripts/build_readme.py`:
-
-```markdown
----
-name: "Example Tool"
-category: "Developer Tools"
-subcategory: "Optional group"
-repository: "owner/repository"
-description: "Optional short description"
----
-
-Notes about the tool can go here.
-```
-
-GitHub stars are refreshed automatically every day by GitHub Actions. To refresh and sort locally, set `GITHUB_TOKEN` and run `python3 scripts/build_readme.py`.
+- [My Diary with OSX](https://github.com/prawee/my-daily-tools-osx)
+- [My Diary with Window](https://github.com/prawee/my-daily-tools-win)
