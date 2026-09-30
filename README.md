@@ -11,8 +11,8 @@ The chart shows the number of projects in each category. Star badges are live; G
 ```mermaid
 xychart-beta horizontal
     x-axis "Category" ["AI", "Architecture", "Backend", "Database", "DevOps", "Document", "Environment", "Frontend", "Mobile", "Quality Assurance", "Reference", "Security", "Utils"]
-    y-axis "Repositories" 0 --> 26
-    bar [26, 4, 17, 13, 8, 6, 1, 18, 8, 11, 2, 3, 21]
+    y-axis "Repositories" 0 --> 27
+    bar [27, 4, 17, 13, 8, 6, 1, 18, 8, 11, 2, 3, 21]
 ```
 
 ## Categories
@@ -21,7 +21,7 @@ xychart-beta horizontal
 
 <a id="ai"></a>
 <details open>
-<summary>AI (26)</summary>
+<summary>AI (27)</summary>
 
 #### Agent
 
@@ -32,6 +32,7 @@ xychart-beta horizontal
 - [Voltagent](https://github.com/voltagent/voltagent) — ![Latest tag](https://img.shields.io/github/v/tag/voltagent/voltagent) ![Latest release](https://img.shields.io/github/v/release/voltagent/voltagent) ⭐ 10,707
 - [Flue](https://github.com/withastro/flue) — ![Latest tag](https://img.shields.io/github/v/tag/withastro/flue) ![Latest release](https://img.shields.io/github/v/release/withastro/flue) ⭐ 8,404
 - [Swarmclaw](https://github.com/swarmclawai/swarmclaw) — ![Latest tag](https://img.shields.io/github/v/tag/swarmclawai/swarmclaw) ![Latest release](https://img.shields.io/github/v/release/swarmclawai/swarmclaw) ⭐ 689
+- [NodeTool](https://github.com/nodetool-ai/nodetool) — ![Latest tag](https://img.shields.io/github/v/tag/nodetool-ai/nodetool) ![Latest release](https://img.shields.io/github/v/release/nodetool-ai/nodetool) ⭐ 547 — Create Workspace
 - [Code Motion](https://github.com/bytepatterns/code-motion) — ![Latest tag](https://img.shields.io/github/v/tag/bytepatterns/code-motion) ![Latest release](https://img.shields.io/github/v/release/bytepatterns/code-motion) ⭐ 0 — Algorithm explainer reels drawn entirely in code
 
 #### Coding
@@ -135,7 +136,7 @@ xychart-beta horizontal
 #### Store
 
 - [MongoDB](https://github.com/mongodb/mongo) — ![Latest tag](https://img.shields.io/github/v/tag/mongodb/mongo) ![Latest release](https://img.shields.io/github/v/release/mongodb/mongo) ⭐ 28,614
-- [TimeScale](https://github.com/timescale/timescaledb) — ![Latest tag](https://img.shields.io/github/v/tag/timescale/timescaledb) ![Latest release](https://img.shields.io/github/v/release/timescale/timescaledb) ⭐ 23,623
+- [TimeScale](https://github.com/timescale/timescaledb) — ![Latest tag](https://img.shields.io/github/v/tag/timescale/timescaledb) ![Latest release](https://img.shields.io/github/v/release/timescale/timescaledb) ⭐ 23,624
 - [Postgres](https://github.com/postgres/postgres) — ![Latest tag](https://img.shields.io/github/v/tag/postgres/postgres) ![Latest release](https://img.shields.io/github/v/release/postgres/postgres) ⭐ 22,246
 - [MySQL](https://github.com/mysqljs/mysql) — ![Latest tag](https://img.shields.io/github/v/tag/mysqljs/mysql) ![Latest release](https://img.shields.io/github/v/release/mysqljs/mysql) ⭐ 18,619
 - [SQLite](https://github.com/sqlite/sqlite) — ![Latest tag](https://img.shields.io/github/v/tag/sqlite/sqlite) ![Latest release](https://img.shields.io/github/v/release/sqlite/sqlite) ⭐ 10,569
