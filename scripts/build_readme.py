@@ -152,6 +152,12 @@ def make_readme(tools, stars):
         lines.extend(["</details>", ""])
 
     lines.extend([
+        "## Add a tool with Copilot",
+        "",
+        "Use the `add-tool-to-catalog` skill in Copilot Chat. Paste a GitHub repository URL and ask, for example: `Use the add-tool-to-catalog skill to add https://github.com/owner/repo.` It checks for duplicates, selects a category and subcategory, creates the tool record, and validates it.",
+        "",
+        "See the [skill instructions](.github/skills/add-tool-to-catalog/SKILL.md).",
+        "",
         "## Add a tool",
         "",
         "Create a Markdown file in `tools/` with this front matter, then run `python3 scripts/build_readme.py`:",
