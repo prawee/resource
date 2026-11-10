@@ -3,7 +3,7 @@ name: Update repository catalog
 on:
   push:
     branches:
-      - develop
+      - master
   schedule:
     - cron: "17 2 * * *"
   workflow_dispatch:
