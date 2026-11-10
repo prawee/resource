@@ -2,7 +2,7 @@
 name: "Paseo"
 category: "AI"
 subcategory: "Coding"
-repository: "getpaseo/paseo",
+repository: "getpaseo/paseo"
 description: "Orchestrate multiple coding agents"
 ---
 
