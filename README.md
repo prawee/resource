@@ -25,59 +25,59 @@ xychart-beta horizontal
 
 #### Agent
 
-- [Sim](https://github.com/simstudioai/sim) — ![Latest tag](https://img.shields.io/github/v/tag/simstudioai/sim) ![Latest release](https://img.shields.io/github/v/release/simstudioai/sim) ⭐ 30,146
-- [Mastra](https://github.com/mastra-ai/mastra) — ![Latest tag](https://img.shields.io/github/v/tag/mastra-ai/mastra) ![Latest release](https://img.shields.io/github/v/release/mastra-ai/mastra) ⭐ 29,541
-- [AI SDK](https://github.com/vercel/ai) — ![Latest tag](https://img.shields.io/github/v/tag/vercel/ai) ![Latest release](https://img.shields.io/github/v/release/vercel/ai) ⭐ 27,997
-- [LangChainJS](https://github.com/langchain-ai/langchainjs) — ![Latest tag](https://img.shields.io/github/v/tag/langchain-ai/langchainjs) ![Latest release](https://img.shields.io/github/v/release/langchain-ai/langchainjs) ⭐ 18,348
-- [Voltagent](https://github.com/voltagent/voltagent) — ![Latest tag](https://img.shields.io/github/v/tag/voltagent/voltagent) ![Latest release](https://img.shields.io/github/v/release/voltagent/voltagent) ⭐ 10,980
-- [Flue](https://github.com/withastro/flue) — ![Latest tag](https://img.shields.io/github/v/tag/withastro/flue) ![Latest release](https://img.shields.io/github/v/release/withastro/flue) ⭐ 8,672
+- [Sim](https://github.com/simstudioai/sim) — ![Latest tag](https://img.shields.io/github/v/tag/simstudioai/sim) ![Latest release](https://img.shields.io/github/v/release/simstudioai/sim) ⭐ 30,151
+- [Mastra](https://github.com/mastra-ai/mastra) — ![Latest tag](https://img.shields.io/github/v/tag/mastra-ai/mastra) ![Latest release](https://img.shields.io/github/v/release/mastra-ai/mastra) ⭐ 29,561
+- [AI SDK](https://github.com/vercel/ai) — ![Latest tag](https://img.shields.io/github/v/tag/vercel/ai) ![Latest release](https://img.shields.io/github/v/release/vercel/ai) ⭐ 28,028
+- [LangChainJS](https://github.com/langchain-ai/langchainjs) — ![Latest tag](https://img.shields.io/github/v/tag/langchain-ai/langchainjs) ![Latest release](https://img.shields.io/github/v/release/langchain-ai/langchainjs) ⭐ 18,350
+- [Voltagent](https://github.com/voltagent/voltagent) — ![Latest tag](https://img.shields.io/github/v/tag/voltagent/voltagent) ![Latest release](https://img.shields.io/github/v/release/voltagent/voltagent) ⭐ 10,989
+- [Flue](https://github.com/withastro/flue) — ![Latest tag](https://img.shields.io/github/v/tag/withastro/flue) ![Latest release](https://img.shields.io/github/v/release/withastro/flue) ⭐ 8,668
 - [Swarmclaw](https://github.com/swarmclawai/swarmclaw) — ![Latest tag](https://img.shields.io/github/v/tag/swarmclawai/swarmclaw) ![Latest release](https://img.shields.io/github/v/release/swarmclawai/swarmclaw) ⭐ 712
-- [NodeTool](https://github.com/nodetool-ai/nodetool) — ![Latest tag](https://img.shields.io/github/v/tag/nodetool-ai/nodetool) ![Latest release](https://img.shields.io/github/v/release/nodetool-ai/nodetool) ⭐ 638 — Create Workspace
+- [NodeTool](https://github.com/nodetool-ai/nodetool) — ![Latest tag](https://img.shields.io/github/v/tag/nodetool-ai/nodetool) ![Latest release](https://img.shields.io/github/v/release/nodetool-ai/nodetool) ⭐ 642 — Create Workspace
 - [SlopCamera](https://github.com/hraness/slopcamera) — ![Latest tag](https://img.shields.io/github/v/tag/hraness/slopcamera) ![Latest release](https://img.shields.io/github/v/release/hraness/slopcamera) ⭐ 7 — Make images, diagrams, animation, 3D scenes and Video
 - [Code Motion](https://github.com/bytepatterns/code-motion) — ![Latest tag](https://img.shields.io/github/v/tag/bytepatterns/code-motion) ![Latest release](https://img.shields.io/github/v/release/bytepatterns/code-motion) ⭐ 0 — Algorithm explainer reels drawn entirely in code
 
 #### Coding
 
-- [Spec Kit](https://github.com/github/spec-kit) — ![Latest tag](https://img.shields.io/github/v/tag/github/spec-kit) ![Latest release](https://img.shields.io/github/v/release/github/spec-kit) ⭐ 150,008 — Toolkit to help you get started with SDD
-- [Orca](https://github.com/stablyai/orca) — ![Latest tag](https://img.shields.io/github/v/tag/stablyai/orca) ![Latest release](https://img.shields.io/github/v/release/stablyai/orca) ⭐ 126,175
-- [OpenSpec](https://github.com/Fission-AI/OpenSpec) — ![Latest tag](https://img.shields.io/github/v/tag/Fission-AI/OpenSpec) ![Latest release](https://img.shields.io/github/v/release/Fission-AI/OpenSpec) ⭐ 74,956 — Spec-driven development (SDD)
-- [t3code](https://github.com/pingdotgg/t3code) — ![Latest tag](https://img.shields.io/github/v/tag/pingdotgg/t3code) ![Latest release](https://img.shields.io/github/v/release/pingdotgg/t3code) ⭐ 62,042
-- [Paseo](https://github.com/getpaseo/paseo) — ![Latest tag](https://img.shields.io/github/v/tag/getpaseo/paseo) ![Latest release](https://img.shields.io/github/v/release/getpaseo/paseo) ⭐ 24,155 — Orchestrate multiple coding agents
-- [Paradev](https://github.com/ParadevAI/Paradev) — ![Latest tag](https://img.shields.io/github/v/tag/ParadevAI/Paradev) ![Latest release](https://img.shields.io/github/v/release/ParadevAI/Paradev) ⭐ 16,323
-- [freebuff](https://github.com/CodebuffAI/freebuff) — ![Latest tag](https://img.shields.io/github/v/tag/CodebuffAI/freebuff) ![Latest release](https://img.shields.io/github/v/release/CodebuffAI/freebuff) ⭐ 14,190
-- [OpenChamber](https://github.com/openchamber/openchamber) — ![Latest tag](https://img.shields.io/github/v/tag/openchamber/openchamber) ![Latest release](https://img.shields.io/github/v/release/openchamber/openchamber) ⭐ 12,945
-- [OpenGSD](https://github.com/open-gsd/gsd-core) — ![Latest tag](https://img.shields.io/github/v/tag/open-gsd/gsd-core) ![Latest release](https://img.shields.io/github/v/release/open-gsd/gsd-core) ⭐ 11,602 — Git. Ship. Done (SDD)
-- [Kiro](https://github.com/kirodotdev/Kiro) — ![Latest tag](https://img.shields.io/github/v/tag/kirodotdev/Kiro) ![Latest release](https://img.shields.io/github/v/release/kirodotdev/Kiro) ⭐ 4,472 — Kiro is an agentic IDE
-- [Optio](https://github.com/jonwiggins/optio) — ![Latest tag](https://img.shields.io/github/v/tag/jonwiggins/optio) ![Latest release](https://img.shields.io/github/v/release/jonwiggins/optio) ⭐ 1,107
+- [Spec Kit](https://github.com/github/spec-kit) — ![Latest tag](https://img.shields.io/github/v/tag/github/spec-kit) ![Latest release](https://img.shields.io/github/v/release/github/spec-kit) ⭐ 150,190 — Toolkit to help you get started with SDD
+- [Orca](https://github.com/stablyai/orca) — ![Latest tag](https://img.shields.io/github/v/tag/stablyai/orca) ![Latest release](https://img.shields.io/github/v/release/stablyai/orca) ⭐ 127,244
+- [OpenSpec](https://github.com/Fission-AI/OpenSpec) — ![Latest tag](https://img.shields.io/github/v/tag/Fission-AI/OpenSpec) ![Latest release](https://img.shields.io/github/v/release/Fission-AI/OpenSpec) ⭐ 75,050 — Spec-driven development (SDD)
+- [t3code](https://github.com/pingdotgg/t3code) — ![Latest tag](https://img.shields.io/github/v/tag/pingdotgg/t3code) ![Latest release](https://img.shields.io/github/v/release/pingdotgg/t3code) ⭐ 63,419
+- [Paseo](https://github.com/getpaseo/paseo) — ![Latest tag](https://img.shields.io/github/v/tag/getpaseo/paseo) ![Latest release](https://img.shields.io/github/v/release/getpaseo/paseo) ⭐ 24,225 — Orchestrate multiple coding agents
+- [Paradev](https://github.com/ParadevAI/Paradev) — ![Latest tag](https://img.shields.io/github/v/tag/ParadevAI/Paradev) ![Latest release](https://img.shields.io/github/v/release/ParadevAI/Paradev) ⭐ 16,353
+- [freebuff](https://github.com/CodebuffAI/freebuff) — ![Latest tag](https://img.shields.io/github/v/tag/CodebuffAI/freebuff) ![Latest release](https://img.shields.io/github/v/release/CodebuffAI/freebuff) ⭐ 14,204
+- [OpenChamber](https://github.com/openchamber/openchamber) — ![Latest tag](https://img.shields.io/github/v/tag/openchamber/openchamber) ![Latest release](https://img.shields.io/github/v/release/openchamber/openchamber) ⭐ 12,994
+- [OpenGSD](https://github.com/open-gsd/gsd-core) — ![Latest tag](https://img.shields.io/github/v/tag/open-gsd/gsd-core) ![Latest release](https://img.shields.io/github/v/release/open-gsd/gsd-core) ⭐ 11,631 — Git. Ship. Done (SDD)
+- [Kiro](https://github.com/kirodotdev/Kiro) — ![Latest tag](https://img.shields.io/github/v/tag/kirodotdev/Kiro) ![Latest release](https://img.shields.io/github/v/release/kirodotdev/Kiro) ⭐ 4,476 — Kiro is an agentic IDE
+- [Optio](https://github.com/jonwiggins/optio) — ![Latest tag](https://img.shields.io/github/v/tag/jonwiggins/optio) ![Latest release](https://img.shields.io/github/v/release/jonwiggins/optio) ⭐ 1,108
 - [Opencastle](https://github.com/monkilabs/opencastle) — ![Latest tag](https://img.shields.io/github/v/tag/monkilabs/opencastle) ![Latest release](https://img.shields.io/github/v/release/monkilabs/opencastle) ⭐ 81
 - [Lastlight](https://github.com/nearform/lastlight) — ![Latest tag](https://img.shields.io/github/v/tag/nearform/lastlight) ![Latest release](https://img.shields.io/github/v/release/nearform/lastlight) ⭐ 47 — AI Software Factory
 
 #### Generative AI
 
-- [Ollama](https://github.com/ollama/ollama) — ![Latest tag](https://img.shields.io/github/v/tag/ollama/ollama) ![Latest release](https://img.shields.io/github/v/release/ollama/ollama) ⭐ 187,174
-- [vLLM](https://github.com/vllm-project/vllm) — ![Latest tag](https://img.shields.io/github/v/tag/vllm-project/vllm) ![Latest release](https://img.shields.io/github/v/release/vllm-project/vllm) ⭐ 97,015
+- [Ollama](https://github.com/ollama/ollama) — ![Latest tag](https://img.shields.io/github/v/tag/ollama/ollama) ![Latest release](https://img.shields.io/github/v/release/ollama/ollama) ⭐ 187,332
+- [vLLM](https://github.com/vllm-project/vllm) — ![Latest tag](https://img.shields.io/github/v/tag/vllm-project/vllm) ![Latest release](https://img.shields.io/github/v/release/vllm-project/vllm) ⭐ 97,092
 - [GPT4All](https://github.com/nomic-ai/gpt4all) — ![Latest tag](https://img.shields.io/github/v/tag/nomic-ai/gpt4all) ![Latest release](https://img.shields.io/github/v/release/nomic-ai/gpt4all) ⭐ 77,345
-- [LocalAI](https://github.com/mudler/LocalAI) — ![Latest tag](https://img.shields.io/github/v/tag/mudler/LocalAI) ![Latest release](https://img.shields.io/github/v/release/mudler/LocalAI) ⭐ 50,390
-- [LM Studio](https://github.com/lmstudio-ai/lms) — ![Latest tag](https://img.shields.io/github/v/tag/lmstudio-ai/lms) ![Latest release](https://img.shields.io/github/v/release/lmstudio-ai/lms) ⭐ 5,431
+- [LocalAI](https://github.com/mudler/LocalAI) — ![Latest tag](https://img.shields.io/github/v/tag/mudler/LocalAI) ![Latest release](https://img.shields.io/github/v/release/mudler/LocalAI) ⭐ 50,406
+- [LM Studio](https://github.com/lmstudio-ai/lms) — ![Latest tag](https://img.shields.io/github/v/tag/lmstudio-ai/lms) ![Latest release](https://img.shields.io/github/v/release/lmstudio-ai/lms) ⭐ 5,434
 
 #### Harness
 
-- [Deepseek Harness](https://github.com/deepseek-ai/deepseek-harness) — ![Latest tag](https://img.shields.io/github/v/tag/deepseek-ai/deepseek-harness) ![Latest release](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness) ⭐ 282,033 — Everything is a Plugin
-- [Opencode](https://github.com/anomalyco/opencode) — ![Latest tag](https://img.shields.io/github/v/tag/anomalyco/opencode) ![Latest release](https://img.shields.io/github/v/release/anomalyco/opencode) ⭐ 227,156 — The open source coding agent
-- [Awesome Harness Engineering](https://github.com/walkinglabs/awesome-harness-engineering) — ![Latest tag](https://img.shields.io/github/v/tag/walkinglabs/awesome-harness-engineering) ![Latest release](https://img.shields.io/github/v/release/walkinglabs/awesome-harness-engineering) ⭐ 4,734 — Awesome tools & guides for harness engineering
-- [Opencrabs](https://github.com/opencrabs/opencrabs) — ![Latest tag](https://img.shields.io/github/v/tag/opencrabs/opencrabs) ![Latest release](https://img.shields.io/github/v/release/opencrabs/opencrabs) ⭐ 1,029 — The all-in-one AI agent
+- [Deepseek Harness](https://github.com/deepseek-ai/deepseek-harness) — ![Latest tag](https://img.shields.io/github/v/tag/deepseek-ai/deepseek-harness) ![Latest release](https://img.shields.io/github/v/release/deepseek-ai/deepseek-harness) ⭐ 282,704 — Everything is a Plugin
+- [Opencode](https://github.com/anomalyco/opencode) — ![Latest tag](https://img.shields.io/github/v/tag/anomalyco/opencode) ![Latest release](https://img.shields.io/github/v/release/anomalyco/opencode) ⭐ 227,447 — The open source coding agent
+- [Awesome Harness Engineering](https://github.com/walkinglabs/awesome-harness-engineering) — ![Latest tag](https://img.shields.io/github/v/tag/walkinglabs/awesome-harness-engineering) ![Latest release](https://img.shields.io/github/v/release/walkinglabs/awesome-harness-engineering) ⭐ 4,744 — Awesome tools & guides for harness engineering
+- [Opencrabs](https://github.com/opencrabs/opencrabs) — ![Latest tag](https://img.shields.io/github/v/tag/opencrabs/opencrabs) ![Latest release](https://img.shields.io/github/v/release/opencrabs/opencrabs) ⭐ 1,031 — The all-in-one AI agent
 - [Har](https://github.com/os-factory/har) — ![Latest tag](https://img.shields.io/github/v/tag/os-factory/har) ![Latest release](https://img.shields.io/github/v/release/os-factory/har) ⭐ 133 — Software factory workflows 
 
 #### Personal AI Assistant
 
-- [OpenClaw](https://github.com/openclaw/openclaw) — ![Latest tag](https://img.shields.io/github/v/tag/openclaw/openclaw) ![Latest release](https://img.shields.io/github/v/release/openclaw/openclaw) ⭐ 394,555
-- [Nanobot](https://github.com/HKUDS/nanobot) — ![Latest tag](https://img.shields.io/github/v/tag/HKUDS/nanobot) ![Latest release](https://img.shields.io/github/v/release/HKUDS/nanobot) ⭐ 50,116
+- [OpenClaw](https://github.com/openclaw/openclaw) — ![Latest tag](https://img.shields.io/github/v/tag/openclaw/openclaw) ![Latest release](https://img.shields.io/github/v/release/openclaw/openclaw) ⭐ 394,615
+- [Nanobot](https://github.com/HKUDS/nanobot) — ![Latest tag](https://img.shields.io/github/v/tag/HKUDS/nanobot) ![Latest release](https://img.shields.io/github/v/release/HKUDS/nanobot) ⭐ 50,145
 
 #### Skill
 
-- [skills](https://github.com/vercel-labs/skills) — ![Latest tag](https://img.shields.io/github/v/tag/vercel-labs/skills) ![Latest release](https://img.shields.io/github/v/release/vercel-labs/skills) ⭐ 39,586 — CLI for the open agent skills ecosystem
-- [Video Shortcraft](https://github.com/Vincentwei1021/video-shotcraft) — ![Latest tag](https://img.shields.io/github/v/tag/Vincentwei1021/video-shotcraft) ![Latest release](https://img.shields.io/github/v/release/Vincentwei1021/video-shotcraft) ⭐ 20,313 — Cinematic product videos with Remotion
-- [Software Factory](https://github.com/dzhng/skills) — ![Latest tag](https://img.shields.io/github/v/tag/dzhng/skills) ![Latest release](https://img.shields.io/github/v/release/dzhng/skills) ⭐ 1,509 — AI skills for building software factories
+- [skills](https://github.com/vercel-labs/skills) — ![Latest tag](https://img.shields.io/github/v/tag/vercel-labs/skills) ![Latest release](https://img.shields.io/github/v/release/vercel-labs/skills) ⭐ 39,758 — CLI for the open agent skills ecosystem
+- [Video Shortcraft](https://github.com/Vincentwei1021/video-shotcraft) — ![Latest tag](https://img.shields.io/github/v/tag/Vincentwei1021/video-shotcraft) ![Latest release](https://img.shields.io/github/v/release/Vincentwei1021/video-shotcraft) ⭐ 20,872 — Cinematic product videos with Remotion
+- [Software Factory](https://github.com/dzhng/skills) — ![Latest tag](https://img.shields.io/github/v/tag/dzhng/skills) ![Latest release](https://img.shields.io/github/v/release/dzhng/skills) ⭐ 1,510 — AI skills for building software factories
 - [Business Analysis Skills](https://github.com/45ck/business-analysis-skills) — ![Latest tag](https://img.shields.io/github/v/tag/45ck/business-analysis-skills) ![Latest release](https://img.shields.io/github/v/release/45ck/business-analysis-skills) ⭐ 60 — Platform-neutral skill pack for business analysis, requirements discovery, elicitation, workflows, and quality checks
 - [Remotion Skill](https://github.com/Westleighinauspicious5506/agent-skill-remotion-motion-graphics) — ![Latest tag](https://img.shields.io/github/v/tag/Westleighinauspicious5506/agent-skill-remotion-motion-graphics) ![Latest release](https://img.shields.io/github/v/release/Westleighinauspicious5506/agent-skill-remotion-motion-graphics) ⭐ 2 — Build kinetic-typography and logo promos as code with Remotion
 - [Agent Skills](https://github.com/Emmraan/agent-skills) — ![Latest tag](https://img.shields.io/github/v/tag/Emmraan/agent-skills) ![Latest release](https://img.shields.io/github/v/release/Emmraan/agent-skills) ⭐ 0 — Collection of 180+ portable SKILL.md capability modules for AI agents
@@ -85,11 +85,11 @@ xychart-beta horizontal
 
 #### UI
 
-- [CopilotKit](https://github.com/CopilotKit/CopilotKit) — ![Latest tag](https://img.shields.io/github/v/tag/CopilotKit/CopilotKit) ![Latest release](https://img.shields.io/github/v/release/CopilotKit/CopilotKit) ⭐ 38,725
-- [AionUi](https://github.com/iOfficeAI/AionUi) — ![Latest tag](https://img.shields.io/github/v/tag/iOfficeAI/AionUi) ![Latest release](https://img.shields.io/github/v/release/iOfficeAI/AionUi) ⭐ 34,312
-- [AG UI](https://github.com/ag-ui-protocol/ag-ui) — ![Latest tag](https://img.shields.io/github/v/tag/ag-ui-protocol/ag-ui) ![Latest release](https://img.shields.io/github/v/release/ag-ui-protocol/ag-ui) ⭐ 18,253
-- [Assistant UI](https://github.com/assistant-ui/assistant-ui) — ![Latest tag](https://img.shields.io/github/v/tag/assistant-ui/assistant-ui) ![Latest release](https://img.shields.io/github/v/release/assistant-ui/assistant-ui) ⭐ 13,257
-- [Tambo](https://github.com/tambo-ai/tambo) — ![Latest tag](https://img.shields.io/github/v/tag/tambo-ai/tambo) ![Latest release](https://img.shields.io/github/v/release/tambo-ai/tambo) ⭐ 11,222
+- [CopilotKit](https://github.com/CopilotKit/CopilotKit) — ![Latest tag](https://img.shields.io/github/v/tag/CopilotKit/CopilotKit) ![Latest release](https://img.shields.io/github/v/release/CopilotKit/CopilotKit) ⭐ 38,760
+- [AionUi](https://github.com/iOfficeAI/AionUi) — ![Latest tag](https://img.shields.io/github/v/tag/iOfficeAI/AionUi) ![Latest release](https://img.shields.io/github/v/release/iOfficeAI/AionUi) ⭐ 34,336
+- [AG UI](https://github.com/ag-ui-protocol/ag-ui) — ![Latest tag](https://img.shields.io/github/v/tag/ag-ui-protocol/ag-ui) ![Latest release](https://img.shields.io/github/v/release/ag-ui-protocol/ag-ui) ⭐ 19,721
+- [Assistant UI](https://github.com/assistant-ui/assistant-ui) — ![Latest tag](https://img.shields.io/github/v/tag/assistant-ui/assistant-ui) ![Latest release](https://img.shields.io/github/v/release/assistant-ui/assistant-ui) ⭐ 13,286
+- [Tambo](https://github.com/tambo-ai/tambo) — ![Latest tag](https://img.shields.io/github/v/tag/tambo-ai/tambo) ![Latest release](https://img.shields.io/github/v/release/tambo-ai/tambo) ⭐ 11,221
 
 #### Video
 
@@ -103,13 +103,13 @@ xychart-beta horizontal
 
 #### Packages
 
-- [Nix](https://github.com/NixOS/nixpkgs) — ![Latest tag](https://img.shields.io/github/v/tag/NixOS/nixpkgs) ![Latest release](https://img.shields.io/github/v/release/NixOS/nixpkgs) ⭐ 26,848
+- [Nix](https://github.com/NixOS/nixpkgs) — ![Latest tag](https://img.shields.io/github/v/tag/NixOS/nixpkgs) ![Latest release](https://img.shields.io/github/v/release/NixOS/nixpkgs) ⭐ 26,863
 
 #### Stack
 
-- [Agent Native](https://github.com/BuilderIO/agent-native) — ![Latest tag](https://img.shields.io/github/v/tag/BuilderIO/agent-native) ![Latest release](https://img.shields.io/github/v/release/BuilderIO/agent-native) ⭐ 7,710
+- [Agent Native](https://github.com/BuilderIO/agent-native) — ![Latest tag](https://img.shields.io/github/v/tag/BuilderIO/agent-native) ![Latest release](https://img.shields.io/github/v/release/BuilderIO/agent-native) ⭐ 7,713
 - [Objectstack](https://github.com/objectstack-ai/objectstack) — ![Latest tag](https://img.shields.io/github/v/tag/objectstack-ai/objectstack) ![Latest release](https://img.shields.io/github/v/release/objectstack-ai/objectstack) ⭐ 94
-- [Better Stack](https://github.com/better-stack-ai/better-stack) — ![Latest tag](https://img.shields.io/github/v/tag/better-stack-ai/better-stack) ![Latest release](https://img.shields.io/github/v/release/better-stack-ai/better-stack) ⭐ 80
+- [Better Stack](https://github.com/better-stack-ai/better-stack) — ![Latest tag](https://img.shields.io/github/v/tag/better-stack-ai/better-stack) ![Latest release](https://img.shields.io/github/v/release/better-stack-ai/better-stack) ⭐ 81
 
 </details>
 
@@ -117,25 +117,25 @@ xychart-beta horizontal
 <details open>
 <summary>Backend (17)</summary>
 
-- [Laravel](https://github.com/laravel/laravel) — ![Latest tag](https://img.shields.io/github/v/tag/laravel/laravel) ![Latest release](https://img.shields.io/github/v/release/laravel/laravel) ⭐ 85,401
-- [Nest](https://github.com/nestjs/nest) — ![Latest tag](https://img.shields.io/github/v/tag/nestjs/nest) ![Latest release](https://img.shields.io/github/v/release/nestjs/nest) ⭐ 77,127
-- [Express](https://github.com/expressjs/express) — ![Latest tag](https://img.shields.io/github/v/tag/expressjs/express) ![Latest release](https://img.shields.io/github/v/release/expressjs/express) ⭐ 69,682
-- [Gatsby](https://github.com/gatsbyjs/gatsby) — ![Latest tag](https://img.shields.io/github/v/tag/gatsbyjs/gatsby) ![Latest release](https://img.shields.io/github/v/release/gatsbyjs/gatsby) ⭐ 55,916
-- [Meteor](https://github.com/meteor/meteor) — ![Latest tag](https://img.shields.io/github/v/tag/meteor/meteor) ![Latest release](https://img.shields.io/github/v/release/meteor/meteor) ⭐ 44,794
-- [Kong](https://github.com/Kong/kong) — ![Latest tag](https://img.shields.io/github/v/tag/Kong/kong) ![Latest release](https://img.shields.io/github/v/release/Kong/kong) ⭐ 44,383
-- [Fastify](https://github.com/fastify/fastify) — ![Latest tag](https://img.shields.io/github/v/tag/fastify/fastify) ![Latest release](https://img.shields.io/github/v/release/fastify/fastify) ⭐ 37,427
-- [Hono](https://github.com/honojs/hono) — ![Latest tag](https://img.shields.io/github/v/tag/honojs/hono) ![Latest release](https://img.shields.io/github/v/release/honojs/hono) ⭐ 32,961
-- [Rocket](https://github.com/rwf2/Rocket) — ![Latest tag](https://img.shields.io/github/v/tag/rwf2/Rocket) ![Latest release](https://img.shields.io/github/v/release/rwf2/Rocket) ⭐ 25,800
-- [Elysia](https://github.com/elysiajs/elysia) — ![Latest tag](https://img.shields.io/github/v/tag/elysiajs/elysia) ![Latest release](https://img.shields.io/github/v/release/elysiajs/elysia) ⭐ 19,358
+- [Laravel](https://github.com/laravel/laravel) — ![Latest tag](https://img.shields.io/github/v/tag/laravel/laravel) ![Latest release](https://img.shields.io/github/v/release/laravel/laravel) ⭐ 85,377
+- [Nest](https://github.com/nestjs/nest) — ![Latest tag](https://img.shields.io/github/v/tag/nestjs/nest) ![Latest release](https://img.shields.io/github/v/release/nestjs/nest) ⭐ 77,117
+- [Express](https://github.com/expressjs/express) — ![Latest tag](https://img.shields.io/github/v/tag/expressjs/express) ![Latest release](https://img.shields.io/github/v/release/expressjs/express) ⭐ 69,656
+- [Gatsby](https://github.com/gatsbyjs/gatsby) — ![Latest tag](https://img.shields.io/github/v/tag/gatsbyjs/gatsby) ![Latest release](https://img.shields.io/github/v/release/gatsbyjs/gatsby) ⭐ 55,917
+- [Meteor](https://github.com/meteor/meteor) — ![Latest tag](https://img.shields.io/github/v/tag/meteor/meteor) ![Latest release](https://img.shields.io/github/v/release/meteor/meteor) ⭐ 44,793
+- [Kong](https://github.com/Kong/kong) — ![Latest tag](https://img.shields.io/github/v/tag/Kong/kong) ![Latest release](https://img.shields.io/github/v/release/Kong/kong) ⭐ 44,387
+- [Fastify](https://github.com/fastify/fastify) — ![Latest tag](https://img.shields.io/github/v/tag/fastify/fastify) ![Latest release](https://img.shields.io/github/v/release/fastify/fastify) ⭐ 37,432
+- [Hono](https://github.com/honojs/hono) — ![Latest tag](https://img.shields.io/github/v/tag/honojs/hono) ![Latest release](https://img.shields.io/github/v/release/honojs/hono) ⭐ 32,965
+- [Rocket](https://github.com/rwf2/Rocket) — ![Latest tag](https://img.shields.io/github/v/tag/rwf2/Rocket) ![Latest release](https://img.shields.io/github/v/release/rwf2/Rocket) ⭐ 25,804
+- [Elysia](https://github.com/elysiajs/elysia) — ![Latest tag](https://img.shields.io/github/v/tag/elysiajs/elysia) ![Latest release](https://img.shields.io/github/v/release/elysiajs/elysia) ⭐ 19,360
 - [Feathers](https://github.com/feathersjs/feathers) — ![Latest tag](https://img.shields.io/github/v/tag/feathersjs/feathers) ![Latest release](https://img.shields.io/github/v/release/feathersjs/feathers) ⭐ 15,258
-- [Yii](https://github.com/yiisoft/yii2) — ![Latest tag](https://img.shields.io/github/v/tag/yiisoft/yii2) ![Latest release](https://img.shields.io/github/v/release/yiisoft/yii2) ⭐ 14,279
+- [Yii](https://github.com/yiisoft/yii2) — ![Latest tag](https://img.shields.io/github/v/tag/yiisoft/yii2) ![Latest release](https://img.shields.io/github/v/release/yiisoft/yii2) ⭐ 14,278
 - [Redwood](https://github.com/redwoodjs/redwood) — ![Latest tag](https://img.shields.io/github/v/tag/redwoodjs/redwood) ![Latest release](https://img.shields.io/github/v/release/redwoodjs/redwood) ![GitHub stars](https://img.shields.io/github/stars/redwoodjs/redwood?style=flat)
 - [SST](https://github.com/sst/sst) — ![Latest tag](https://img.shields.io/github/v/tag/sst/sst) ![Latest release](https://img.shields.io/github/v/release/sst/sst) ![GitHub stars](https://img.shields.io/github/stars/sst/sst?style=flat)
 
 #### Headless CMS
 
-- [Strapi](https://github.com/strapi/strapi) — ![Latest tag](https://img.shields.io/github/v/tag/strapi/strapi) ![Latest release](https://img.shields.io/github/v/release/strapi/strapi) ⭐ 73,497
-- [Directus](https://github.com/directus/directus) — ![Latest tag](https://img.shields.io/github/v/tag/directus/directus) ![Latest release](https://img.shields.io/github/v/release/directus/directus) ⭐ 38,727
+- [Strapi](https://github.com/strapi/strapi) — ![Latest tag](https://img.shields.io/github/v/tag/strapi/strapi) ![Latest release](https://img.shields.io/github/v/release/strapi/strapi) ⭐ 73,502
+- [Directus](https://github.com/directus/directus) — ![Latest tag](https://img.shields.io/github/v/tag/directus/directus) ![Latest release](https://img.shields.io/github/v/release/directus/directus) ⭐ 38,739
 
 #### Lambda
 
@@ -149,8 +149,8 @@ xychart-beta horizontal
 
 #### ORM
 
-- [TypeORM](https://github.com/typeorm/typeorm) — ![Latest tag](https://img.shields.io/github/v/tag/typeorm/typeorm) ![Latest release](https://img.shields.io/github/v/release/typeorm/typeorm) ⭐ 36,673
-- [DrizzleORM](https://github.com/drizzle-team/drizzle-orm) — ![Latest tag](https://img.shields.io/github/v/tag/drizzle-team/drizzle-orm) ![Latest release](https://img.shields.io/github/v/release/drizzle-team/drizzle-orm) ⭐ 36,282
+- [TypeORM](https://github.com/typeorm/typeorm) — ![Latest tag](https://img.shields.io/github/v/tag/typeorm/typeorm) ![Latest release](https://img.shields.io/github/v/release/typeorm/typeorm) ⭐ 36,674
+- [DrizzleORM](https://github.com/drizzle-team/drizzle-orm) — ![Latest tag](https://img.shields.io/github/v/tag/drizzle-team/drizzle-orm) ![Latest release](https://img.shields.io/github/v/release/drizzle-team/drizzle-orm) ⭐ 36,288
 - [Sequelize](https://github.com/sequelize/sequelize) — ![Latest tag](https://img.shields.io/github/v/tag/sequelize/sequelize) ![Latest release](https://img.shields.io/github/v/release/sequelize/sequelize) ⭐ 30,348
 - [Knex](https://github.com/knex/knex) — ![Latest tag](https://img.shields.io/github/v/tag/knex/knex) ![Latest release](https://img.shields.io/github/v/release/knex/knex) ⭐ 20,337
 - [MikroORM](https://github.com/mikro-orm/mikro-orm) — ![Latest tag](https://img.shields.io/github/v/tag/mikro-orm/mikro-orm) ![Latest release](https://img.shields.io/github/v/release/mikro-orm/mikro-orm) ⭐ 9,273
@@ -160,11 +160,11 @@ xychart-beta horizontal
 #### Store
 
 - [MongoDB](https://github.com/mongodb/mongo) — ![Latest tag](https://img.shields.io/github/v/tag/mongodb/mongo) ![Latest release](https://img.shields.io/github/v/release/mongodb/mongo) ⭐ 28,681
-- [TimeScale](https://github.com/timescale/timescaledb) — ![Latest tag](https://img.shields.io/github/v/tag/timescale/timescaledb) ![Latest release](https://img.shields.io/github/v/release/timescale/timescaledb) ⭐ 23,862
-- [Postgres](https://github.com/postgres/postgres) — ![Latest tag](https://img.shields.io/github/v/tag/postgres/postgres) ![Latest release](https://img.shields.io/github/v/release/postgres/postgres) ⭐ 22,843
+- [TimeScale](https://github.com/timescale/timescaledb) — ![Latest tag](https://img.shields.io/github/v/tag/timescale/timescaledb) ![Latest release](https://img.shields.io/github/v/release/timescale/timescaledb) ⭐ 23,865
+- [Postgres](https://github.com/postgres/postgres) — ![Latest tag](https://img.shields.io/github/v/tag/postgres/postgres) ![Latest release](https://img.shields.io/github/v/release/postgres/postgres) ⭐ 22,860
 - [MySQL](https://github.com/mysqljs/mysql) — ![Latest tag](https://img.shields.io/github/v/tag/mysqljs/mysql) ![Latest release](https://img.shields.io/github/v/release/mysqljs/mysql) ⭐ 18,604
-- [SQLite](https://github.com/sqlite/sqlite) — ![Latest tag](https://img.shields.io/github/v/tag/sqlite/sqlite) ![Latest release](https://img.shields.io/github/v/release/sqlite/sqlite) ⭐ 11,021
-- [MariaDB](https://github.com/MariaDB/server) — ![Latest tag](https://img.shields.io/github/v/tag/MariaDB/server) ![Latest release](https://img.shields.io/github/v/release/MariaDB/server) ⭐ 8,596
+- [SQLite](https://github.com/sqlite/sqlite) — ![Latest tag](https://img.shields.io/github/v/tag/sqlite/sqlite) ![Latest release](https://img.shields.io/github/v/release/sqlite/sqlite) ⭐ 11,032
+- [MariaDB](https://github.com/MariaDB/server) — ![Latest tag](https://img.shields.io/github/v/tag/MariaDB/server) ![Latest release](https://img.shields.io/github/v/release/MariaDB/server) ⭐ 8,602
 
 </details>
 
@@ -172,12 +172,12 @@ xychart-beta horizontal
 <details open>
 <summary>DevOps (9)</summary>
 
-- [Caddy](https://github.com/caddyserver/caddy) — ![Latest tag](https://img.shields.io/github/v/tag/caddyserver/caddy) ![Latest release](https://img.shields.io/github/v/release/caddyserver/caddy) ⭐ 79,086
-- [PM2](https://github.com/Unitech/pm2) — ![Latest tag](https://img.shields.io/github/v/tag/Unitech/pm2) ![Latest release](https://img.shields.io/github/v/release/Unitech/pm2) ⭐ 43,335
-- [Portainer](https://github.com/portainer/portainer) — ![Latest tag](https://img.shields.io/github/v/tag/portainer/portainer) ![Latest release](https://img.shields.io/github/v/release/portainer/portainer) ⭐ 38,831
-- [Nginx](https://github.com/nginx/nginx) — ![Latest tag](https://img.shields.io/github/v/tag/nginx/nginx) ![Latest release](https://img.shields.io/github/v/release/nginx/nginx) ⭐ 32,129
-- [Vercel](https://github.com/vercel/vercel) — ![Latest tag](https://img.shields.io/github/v/tag/vercel/vercel) ![Latest release](https://img.shields.io/github/v/release/vercel/vercel) ⭐ 16,603
-- [DDev](https://github.com/ddev/ddev) — ![Latest tag](https://img.shields.io/github/v/tag/ddev/ddev) ![Latest release](https://img.shields.io/github/v/release/ddev/ddev) ⭐ 3,957
+- [Caddy](https://github.com/caddyserver/caddy) — ![Latest tag](https://img.shields.io/github/v/tag/caddyserver/caddy) ![Latest release](https://img.shields.io/github/v/release/caddyserver/caddy) ⭐ 79,115
+- [PM2](https://github.com/Unitech/pm2) — ![Latest tag](https://img.shields.io/github/v/tag/Unitech/pm2) ![Latest release](https://img.shields.io/github/v/release/Unitech/pm2) ⭐ 43,336
+- [Portainer](https://github.com/portainer/portainer) — ![Latest tag](https://img.shields.io/github/v/tag/portainer/portainer) ![Latest release](https://img.shields.io/github/v/release/portainer/portainer) ⭐ 38,834
+- [Nginx](https://github.com/nginx/nginx) — ![Latest tag](https://img.shields.io/github/v/tag/nginx/nginx) ![Latest release](https://img.shields.io/github/v/release/nginx/nginx) ⭐ 32,142
+- [Vercel](https://github.com/vercel/vercel) — ![Latest tag](https://img.shields.io/github/v/tag/vercel/vercel) ![Latest release](https://img.shields.io/github/v/release/vercel/vercel) ⭐ 16,611
+- [DDev](https://github.com/ddev/ddev) — ![Latest tag](https://img.shields.io/github/v/tag/ddev/ddev) ![Latest release](https://img.shields.io/github/v/release/ddev/ddev) ⭐ 3,962
 - [Piko](https://github.com/andydunstall/piko) — ![Latest tag](https://img.shields.io/github/v/tag/andydunstall/piko) ![Latest release](https://img.shields.io/github/v/release/andydunstall/piko) ⭐ 2,204
 - [Kool](https://github.com/kool-dev/kool) — ![Latest tag](https://img.shields.io/github/v/tag/kool-dev/kool) ![Latest release](https://img.shields.io/github/v/release/kool-dev/kool) ⭐ 727
 
@@ -191,13 +191,13 @@ xychart-beta horizontal
 <details open>
 <summary>Document (8)</summary>
 
-- [Siyuan](https://github.com/siyuan-note/siyuan) — ![Latest tag](https://img.shields.io/github/v/tag/siyuan-note/siyuan) ![Latest release](https://img.shields.io/github/v/release/siyuan-note/siyuan) ⭐ 47,252
-- [Outline](https://github.com/outline/outline) — ![Latest tag](https://img.shields.io/github/v/tag/outline/outline) ![Latest release](https://img.shields.io/github/v/release/outline/outline) ⭐ 41,278
-- [Docsify](https://github.com/docsifyjs/docsify) — ![Latest tag](https://img.shields.io/github/v/tag/docsifyjs/docsify) ![Latest release](https://img.shields.io/github/v/release/docsifyjs/docsify) ⭐ 31,594
-- [Gitbook](https://github.com/GitbookIO/gitbook) — ![Latest tag](https://img.shields.io/github/v/tag/GitbookIO/gitbook) ![Latest release](https://img.shields.io/github/v/release/GitbookIO/gitbook) ⭐ 29,100
-- [Mkdocs](https://github.com/mkdocs/mkdocs) — ![Latest tag](https://img.shields.io/github/v/tag/mkdocs/mkdocs) ![Latest release](https://img.shields.io/github/v/release/mkdocs/mkdocs) ⭐ 22,556
-- [mdBook](https://github.com/rust-lang/mdBook) — ![Latest tag](https://img.shields.io/github/v/tag/rust-lang/mdBook) ![Latest release](https://img.shields.io/github/v/release/rust-lang/mdBook) ⭐ 22,302 — Create modern online books from Markdown files.
-- [Zensical](https://github.com/zensical/zensical) — ![Latest tag](https://img.shields.io/github/v/tag/zensical/zensical) ![Latest release](https://img.shields.io/github/v/release/zensical/zensical) ⭐ 6,182 — A modern static site generator by the Material for MkDocs team
+- [Siyuan](https://github.com/siyuan-note/siyuan) — ![Latest tag](https://img.shields.io/github/v/tag/siyuan-note/siyuan) ![Latest release](https://img.shields.io/github/v/release/siyuan-note/siyuan) ⭐ 47,271
+- [Outline](https://github.com/outline/outline) — ![Latest tag](https://img.shields.io/github/v/tag/outline/outline) ![Latest release](https://img.shields.io/github/v/release/outline/outline) ⭐ 41,281
+- [Docsify](https://github.com/docsifyjs/docsify) — ![Latest tag](https://img.shields.io/github/v/tag/docsifyjs/docsify) ![Latest release](https://img.shields.io/github/v/release/docsifyjs/docsify) ⭐ 31,597
+- [Gitbook](https://github.com/GitbookIO/gitbook) — ![Latest tag](https://img.shields.io/github/v/tag/GitbookIO/gitbook) ![Latest release](https://img.shields.io/github/v/release/GitbookIO/gitbook) ⭐ 29,099
+- [Mkdocs](https://github.com/mkdocs/mkdocs) — ![Latest tag](https://img.shields.io/github/v/tag/mkdocs/mkdocs) ![Latest release](https://img.shields.io/github/v/release/mkdocs/mkdocs) ⭐ 22,555
+- [mdBook](https://github.com/rust-lang/mdBook) — ![Latest tag](https://img.shields.io/github/v/tag/rust-lang/mdBook) ![Latest release](https://img.shields.io/github/v/release/rust-lang/mdBook) ⭐ 22,309 — Create modern online books from Markdown files.
+- [Zensical](https://github.com/zensical/zensical) — ![Latest tag](https://img.shields.io/github/v/tag/zensical/zensical) ![Latest release](https://img.shields.io/github/v/release/zensical/zensical) ⭐ 6,197 — A modern static site generator by the Material for MkDocs team
 - [Docusaurus](https://github.com/facebook/docusaurus) — ![Latest tag](https://img.shields.io/github/v/tag/facebook/docusaurus) ![Latest release](https://img.shields.io/github/v/release/facebook/docusaurus) ![GitHub stars](https://img.shields.io/github/stars/facebook/docusaurus?style=flat)
 
 </details>
@@ -208,7 +208,7 @@ xychart-beta horizontal
 
 #### Python
 
-- [UV](https://github.com/astral-sh/uv) — ![Latest tag](https://img.shields.io/github/v/tag/astral-sh/uv) ![Latest release](https://img.shields.io/github/v/release/astral-sh/uv) ⭐ 92,054
+- [UV](https://github.com/astral-sh/uv) — ![Latest tag](https://img.shields.io/github/v/tag/astral-sh/uv) ![Latest release](https://img.shields.io/github/v/release/astral-sh/uv) ⭐ 92,058
 
 </details>
 
@@ -218,25 +218,25 @@ xychart-beta horizontal
 
 #### UI
 
-- [Vue](https://github.com/vuejs/vue) — ![Latest tag](https://img.shields.io/github/v/tag/vuejs/vue) ![Latest release](https://img.shields.io/github/v/release/vuejs/vue) ⭐ 212,518
-- [Bootstrap](https://github.com/twbs/bootstrap) — ![Latest tag](https://img.shields.io/github/v/tag/twbs/bootstrap) ![Latest release](https://img.shields.io/github/v/release/twbs/bootstrap) ⭐ 175,068
-- [Next](https://github.com/vercel/next.js) — ![Latest tag](https://img.shields.io/github/v/tag/vercel/next.js) ![Latest release](https://img.shields.io/github/v/release/vercel/next.js) ⭐ 143,575
-- [Shadcn](https://github.com/shadcn-ui/ui) — ![Latest tag](https://img.shields.io/github/v/tag/shadcn-ui/ui) ![Latest release](https://img.shields.io/github/v/release/shadcn-ui/ui) ⭐ 128,290
-- [Ant Design](https://github.com/ant-design/ant-design) — ![Latest tag](https://img.shields.io/github/v/tag/ant-design/ant-design) ![Latest release](https://img.shields.io/github/v/release/ant-design/ant-design) ⭐ 100,227
-- [Tailwind](https://github.com/tailwindlabs/tailwindcss) — ![Latest tag](https://img.shields.io/github/v/tag/tailwindlabs/tailwindcss) ![Latest release](https://img.shields.io/github/v/release/tailwindlabs/tailwindcss) ⭐ 98,653
-- [Bulma](https://github.com/jgthms/bulma) — ![Latest tag](https://img.shields.io/github/v/tag/jgthms/bulma) ![Latest release](https://img.shields.io/github/v/release/jgthms/bulma) ⭐ 50,033
-- [daisyUI](https://github.com/saadeghi/daisyui) — ![Latest tag](https://img.shields.io/github/v/tag/saadeghi/daisyui) ![Latest release](https://img.shields.io/github/v/release/saadeghi/daisyui) ⭐ 42,851
-- [Tabler](https://github.com/tabler/tabler) — ![Latest tag](https://img.shields.io/github/v/tag/tabler/tabler) ![Latest release](https://img.shields.io/github/v/release/tabler/tabler) ⭐ 42,071
+- [Vue](https://github.com/vuejs/vue) — ![Latest tag](https://img.shields.io/github/v/tag/vuejs/vue) ![Latest release](https://img.shields.io/github/v/release/vuejs/vue) ⭐ 212,510
+- [Bootstrap](https://github.com/twbs/bootstrap) — ![Latest tag](https://img.shields.io/github/v/tag/twbs/bootstrap) ![Latest release](https://img.shields.io/github/v/release/twbs/bootstrap) ⭐ 175,075
+- [Next](https://github.com/vercel/next.js) — ![Latest tag](https://img.shields.io/github/v/tag/vercel/next.js) ![Latest release](https://img.shields.io/github/v/release/vercel/next.js) ⭐ 143,674
+- [Shadcn](https://github.com/shadcn-ui/ui) — ![Latest tag](https://img.shields.io/github/v/tag/shadcn-ui/ui) ![Latest release](https://img.shields.io/github/v/release/shadcn-ui/ui) ⭐ 128,389
+- [Ant Design](https://github.com/ant-design/ant-design) — ![Latest tag](https://img.shields.io/github/v/tag/ant-design/ant-design) ![Latest release](https://img.shields.io/github/v/release/ant-design/ant-design) ⭐ 100,247
+- [Tailwind](https://github.com/tailwindlabs/tailwindcss) — ![Latest tag](https://img.shields.io/github/v/tag/tailwindlabs/tailwindcss) ![Latest release](https://img.shields.io/github/v/release/tailwindlabs/tailwindcss) ⭐ 98,723
+- [Bulma](https://github.com/jgthms/bulma) — ![Latest tag](https://img.shields.io/github/v/tag/jgthms/bulma) ![Latest release](https://img.shields.io/github/v/release/jgthms/bulma) ⭐ 50,032
+- [daisyUI](https://github.com/saadeghi/daisyui) — ![Latest tag](https://img.shields.io/github/v/tag/saadeghi/daisyui) ![Latest release](https://img.shields.io/github/v/release/saadeghi/daisyui) ⭐ 42,877
+- [Tabler](https://github.com/tabler/tabler) — ![Latest tag](https://img.shields.io/github/v/tag/tabler/tabler) ![Latest release](https://img.shields.io/github/v/release/tabler/tabler) ⭐ 42,074
 - [Style Components](https://github.com/styled-components/styled-components) — ![Latest tag](https://img.shields.io/github/v/tag/styled-components/styled-components) ![Latest release](https://img.shields.io/github/v/release/styled-components/styled-components) ⭐ 41,046
-- [ChakraUI](https://github.com/chakra-ui/chakra-ui) — ![Latest tag](https://img.shields.io/github/v/tag/chakra-ui/chakra-ui) ![Latest release](https://img.shields.io/github/v/release/chakra-ui/chakra-ui) ⭐ 40,727
+- [ChakraUI](https://github.com/chakra-ui/chakra-ui) — ![Latest tag](https://img.shields.io/github/v/tag/chakra-ui/chakra-ui) ![Latest release](https://img.shields.io/github/v/release/chakra-ui/chakra-ui) ⭐ 40,732
 - [Refine](https://github.com/refinedev/refine) — ![Latest tag](https://img.shields.io/github/v/tag/refinedev/refine) ![Latest release](https://img.shields.io/github/v/release/refinedev/refine) ⭐ 36,048
-- [Remix](https://github.com/remix-run/remix) — ![Latest tag](https://img.shields.io/github/v/tag/remix-run/remix) ![Latest release](https://img.shields.io/github/v/release/remix-run/remix) ⭐ 33,455
-- [Mantine](https://github.com/mantinedev/mantine) — ![Latest tag](https://img.shields.io/github/v/tag/mantinedev/mantine) ![Latest release](https://img.shields.io/github/v/release/mantinedev/mantine) ⭐ 31,948
-- [Tamagui](https://github.com/tamagui/tamagui) — ![Latest tag](https://img.shields.io/github/v/tag/tamagui/tamagui) ![Latest release](https://img.shields.io/github/v/release/tamagui/tamagui) ⭐ 14,313
-- [OpenTUI](https://github.com/anomalyco/opentui) — ![Latest tag](https://img.shields.io/github/v/tag/anomalyco/opentui) ![Latest release](https://img.shields.io/github/v/release/anomalyco/opentui) ⭐ 13,829 — A TypeScript library for building terminal user interfaces (TUI)
+- [Remix](https://github.com/remix-run/remix) — ![Latest tag](https://img.shields.io/github/v/tag/remix-run/remix) ![Latest release](https://img.shields.io/github/v/release/remix-run/remix) ⭐ 33,459
+- [Mantine](https://github.com/mantinedev/mantine) — ![Latest tag](https://img.shields.io/github/v/tag/mantinedev/mantine) ![Latest release](https://img.shields.io/github/v/release/mantinedev/mantine) ⭐ 31,952
+- [Tamagui](https://github.com/tamagui/tamagui) — ![Latest tag](https://img.shields.io/github/v/tag/tamagui/tamagui) ![Latest release](https://img.shields.io/github/v/release/tamagui/tamagui) ⭐ 14,316
+- [OpenTUI](https://github.com/anomalyco/opentui) — ![Latest tag](https://img.shields.io/github/v/tag/anomalyco/opentui) ![Latest release](https://img.shields.io/github/v/release/anomalyco/opentui) ⭐ 13,835 — A TypeScript library for building terminal user interfaces (TUI)
 - [Prime](https://github.com/primefaces/primereact) — ![Latest tag](https://img.shields.io/github/v/tag/primefaces/primereact) ![Latest release](https://img.shields.io/github/v/release/primefaces/primereact) ⭐ 8,313
-- [One](https://github.com/onejs/one) — ![Latest tag](https://img.shields.io/github/v/tag/onejs/one) ![Latest release](https://img.shields.io/github/v/release/onejs/one) ⭐ 4,643
-- [AffectUI](https://github.com/flohoeller/affectui) — ![Latest tag](https://img.shields.io/github/v/tag/flohoeller/affectui) ![Latest release](https://img.shields.io/github/v/release/flohoeller/affectui) ⭐ 836
+- [One](https://github.com/onejs/one) — ![Latest tag](https://img.shields.io/github/v/tag/onejs/one) ![Latest release](https://img.shields.io/github/v/release/onejs/one) ⭐ 4,645
+- [AffectUI](https://github.com/flohoeller/affectui) — ![Latest tag](https://img.shields.io/github/v/tag/flohoeller/affectui) ![Latest release](https://img.shields.io/github/v/release/flohoeller/affectui) ⭐ 847
 - [React](https://github.com/facebook/react) — ![Latest tag](https://img.shields.io/github/v/tag/facebook/react) ![Latest release](https://img.shields.io/github/v/release/facebook/react) ![GitHub stars](https://img.shields.io/github/stars/facebook/react?style=flat)
 
 </details>
@@ -247,16 +247,16 @@ xychart-beta horizontal
 
 #### Boilerplace
 
-- [Ignite](https://github.com/infinitered/ignite) — ![Latest tag](https://img.shields.io/github/v/tag/infinitered/ignite) ![Latest release](https://img.shields.io/github/v/release/infinitered/ignite) ⭐ 19,954
-- [React Native](https://github.com/wataru-maeda/react-native-boilerplate) — ![Latest tag](https://img.shields.io/github/v/tag/wataru-maeda/react-native-boilerplate) ![Latest release](https://img.shields.io/github/v/release/wataru-maeda/react-native-boilerplate) ⭐ 524
+- [Ignite](https://github.com/infinitered/ignite) — ![Latest tag](https://img.shields.io/github/v/tag/infinitered/ignite) ![Latest release](https://img.shields.io/github/v/release/infinitered/ignite) ⭐ 19,955
+- [React Native](https://github.com/wataru-maeda/react-native-boilerplate) — ![Latest tag](https://img.shields.io/github/v/tag/wataru-maeda/react-native-boilerplate) ![Latest release](https://img.shields.io/github/v/release/wataru-maeda/react-native-boilerplate) ⭐ 525
 
 #### Core
 
-- [Flutter](https://github.com/flutter/flutter) — ![Latest tag](https://img.shields.io/github/v/tag/flutter/flutter) ![Latest release](https://img.shields.io/github/v/release/flutter/flutter) ⭐ 181,281
-- [Expo](https://github.com/expo/expo) — ![Latest tag](https://img.shields.io/github/v/tag/expo/expo) ![Latest release](https://img.shields.io/github/v/release/expo/expo) ⭐ 53,578
-- [Dioxus](https://github.com/DioxusLabs/dioxus) — ![Latest tag](https://img.shields.io/github/v/tag/DioxusLabs/dioxus) ![Latest release](https://img.shields.io/github/v/release/DioxusLabs/dioxus) ⭐ 39,781
-- [Flet](https://github.com/flet-dev/flet) — ![Latest tag](https://img.shields.io/github/v/tag/flet-dev/flet) ![Latest release](https://img.shields.io/github/v/release/flet-dev/flet) ⭐ 17,556
-- [Lynx](https://github.com/lynx-family/lynx) — ![Latest tag](https://img.shields.io/github/v/tag/lynx-family/lynx) ![Latest release](https://img.shields.io/github/v/release/lynx-family/lynx) ⭐ 15,259
+- [Flutter](https://github.com/flutter/flutter) — ![Latest tag](https://img.shields.io/github/v/tag/flutter/flutter) ![Latest release](https://img.shields.io/github/v/release/flutter/flutter) ⭐ 181,279
+- [Expo](https://github.com/expo/expo) — ![Latest tag](https://img.shields.io/github/v/tag/expo/expo) ![Latest release](https://img.shields.io/github/v/release/expo/expo) ⭐ 53,603
+- [Dioxus](https://github.com/DioxusLabs/dioxus) — ![Latest tag](https://img.shields.io/github/v/tag/DioxusLabs/dioxus) ![Latest release](https://img.shields.io/github/v/release/DioxusLabs/dioxus) ⭐ 39,792
+- [Flet](https://github.com/flet-dev/flet) — ![Latest tag](https://img.shields.io/github/v/tag/flet-dev/flet) ![Latest release](https://img.shields.io/github/v/release/flet-dev/flet) ⭐ 17,560
+- [Lynx](https://github.com/lynx-family/lynx) — ![Latest tag](https://img.shields.io/github/v/tag/lynx-family/lynx) ![Latest release](https://img.shields.io/github/v/release/lynx-family/lynx) ⭐ 15,260
 - [React Native](https://github.com/facebook/react-native) — ![Latest tag](https://img.shields.io/github/v/tag/facebook/react-native) ![Latest release](https://img.shields.io/github/v/release/facebook/react-native) ![GitHub stars](https://img.shields.io/github/stars/facebook/react-native?style=flat)
 
 </details>
@@ -267,22 +267,22 @@ xychart-beta horizontal
 
 #### Application Performance Monitoring
 
-- [SigNoz](https://github.com/SigNoz/signoz) — ![Latest tag](https://img.shields.io/github/v/tag/SigNoz/signoz) ![Latest release](https://img.shields.io/github/v/release/SigNoz/signoz) ⭐ 32,659
+- [SigNoz](https://github.com/SigNoz/signoz) — ![Latest tag](https://img.shields.io/github/v/tag/SigNoz/signoz) ![Latest release](https://img.shields.io/github/v/release/SigNoz/signoz) ⭐ 32,666
 
 #### Automated Testing
 
-- [Playwright](https://github.com/microsoft/playwright) — ![Latest tag](https://img.shields.io/github/v/tag/microsoft/playwright) ![Latest release](https://img.shields.io/github/v/release/microsoft/playwright) ⭐ 100,299
+- [Playwright](https://github.com/microsoft/playwright) — ![Latest tag](https://img.shields.io/github/v/tag/microsoft/playwright) ![Latest release](https://img.shields.io/github/v/release/microsoft/playwright) ⭐ 100,387
 - [Cypress](https://github.com/cypress-io/cypress) — ![Latest tag](https://img.shields.io/github/v/tag/cypress-io/cypress) ![Latest release](https://img.shields.io/github/v/release/cypress-io/cypress) ⭐ 51,028
-- [Sentry](https://github.com/getsentry/sentry) — ![Latest tag](https://img.shields.io/github/v/tag/getsentry/sentry) ![Latest release](https://img.shields.io/github/v/release/getsentry/sentry) ⭐ 45,785
-- [Jest](https://github.com/jestjs/jest) — ![Latest tag](https://img.shields.io/github/v/tag/jestjs/jest) ![Latest release](https://img.shields.io/github/v/release/jestjs/jest) ⭐ 45,473
-- [Zod](https://github.com/colinhacks/zod) — ![Latest tag](https://img.shields.io/github/v/tag/colinhacks/zod) ![Latest release](https://img.shields.io/github/v/release/colinhacks/zod) ⭐ 44,334
+- [Sentry](https://github.com/getsentry/sentry) — ![Latest tag](https://img.shields.io/github/v/tag/getsentry/sentry) ![Latest release](https://img.shields.io/github/v/release/getsentry/sentry) ⭐ 45,787
+- [Jest](https://github.com/jestjs/jest) — ![Latest tag](https://img.shields.io/github/v/tag/jestjs/jest) ![Latest release](https://img.shields.io/github/v/release/jestjs/jest) ⭐ 45,474
+- [Zod](https://github.com/colinhacks/zod) — ![Latest tag](https://img.shields.io/github/v/tag/colinhacks/zod) ![Latest release](https://img.shields.io/github/v/release/colinhacks/zod) ⭐ 44,335
 
 #### Load Testing
 
-- [K6](https://github.com/grafana/k6) — ![Latest tag](https://img.shields.io/github/v/tag/grafana/k6) ![Latest release](https://img.shields.io/github/v/release/grafana/k6) ⭐ 32,314
-- [Locust](https://github.com/locustio/locust) — ![Latest tag](https://img.shields.io/github/v/tag/locustio/locust) ![Latest release](https://img.shields.io/github/v/release/locustio/locust) ⭐ 28,288
-- [JMeter](https://github.com/apache/jmeter) — ![Latest tag](https://img.shields.io/github/v/tag/apache/jmeter) ![Latest release](https://img.shields.io/github/v/release/apache/jmeter) ⭐ 9,604
-- [Gatling](https://github.com/gatling/gatling) — ![Latest tag](https://img.shields.io/github/v/tag/gatling/gatling) ![Latest release](https://img.shields.io/github/v/release/gatling/gatling) ⭐ 6,962
+- [K6](https://github.com/grafana/k6) — ![Latest tag](https://img.shields.io/github/v/tag/grafana/k6) ![Latest release](https://img.shields.io/github/v/release/grafana/k6) ⭐ 32,333
+- [Locust](https://github.com/locustio/locust) — ![Latest tag](https://img.shields.io/github/v/tag/locustio/locust) ![Latest release](https://img.shields.io/github/v/release/locustio/locust) ⭐ 28,293
+- [JMeter](https://github.com/apache/jmeter) — ![Latest tag](https://img.shields.io/github/v/tag/apache/jmeter) ![Latest release](https://img.shields.io/github/v/release/apache/jmeter) ⭐ 9,606
+- [Gatling](https://github.com/gatling/gatling) — ![Latest tag](https://img.shields.io/github/v/tag/gatling/gatling) ![Latest release](https://img.shields.io/github/v/release/gatling/gatling) ⭐ 6,964
 - [Taurus](https://github.com/Blazemeter/taurus) — ![Latest tag](https://img.shields.io/github/v/tag/Blazemeter/taurus) ![Latest release](https://img.shields.io/github/v/release/Blazemeter/taurus) ⭐ 2,118
 
 </details>
@@ -302,12 +302,12 @@ xychart-beta horizontal
 
 #### Password Manager
 
-- [Vaultwarden](https://github.com/dani-garcia/vaultwarden) — ![Latest tag](https://img.shields.io/github/v/tag/dani-garcia/vaultwarden) ![Latest release](https://img.shields.io/github/v/release/dani-garcia/vaultwarden) ⭐ 70,813
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden) — ![Latest tag](https://img.shields.io/github/v/tag/dani-garcia/vaultwarden) ![Latest release](https://img.shields.io/github/v/release/dani-garcia/vaultwarden) ⭐ 70,878
 - [Passbolt](https://github.com/passbolt/passbolt_api) — ![Latest tag](https://img.shields.io/github/v/tag/passbolt/passbolt_api) ![Latest release](https://img.shields.io/github/v/release/passbolt/passbolt_api) ⭐ 6,237
 
 #### Static Application Security Testing (SAST)
 
-- [Semgrep](https://github.com/semgrep/semgrep) — ![Latest tag](https://img.shields.io/github/v/tag/semgrep/semgrep) ![Latest release](https://img.shields.io/github/v/release/semgrep/semgrep) ⭐ 17,715
+- [Semgrep](https://github.com/semgrep/semgrep) — ![Latest tag](https://img.shields.io/github/v/tag/semgrep/semgrep) ![Latest release](https://img.shields.io/github/v/release/semgrep/semgrep) ⭐ 17,758
 
 </details>
 
@@ -315,38 +315,38 @@ xychart-beta horizontal
 <details open>
 <summary>Utils (23)</summary>
 
-- [n8n](https://github.com/n8n-io/n8n) — ![Latest tag](https://img.shields.io/github/v/tag/n8n-io/n8n) ![Latest release](https://img.shields.io/github/v/release/n8n-io/n8n) ⭐ 210,624
+- [n8n](https://github.com/n8n-io/n8n) — ![Latest tag](https://img.shields.io/github/v/tag/n8n-io/n8n) ![Latest release](https://img.shields.io/github/v/release/n8n-io/n8n) ⭐ 210,720
 - [Oh Myz](https://github.com/ohmyzsh/ohmyzsh) — ![Latest tag](https://img.shields.io/github/v/tag/ohmyzsh/ohmyzsh) ![Latest release](https://img.shields.io/github/v/release/ohmyzsh/ohmyzsh) ⭐ 190,645
-- [Free4dev](https://github.com/ripienaar/free-for-dev) — ![Latest tag](https://img.shields.io/github/v/tag/ripienaar/free-for-dev) ![Latest release](https://img.shields.io/github/v/release/ripienaar/free-for-dev) ⭐ 142,956
-- [Excalidraw](https://github.com/excalidraw/excalidraw) — ![Latest tag](https://img.shields.io/github/v/tag/excalidraw/excalidraw) ![Latest release](https://img.shields.io/github/v/release/excalidraw/excalidraw) ⭐ 135,769
-- [Three](https://github.com/mrdoob/three.js) — ![Latest tag](https://img.shields.io/github/v/tag/mrdoob/three.js) ![Latest release](https://img.shields.io/github/v/release/mrdoob/three.js) ⭐ 118,596
-- [Storybook](https://github.com/storybookjs/storybook) — ![Latest tag](https://img.shields.io/github/v/tag/storybookjs/storybook) ![Latest release](https://img.shields.io/github/v/release/storybookjs/storybook) ⭐ 91,581
-- [Anime](https://github.com/juliangarnier/anime) — ![Latest tag](https://img.shields.io/github/v/tag/juliangarnier/anime) ![Latest release](https://img.shields.io/github/v/release/juliangarnier/anime) ⭐ 74,790
-- [Remotion](https://github.com/remotion-dev/remotion) — ![Latest tag](https://img.shields.io/github/v/tag/remotion-dev/remotion) ![Latest release](https://img.shields.io/github/v/release/remotion-dev/remotion) ⭐ 73,538
-- [Reveal](https://github.com/hakimel/reveal.js) — ![Latest tag](https://img.shields.io/github/v/tag/hakimel/reveal.js) ![Latest release](https://img.shields.io/github/v/release/hakimel/reveal.js) ⭐ 72,587
-- [Typst](https://github.com/typst/typst) — ![Latest tag](https://img.shields.io/github/v/tag/typst/typst) ![Latest release](https://img.shields.io/github/v/release/typst/typst) ⭐ 57,224
-- [Slidev](https://github.com/slidevjs/slidev) — ![Latest tag](https://img.shields.io/github/v/tag/slidevjs/slidev) ![Latest release](https://img.shields.io/github/v/release/slidevjs/slidev) ⭐ 49,504
-- [Dayjs](https://github.com/iamkun/dayjs) — ![Latest tag](https://img.shields.io/github/v/tag/iamkun/dayjs) ![Latest release](https://img.shields.io/github/v/release/iamkun/dayjs) ⭐ 48,648
+- [Free4dev](https://github.com/ripienaar/free-for-dev) — ![Latest tag](https://img.shields.io/github/v/tag/ripienaar/free-for-dev) ![Latest release](https://img.shields.io/github/v/release/ripienaar/free-for-dev) ⭐ 143,017
+- [Excalidraw](https://github.com/excalidraw/excalidraw) — ![Latest tag](https://img.shields.io/github/v/tag/excalidraw/excalidraw) ![Latest release](https://img.shields.io/github/v/release/excalidraw/excalidraw) ⭐ 135,846
+- [Three](https://github.com/mrdoob/three.js) — ![Latest tag](https://img.shields.io/github/v/tag/mrdoob/three.js) ![Latest release](https://img.shields.io/github/v/release/mrdoob/three.js) ⭐ 118,726
+- [Storybook](https://github.com/storybookjs/storybook) — ![Latest tag](https://img.shields.io/github/v/tag/storybookjs/storybook) ![Latest release](https://img.shields.io/github/v/release/storybookjs/storybook) ⭐ 91,601
+- [Anime](https://github.com/juliangarnier/anime) — ![Latest tag](https://img.shields.io/github/v/tag/juliangarnier/anime) ![Latest release](https://img.shields.io/github/v/release/juliangarnier/anime) ⭐ 74,837
+- [Remotion](https://github.com/remotion-dev/remotion) — ![Latest tag](https://img.shields.io/github/v/tag/remotion-dev/remotion) ![Latest release](https://img.shields.io/github/v/release/remotion-dev/remotion) ⭐ 73,795
+- [Reveal](https://github.com/hakimel/reveal.js) — ![Latest tag](https://img.shields.io/github/v/tag/hakimel/reveal.js) ![Latest release](https://img.shields.io/github/v/release/hakimel/reveal.js) ⭐ 72,592
+- [Typst](https://github.com/typst/typst) — ![Latest tag](https://img.shields.io/github/v/tag/typst/typst) ![Latest release](https://img.shields.io/github/v/release/typst/typst) ⭐ 57,242
+- [Slidev](https://github.com/slidevjs/slidev) — ![Latest tag](https://img.shields.io/github/v/tag/slidevjs/slidev) ![Latest release](https://img.shields.io/github/v/release/slidevjs/slidev) ⭐ 49,530
+- [Dayjs](https://github.com/iamkun/dayjs) — ![Latest tag](https://img.shields.io/github/v/tag/iamkun/dayjs) ![Latest release](https://img.shields.io/github/v/release/iamkun/dayjs) ⭐ 48,647
 - [Moment](https://github.com/moment/moment) — ![Latest tag](https://img.shields.io/github/v/tag/moment/moment) ![Latest release](https://img.shields.io/github/v/release/moment/moment) ⭐ 47,872
-- [React Flow](https://github.com/xyflow/xyflow) — ![Latest tag](https://img.shields.io/github/v/tag/xyflow/xyflow) ![Latest release](https://img.shields.io/github/v/release/xyflow/xyflow) ⭐ 39,035
-- [Shields](https://github.com/badges/shields) — ![Latest tag](https://img.shields.io/github/v/tag/badges/shields) ![Latest release](https://img.shields.io/github/v/release/badges/shields) ⭐ 27,404
-- [PptxGenJS](https://github.com/gitbrent/PptxGenJS) — ![Latest tag](https://img.shields.io/github/v/tag/gitbrent/PptxGenJS) ![Latest release](https://img.shields.io/github/v/release/gitbrent/PptxGenJS) ⭐ 6,387
+- [React Flow](https://github.com/xyflow/xyflow) — ![Latest tag](https://img.shields.io/github/v/tag/xyflow/xyflow) ![Latest release](https://img.shields.io/github/v/release/xyflow/xyflow) ⭐ 39,052
+- [Shields](https://github.com/badges/shields) — ![Latest tag](https://img.shields.io/github/v/tag/badges/shields) ![Latest release](https://img.shields.io/github/v/release/badges/shields) ⭐ 27,406
+- [PptxGenJS](https://github.com/gitbrent/PptxGenJS) — ![Latest tag](https://img.shields.io/github/v/tag/gitbrent/PptxGenJS) ![Latest release](https://img.shields.io/github/v/release/gitbrent/PptxGenJS) ⭐ 6,391
 - [MailTrap](https://github.com/railsware/mailtrap-nodejs) — ![Latest tag](https://img.shields.io/github/v/tag/railsware/mailtrap-nodejs) ![Latest release](https://img.shields.io/github/v/release/railsware/mailtrap-nodejs) ![GitHub stars](https://img.shields.io/github/stars/railsware/mailtrap-nodejs?style=flat)
 
 #### Motion
 
-- [Motion](https://github.com/motiondivision/motion) — ![Latest tag](https://img.shields.io/github/v/tag/motiondivision/motion) ![Latest release](https://img.shields.io/github/v/release/motiondivision/motion) ⭐ 35,249 — Animation library for React
-- [TiXL](https://github.com/tixl3d/tixl) — ![Latest tag](https://img.shields.io/github/v/tag/tixl3d/tixl) ![Latest release](https://img.shields.io/github/v/release/tixl3d/tixl) ⭐ 5,187 — create realtime motion graphics.
+- [Motion](https://github.com/motiondivision/motion) — ![Latest tag](https://img.shields.io/github/v/tag/motiondivision/motion) ![Latest release](https://img.shields.io/github/v/release/motiondivision/motion) ⭐ 35,291 — Animation library for React
+- [TiXL](https://github.com/tixl3d/tixl) — ![Latest tag](https://img.shields.io/github/v/tag/tixl3d/tixl) ![Latest release](https://img.shields.io/github/v/release/tixl3d/tixl) ⭐ 5,191 — create realtime motion graphics.
 - [Rendiv](https://github.com/thecodacus/rendiv) — ![Latest tag](https://img.shields.io/github/v/tag/thecodacus/rendiv) ![Latest release](https://img.shields.io/github/v/release/thecodacus/rendiv) ⭐ 168 — Editor built for AI #typescript
 - [VOS](https://github.com/vosjs/vos) — ![Latest tag](https://img.shields.io/github/v/tag/vosjs/vos) ![Latest release](https://img.shields.io/github/v/release/vosjs/vos) ⭐ 8 — Programmatic video engine
 
 #### Video
 
-- [Hyperframes](https://github.com/heygen-com/hyperframes) — ![Latest tag](https://img.shields.io/github/v/tag/heygen-com/hyperframes) ![Latest release](https://img.shields.io/github/v/release/heygen-com/hyperframes) ⭐ 84,932 — Apache
+- [Hyperframes](https://github.com/heygen-com/hyperframes) — ![Latest tag](https://img.shields.io/github/v/tag/heygen-com/hyperframes) ![Latest release](https://img.shields.io/github/v/release/heygen-com/hyperframes) ⭐ 85,547 — Apache
 
 #### Visual
 
-- [Effect](https://github.com/Effect-TS/effect) — ![Latest tag](https://img.shields.io/github/v/tag/Effect-TS/effect) ![Latest release](https://img.shields.io/github/v/release/Effect-TS/effect) ⭐ 17,580
+- [Effect](https://github.com/Effect-TS/effect) — ![Latest tag](https://img.shields.io/github/v/tag/Effect-TS/effect) ![Latest release](https://img.shields.io/github/v/release/Effect-TS/effect) ⭐ 17,590
 
 </details>
 
