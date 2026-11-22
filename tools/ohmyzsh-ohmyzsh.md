@@ -1,5 +1,5 @@
 ---
-name: "Oh My Zsh"
+name: "Oh Myz"
 category: "Utils"
 repository: "ohmyzsh/ohmyzsh"
 ---

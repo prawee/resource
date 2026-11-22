@@ -1,6 +1,6 @@
 ---
 name: "SST"
 category: "Backend"
-repository: "anomalyco/sst"
+repository: "sst/sst"
 ---
 

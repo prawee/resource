@@ -1,6 +1,6 @@
 ---
 name: "MailTrap"
 category: "Utils"
-repository: "mailtrap/mailtrap-nodejs"
+repository: "railsware/mailtrap-nodejs"
 ---
 

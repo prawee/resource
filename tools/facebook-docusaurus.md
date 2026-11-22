@@ -1,6 +1,6 @@
 ---
 name: "Docusaurus"
 category: "Document"
-repository: "meta/docusaurus"
+repository: "facebook/docusaurus"
 ---
 

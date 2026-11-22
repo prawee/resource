@@ -1,5 +1,5 @@
 ---
-name: "Free for Dev"
+name: "Free4dev"
 category: "Utils"
 repository: "ripienaar/free-for-dev"
 ---
