@@ -33,7 +33,7 @@ xychart-beta horizontal
 - [Flue](https://github.com/withastro/flue) — ![Latest tag](https://img.shields.io/github/v/tag/withastro/flue) ![Latest release](https://img.shields.io/github/v/release/withastro/flue) ⭐ 8,685
 - [Swarmclaw](https://github.com/swarmclawai/swarmclaw) — ![Latest tag](https://img.shields.io/github/v/tag/swarmclawai/swarmclaw) ![Latest release](https://img.shields.io/github/v/release/swarmclawai/swarmclaw) ⭐ 710
 - [NodeTool](https://github.com/nodetool-ai/nodetool) — ![Latest tag](https://img.shields.io/github/v/tag/nodetool-ai/nodetool) ![Latest release](https://img.shields.io/github/v/release/nodetool-ai/nodetool) ⭐ 650 — Create Workspace
-- [SlopCamera](https://github.com/hraness/slopcamera) — ![Latest tag](https://img.shields.io/github/v/tag/hraness/slopcamera) ![Latest release](https://img.shields.io/github/v/release/hraness/slopcamera) ⭐ 7 — Make images, diagrams, animation, 3D scenes and Video
+- [SlopCamera](https://github.com/hraness/slopcamera) — ![Latest tag](https://img.shields.io/github/v/tag/hraness/slopcamera) ![Latest release](https://img.shields.io/github/v/release/hraness/slopcamera) ⭐ 7 — Make images, diagrams, animation, 3D scenes and Video (archived - no longer maintained)
 - [Code Motion](https://github.com/bytepatterns/code-motion) — ![Latest tag](https://img.shields.io/github/v/tag/bytepatterns/code-motion) ![Latest release](https://img.shields.io/github/v/release/bytepatterns/code-motion) ⭐ 0 — Algorithm explainer reels drawn entirely in code
 
 #### Coding
