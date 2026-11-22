@@ -1,6 +1,6 @@
 ---
 name: "Redwood"
 category: "Backend"
-repository: "redwoodjs/redwood"
+repository: "redwoodjs/graphql"
 ---
 
