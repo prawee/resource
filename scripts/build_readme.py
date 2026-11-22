@@ -18,82 +18,187 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 TOOLS_DIR = ROOT / "tools"
 README = ROOT / "README.md"
-SYSTEM_CA = Path("/etc/ssl/cert.pem")
-SSL_CONTEXT = ssl.create_default_context(cafile=str(SYSTEM_CA) if SYSTEM_CA.exists() else None)
+SSL_CONTEXT = ssl.create_default_context()
+
+FRONT_MATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*(?:\n|$)", re.S)
+REPOSITORY_RE = re.compile(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+")
+STAR_LINE_RE = re.compile(
+    r"^- \[.*?\]\(https://github\.com/([^)]+)\) — .*?⭐ ([\d,]+)", re.M
+)
+MARKDOWN_SPECIAL_RE = re.compile(r"([\\\[\]*_`<>])")
+
+REQUIRED_FIELDS = ("name", "category", "repository")
+OPTIONAL_FIELDS = ("subcategory", "description")
+# GitHub REST allows 60 unauthenticated requests/hour; leave headroom.
+MAX_UNAUTHENTICATED_REQUESTS = 50
+BATCH_SIZE = 40
 
 
 def read_tools():
     tools = []
+    seen = {}
     for path in sorted(TOOLS_DIR.glob("*.md")):
         text = path.read_text(encoding="utf-8")
-        match = re.search(r"^---\s*\n(.*?)\n---\s*(?:\n|$)", text, re.S)
+        match = FRONT_MATTER_RE.search(text)
         if not match:
             raise ValueError(f"Missing front matter in {path}")
         fields = {}
         for line in match.group(1).splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
             key, sep, value = line.partition(":")
-            if sep:
-                fields[key.strip()] = value.strip().strip('"')
-        for required in ("name", "category", "repository"):
+            key = key.strip()
+            if not sep or not key:
+                raise ValueError(f"Malformed front-matter line in {path}: {line!r}")
+            if key in fields:
+                raise ValueError(f"Duplicate field {key!r} in {path}")
+            fields[key] = value.strip().strip('"')
+        for required in REQUIRED_FIELDS:
             if not fields.get(required):
                 raise ValueError(f"Missing {required} in {path}")
-        fields["subcategory"] = fields.get("subcategory", "")
-        fields["description"] = fields.get("description", "")
+        unknown = set(fields) - set(REQUIRED_FIELDS) - set(OPTIONAL_FIELDS)
+        if unknown:
+            raise ValueError(f"Unknown field(s) in {path}: {', '.join(sorted(unknown))}")
+        repository = fields["repository"]
+        if not REPOSITORY_RE.fullmatch(repository):
+            raise ValueError(f"Invalid repository {repository!r} in {path}; expected owner/name")
+        canonical = repository.lower()
+        if canonical in seen:
+            raise ValueError(f"Duplicate repository {repository} in {seen[canonical]} and {path}")
+        seen[canonical] = path
+        for optional in OPTIONAL_FIELDS:
+            fields.setdefault(optional, "")
         tools.append(fields)
     return tools
+
+
+def open_with_retry(request, attempts=3):
+    """Retry transient GitHub failures and secondary rate limits."""
+    for attempt in range(attempts):
+        try:
+            return urllib.request.urlopen(request, timeout=30, context=SSL_CONTEXT)
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (403, 429, 500, 502, 503, 504) or attempt == attempts - 1:
+                raise
+        except urllib.error.URLError:
+            if attempt == attempts - 1:
+                raise
+        time.sleep(2**attempt)
+    raise AssertionError("unreachable")
 
 
 def graphql_stars(tools, token):
     """Fetch stars in batches, avoiding REST's unauthenticated low rate limit."""
     stars = {}
-    for start in range(0, len(tools), 40):
-        batch = tools[start : start + 40]
+    for start in range(0, len(tools), BATCH_SIZE):
+        batch = tools[start : start + BATCH_SIZE]
         aliases = []
+        requested = {}
         for index, tool in enumerate(batch):
             owner, name = tool["repository"].split("/", 1)
-            aliases.append(f'r{index}: repository(owner: {json.dumps(owner)}, name: {json.dumps(name)}) {{ nameWithOwner stargazerCount }}')
+            alias = f"r{index}"
+            requested[alias] = tool["repository"].lower()
+            aliases.append(
+                f'{alias}: repository(owner: {json.dumps(owner)}, name: {json.dumps(name)}) '
+                "{ nameWithOwner stargazerCount }"
+            )
         query = "query { " + " ".join(aliases) + " }"
         payload = json.dumps({"query": query}).encode()
         request = urllib.request.Request(
             "https://api.github.com/graphql",
             data=payload,
-            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json", "User-Agent": "resource-readme-builder"},
+            headers={
+                "Authorization": f"Bearer {token}",
+                "Content-Type": "application/json",
+                "User-Agent": "resource-readme-builder",
+            },
         )
-        with urllib.request.urlopen(request, timeout=30, context=SSL_CONTEXT) as response:
+        with open_with_retry(request) as response:
             data = json.load(response)
-        if data.get("errors"):
-            raise RuntimeError(f"GitHub GraphQL error: {data['errors'][0].get('message', 'unknown error')}")
-        for value in data["data"].values():
-            if value:
-                stars[value["nameWithOwner"].lower()] = int(value["stargazerCount"])
-        # A deleted, private, or renamed repository returns null. Keep it in the
-        # catalog with a live badge, while still refreshing every reachable repo.
+        # A renamed/private/deleted repository comes back as null, sometimes with
+        # an error in `errors`. Keep the rest of the batch and resolve the gaps
+        # through REST later, which follows repository redirects.
+        for error in data.get("errors") or []:
+            location = ".".join(str(part) for part in error.get("path", []))
+            print(
+                f"GitHub GraphQL warning ({location or 'query'}): "
+                f"{error.get('message', 'unknown error')}",
+                file=sys.stderr,
+            )
+        result = data.get("data") or {}
+        for alias, value in result.items():
+            if not value:
+                continue
+            count = int(value["stargazerCount"])
+            stars[value["nameWithOwner"].lower()] = count
+            if alias in requested:
+                stars[requested[alias]] = count
+        if not result:
+            raise RuntimeError(f"GitHub GraphQL returned no data for batch starting at {start}")
     return stars
 
 
-def rest_stars(tools, token):
-    """Unauthenticated fallback for small catalogs; a token is recommended."""
+def rest_stars(tools, token=None):
+    """REST fallback: follows renamed repositories and handles small catalogs."""
     stars = {}
     for tool in tools:
-        url = "https://api.github.com/repos/" + tool["repository"]
+        repository = tool["repository"]
         headers = {"Accept": "application/vnd.github+json", "User-Agent": "resource-readme-builder"}
         if token:
             headers["Authorization"] = f"Bearer {token}"
-        request = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(request, timeout=30, context=SSL_CONTEXT) as response:
-            stars[tool["repository"].lower()] = int(json.load(response)["stargazers_count"])
+        request = urllib.request.Request("https://api.github.com/repos/" + repository, headers=headers)
+        try:
+            with open_with_retry(request) as response:
+                data = json.load(response)
+        except urllib.error.HTTPError as exc:
+            if exc.code == 404:
+                print(f"GitHub REST: {repository} not found; keeping a live badge", file=sys.stderr)
+                continue
+            raise
+        count = int(data["stargazers_count"])
+        stars[repository.lower()] = count
+        stars[data["full_name"].lower()] = count
         time.sleep(0.05)
+    return stars
+
+
+def stars_from_readme(tools):
+    """Reuse counts already present in README.md so offline runs stay stable."""
+    if not README.exists():
+        return {}
+    stars = {}
+    for match in STAR_LINE_RE.finditer(README.read_text(encoding="utf-8")):
+        stars[match.group(1).lower()] = int(match.group(2).replace(",", ""))
     return stars
 
 
 def fetch_stars(tools, offline=False):
     if offline:
-        return {tool["repository"].lower(): None for tool in tools}
+        return stars_from_readme(tools)
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if token:
-        return graphql_stars(tools, token)
+        stars = graphql_stars(tools, token)
+        missing = [tool for tool in tools if tool["repository"].lower() not in stars]
+        if missing:
+            print(f"Resolving {len(missing)} repository(ies) via REST.", file=sys.stderr)
+            stars.update(rest_stars(missing, token))
+        return stars
     print("No GitHub token found; using REST API (limited to 60 requests/hour).", file=sys.stderr)
-    return rest_stars(tools, None)
+    if len(tools) > MAX_UNAUTHENTICATED_REQUESTS:
+        raise SystemExit(
+            f"{len(tools)} repositories exceed the unauthenticated REST budget "
+            f"({MAX_UNAUTHENTICATED_REQUESTS}); set GITHUB_TOKEN and try again."
+        )
+    return rest_stars(tools)
+
+
+def slugify(value):
+    return re.sub(r"[^a-z0-9 -]", "", value.casefold()).replace(" ", "-")
+
+
+def md_escape(value):
+    return MARKDOWN_SPECIAL_RE.sub(r"\\\1", value)
 
 
 def make_readme(tools, stars):
@@ -102,6 +207,9 @@ def make_readme(tools, stars):
         tool["stars"] = stars.get(tool["repository"].lower())
         categories[tool["category"]].append(tool)
     category_names = sorted(categories, key=str.casefold)
+    anchors = {name: slugify(name) for name in category_names}
+    if len(set(anchors.values())) != len(anchors):
+        raise ValueError("Category names produce duplicate anchors; rename a category")
 
     lines = [
         "# Resource",
@@ -123,16 +231,15 @@ def make_readme(tools, stars):
         "",
         "## Categories",
         "",
-        " | ".join(f"[{name}](#{re.sub(r'[^a-z0-9 -]', '', name.casefold()).replace(' ', '-')})" for name in category_names),
+        " | ".join(f"[{name}](#{anchors[name]})" for name in category_names),
         "",
     ]
 
     for category in category_names:
-        anchor = re.sub(r"[^a-z0-9 -]", "", category.casefold()).replace(" ", "-")
         lines.extend([
-            f'<a id="{anchor}"></a>',
+            f'<a id="{anchors[category]}"></a>',
             "<details open>",
-            f"<summary>{category} ({len(categories[category])})</summary>",
+            f"<summary>{md_escape(category)} ({len(categories[category])})</summary>",
             "",
         ])
         grouped = defaultdict(list)
@@ -140,14 +247,21 @@ def make_readme(tools, stars):
             grouped[tool["subcategory"]].append(tool)
         for subcategory in sorted(grouped, key=str.casefold):
             if subcategory:
-                lines.extend([f"#### {subcategory}", ""])
+                lines.extend([f"#### {md_escape(subcategory)}", ""])
             for tool in sorted(grouped[subcategory], key=lambda t: (-(t["stars"] or 0), t["name"].casefold())):
-                desc = f" — {tool['description']}" if tool["description"] else ""
+                desc = f" — {md_escape(tool['description'])}" if tool["description"] else ""
                 repository = tool["repository"]
                 tag = f"![Latest tag](https://img.shields.io/github/v/tag/{repository})"
                 release = f"![Latest release](https://img.shields.io/github/v/release/{repository})"
-                stars = f"⭐ {tool['stars']:,}" if tool["stars"] is not None else f"![GitHub stars](https://img.shields.io/github/stars/{repository}?style=flat)"
-                lines.append(f"- [{tool['name']}](https://github.com/{repository}) — {tag} {release} {stars}{desc}")
+                star_badge = (
+                    f"⭐ {tool['stars']:,}"
+                    if tool["stars"] is not None
+                    else f"![GitHub stars](https://img.shields.io/github/stars/{repository}?style=flat)"
+                )
+                lines.append(
+                    f"- [{md_escape(tool['name'])}](https://github.com/{repository}) "
+                    f"— {tag} {release} {star_badge}{desc}"
+                )
             lines.append("")
         lines.extend(["</details>", ""])
 
@@ -182,11 +296,15 @@ def make_readme(tools, stars):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--offline", action="store_true", help="generate the README without querying GitHub (stars remain live badges)")
+    parser.add_argument("--offline", action="store_true", help="reuse star counts from README.md instead of querying GitHub")
+    parser.add_argument("--validate", action="store_true", help="validate tool records without writing README.md")
     args = parser.parse_args()
     tools = read_tools()
     if not tools:
         raise SystemExit("No Markdown tool records found in tools/.")
+    if args.validate:
+        print(f"Validated {len(tools)} tool records in {len(set(t['category'] for t in tools))} categories.")
+        return
     stars = fetch_stars(tools, offline=args.offline)
     README.write_text(make_readme(tools, stars), encoding="utf-8")
     print(f"Updated {README.name} with {len(tools)} repositories in {len(set(t['category'] for t in tools))} categories.")

@@ -3,6 +3,6 @@ name: "Hyperframes"
 category: "Utils"
 subcategory: "Video"
 repository: "heygen-com/hyperframes"
-description: "Apache"
+description: "Open-source AI video editor and HTML-to-video rendering framework"
 ---
 

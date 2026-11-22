@@ -1,7 +1,7 @@
 ---
-name: "React Native"
+name: "React Native Boilerplate"
 category: "Mobile"
-subcategory: "Boilerplace"
+subcategory: "Boilerplate"
 repository: "wataru-maeda/react-native-boilerplate"
 ---
 
